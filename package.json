@@ -1,0 +1,28 @@
+{
+  "name": "shunyalabs-web-automation",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+    "test": "npm run test:dashboard:publish",
+  "test:headed": "npx playwright test --headed",
+  "test:dashboard": "npx playwright test && node dashboard/generate-dashboard.js",
+  "report": "npx playwright show-report reports/html-report",
+  "dashboard": "node dashboard/generate-dashboard.js",
+  "dashboard:open": "node dashboard/generate-dashboard.js && open dashboard/index.html",
+    "dashboard:prepare": "node dashboard/generate-dashboard.js",
+    "dashboard:publish": "node dashboard/generate-dashboard.js && bash scripts/publish-dashboard.sh",
+    "dashboard:deploy": "bash scripts/deploy-dashboard.sh",
+    "test:dashboard:deploy": "npx playwright test && node dashboard/generate-dashboard.js && bash scripts/deploy-dashboard.sh",
+    "test:dashboard:publish": "npx playwright test && node dashboard/generate-dashboard.js && bash scripts/publish-dashboard.sh",
+  "combine-reports": "node utils/combine-reports.js",
+  "test-sheets": "node test-sheets-connection.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0"
+  }
+}

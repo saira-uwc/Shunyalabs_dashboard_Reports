@@ -1,0 +1,1194 @@
+[
+  {
+    "runId": "2026-01-22_07-08-35",
+    "runDate": "2026-01-22T07:08:35.458Z",
+    "passed": 35,
+    "failed": 1,
+    "total": 36,
+    "passRate": 97,
+    "tests": [
+      {
+        "dateTime": "2026-01-22T07:08:35.458Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Header - Navigation and CTAs",
+        "status": "PASS",
+        "comment": "All header elements visible and accessible",
+        "category": "Content Validation"
+      },
+      {
+        "dateTime": "2026-01-22T07:08:39.580Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Hero Section - Main headline and taglines",
+        "status": "PASS",
+        "comment": "All hero content visible",
+        "category": "Content Validation"
+      },
+      {
+        "dateTime": "2026-01-22T07:08:44.826Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground Section - Speech to text interface",
+        "status": "PASS",
+        "comment": "All playground elements visible",
+        "category": "Content Validation"
+      },
+      {
+        "dateTime": "2026-01-22T07:08:49.842Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Primary CTAs - Cloud API, Developer Docs, Hugging Face",
+        "status": "PASS",
+        "comment": "All primary CTAs visible",
+        "category": "Content Validation"
+      },
+      {
+        "dateTime": "2026-01-22T07:08:55.031Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Platform Section - Feature cards",
+        "status": "PASS",
+        "comment": "All platform feature cards visible",
+        "category": "Content Validation"
+      },
+      {
+        "dateTime": "2026-01-22T07:09:15.461Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Why Shunya Labs - Feature cards",
+        "status": "FAIL",
+        "comment": "\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed |  | Locator:  getByText('Under-3% WER').first() | Expected: visible | Received: hidden | Timeout:  15000ms |  | Call log: | \u001b[2m  - Expect 'toBeVisible' with timeout 15000ms\u001b[22m | \u001b[2m  - waiting for getByText('Under-3% WER').first()\u001b[22m | \u001b[2m    19 × locator resolved to <span class='text-gray-700 text-xs font-medium'>Under-3% WER</span>\u001b[22m | \u001b[2m       - unexpected value 'hidden'\u001b[22m |",
+        "category": "Content Validation"
+      },
+      {
+        "dateTime": "2026-01-22T07:09:21.007Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Security & Compliance - Badges and certifications",
+        "status": "PASS",
+        "comment": "All security badges visible",
+        "category": "Content Validation"
+      },
+      {
+        "dateTime": "2026-01-22T07:09:26.816Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Stats Section - Numbers and labels",
+        "status": "PASS",
+        "comment": "All stats numbers and labels visible",
+        "category": "Content Validation"
+      },
+      {
+        "dateTime": "2026-01-22T07:09:32.112Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Language Regions - Language list and coverage",
+        "status": "PASS",
+        "comment": "Language regions section visible",
+        "category": "Content Validation"
+      },
+      {
+        "dateTime": "2026-01-22T07:09:57.021Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Bottom CTA - Final call-to-action section",
+        "status": "PASS",
+        "comment": "Bottom CTA section visible",
+        "category": "Content Validation"
+      },
+      {
+        "dateTime": "2026-01-22T07:10:02.450Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Footer - All links and sections",
+        "status": "PASS",
+        "comment": "All footer elements visible",
+        "category": "Content Validation"
+      },
+      {
+        "dateTime": "2026-01-22T07:10:45.508Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Header - Sign In button",
+        "status": "PASS",
+        "comment": "Button/link is visible and enabled",
+        "category": "Cta Redirections"
+      },
+      {
+        "dateTime": "2026-01-22T07:10:53.432Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Header - Get Started button",
+        "status": "PASS",
+        "comment": "Button/link is visible and enabled",
+        "category": "Cta Redirections"
+      },
+      {
+        "dateTime": "2026-01-22T07:11:01.133Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Header - Contact Sales button",
+        "status": "PASS",
+        "comment": "Button/link is visible and enabled",
+        "category": "Cta Redirections"
+      },
+      {
+        "dateTime": "2026-01-22T07:11:05.158Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Primary CTA - Cloud API",
+        "status": "PASS",
+        "comment": "CTA is visible and accessible",
+        "category": "Cta Redirections"
+      },
+      {
+        "dateTime": "2026-01-22T07:11:07.620Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Primary CTA - Developer Documentation",
+        "status": "PASS",
+        "comment": "CTA is visible and accessible",
+        "category": "Cta Redirections"
+      },
+      {
+        "dateTime": "2026-01-22T07:11:10.260Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Primary CTA - Hugging Face",
+        "status": "PASS",
+        "comment": "CTA is visible and accessible",
+        "category": "Cta Redirections"
+      },
+      {
+        "dateTime": "2026-01-22T07:11:23.134Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Bottom CTA - Get Started button",
+        "status": "PASS",
+        "comment": "Button/link is visible and enabled",
+        "category": "Cta Redirections"
+      },
+      {
+        "dateTime": "2026-01-22T07:11:31.107Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Bottom CTA - Contact Sales button",
+        "status": "PASS",
+        "comment": "Button/link is visible and enabled",
+        "category": "Cta Redirections"
+      },
+      {
+        "dateTime": "2026-01-22T07:11:35.260Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Footer - Overview link",
+        "status": "PASS",
+        "comment": "Link is visible and accessible",
+        "category": "Cta Redirections"
+      },
+      {
+        "dateTime": "2026-01-22T07:11:37.714Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Footer - Documentation link",
+        "status": "PASS",
+        "comment": "Link is visible and accessible",
+        "category": "Cta Redirections"
+      },
+      {
+        "dateTime": "2026-01-22T07:11:40.359Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Footer - Pricing link",
+        "status": "PASS",
+        "comment": "Link is visible and accessible",
+        "category": "Cta Redirections"
+      },
+      {
+        "dateTime": "2026-01-22T07:11:43.328Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Footer - Get Started link",
+        "status": "PASS",
+        "comment": "Link is visible and accessible",
+        "category": "Cta Redirections"
+      },
+      {
+        "dateTime": "2026-01-22T07:06:49.734Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Speech To Text button",
+        "status": "PASS",
+        "comment": "Button is visible",
+        "category": "Actions"
+      },
+      {
+        "dateTime": "2026-01-22T07:06:53.547Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Medical Transcription button",
+        "status": "PASS",
+        "comment": "Button is visible",
+        "category": "Actions"
+      },
+      {
+        "dateTime": "2026-01-22T07:06:55.800Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Language selector",
+        "status": "PASS",
+        "comment": "Language selector is visible",
+        "category": "Actions"
+      },
+      {
+        "dateTime": "2026-01-22T07:06:58.063Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Pre-recorded option",
+        "status": "PASS",
+        "comment": "Option is visible",
+        "category": "Actions"
+      },
+      {
+        "dateTime": "2026-01-22T07:07:00.897Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Live recording option",
+        "status": "PASS",
+        "comment": "Option is visible",
+        "category": "Actions"
+      },
+      {
+        "dateTime": "2026-01-22T07:07:03.961Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Upload your file button",
+        "status": "PASS",
+        "comment": "Button is visible",
+        "category": "Actions"
+      },
+      {
+        "dateTime": "2026-01-22T07:07:06.468Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Start Speaking button",
+        "status": "PASS",
+        "comment": "Button is visible",
+        "category": "Actions"
+      },
+      {
+        "dateTime": "2026-01-22T07:07:08.649Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Customer Support Call option",
+        "status": "PASS",
+        "comment": "Option is visible",
+        "category": "Actions"
+      },
+      {
+        "dateTime": "2026-01-22T07:07:10.952Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Podcast option",
+        "status": "PASS",
+        "comment": "Option is visible",
+        "category": "Actions"
+      },
+      {
+        "dateTime": "2026-01-22T07:07:14.119Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Navigation - Product dropdown",
+        "status": "PASS",
+        "comment": "Dropdown is accessible",
+        "category": "Actions"
+      },
+      {
+        "dateTime": "2026-01-22T07:07:22.432Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Navigation - Models dropdown",
+        "status": "PASS",
+        "comment": "Dropdown is accessible",
+        "category": "Actions"
+      },
+      {
+        "dateTime": "2026-01-22T07:07:25.449Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Navigation - Solutions dropdown",
+        "status": "PASS",
+        "comment": "Dropdown is accessible",
+        "category": "Actions"
+      },
+      {
+        "dateTime": "2026-01-22T07:07:28.049Z",
+        "moduleName": "Landing Page",
+        "testPoint": "Navigation - Resources dropdown",
+        "status": "PASS",
+        "comment": "Dropdown is accessible",
+        "category": "Actions"
+      }
+    ]
+  },
+  {
+    "runId": "run_1769066798245_4wl52qz6g",
+    "runDate": "2026-01-22T07:16:14.253Z",
+    "passed": 36,
+    "failed": 0,
+    "total": 36,
+    "passRate": 100,
+    "tests": [
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Header - Navigation and CTAs",
+        "status": "PASS",
+        "comment": "All header elements visible and accessible",
+        "timestamp": "2026-01-22T07:16:14.253Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Hero Section - Main headline and taglines",
+        "status": "PASS",
+        "comment": "All hero content visible",
+        "timestamp": "2026-01-22T07:16:18.652Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground Section - Speech to text interface",
+        "status": "PASS",
+        "comment": "All playground elements visible",
+        "timestamp": "2026-01-22T07:16:23.493Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Primary CTAs - Cloud API, Developer Docs, Hugging Face",
+        "status": "PASS",
+        "comment": "All primary CTAs visible",
+        "timestamp": "2026-01-22T07:16:28.720Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Platform Section - Feature cards",
+        "status": "PASS",
+        "comment": "All platform feature cards visible",
+        "timestamp": "2026-01-22T07:16:34.651Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Why Shunya Labs - Feature cards",
+        "status": "PASS",
+        "comment": "All Why Shunya feature cards visible",
+        "timestamp": "2026-01-22T07:16:41.512Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Security & Compliance - Badges and certifications",
+        "status": "PASS",
+        "comment": "All security badges visible",
+        "timestamp": "2026-01-22T07:16:47.149Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Stats Section - Numbers and labels",
+        "status": "PASS",
+        "comment": "All stats numbers and labels visible",
+        "timestamp": "2026-01-22T07:16:52.659Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Language Regions - Language list and coverage",
+        "status": "PASS",
+        "comment": "Language regions section visible",
+        "timestamp": "2026-01-22T07:16:57.710Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Bottom CTA - Final call-to-action section",
+        "status": "PASS",
+        "comment": "Bottom CTA section visible",
+        "timestamp": "2026-01-22T07:17:22.611Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Footer - All links and sections",
+        "status": "PASS",
+        "comment": "All footer elements visible",
+        "timestamp": "2026-01-22T07:17:32.144Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Header - Sign In button",
+        "status": "PASS",
+        "comment": "Button/link is visible and enabled",
+        "timestamp": "2026-01-22T07:18:14.124Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Header - Get Started button",
+        "status": "PASS",
+        "comment": "Button/link is visible and enabled",
+        "timestamp": "2026-01-22T07:18:21.729Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Header - Contact Sales button",
+        "status": "PASS",
+        "comment": "Button/link is visible and enabled",
+        "timestamp": "2026-01-22T07:18:29.100Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Primary CTA - Cloud API",
+        "status": "PASS",
+        "comment": "CTA is visible and accessible",
+        "timestamp": "2026-01-22T07:18:33.230Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Primary CTA - Developer Documentation",
+        "status": "PASS",
+        "comment": "CTA is visible and accessible",
+        "timestamp": "2026-01-22T07:18:35.786Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Primary CTA - Hugging Face",
+        "status": "PASS",
+        "comment": "CTA is visible and accessible",
+        "timestamp": "2026-01-22T07:18:38.070Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Bottom CTA - Get Started button",
+        "status": "PASS",
+        "comment": "Button/link is visible and enabled",
+        "timestamp": "2026-01-22T07:18:46.922Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Bottom CTA - Contact Sales button",
+        "status": "PASS",
+        "comment": "Button/link is visible and enabled",
+        "timestamp": "2026-01-22T07:18:54.184Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Footer - Overview link",
+        "status": "PASS",
+        "comment": "Link is visible and accessible",
+        "timestamp": "2026-01-22T07:18:58.546Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Footer - Documentation link",
+        "status": "PASS",
+        "comment": "Link is visible and accessible",
+        "timestamp": "2026-01-22T07:19:00.875Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Footer - Pricing link",
+        "status": "PASS",
+        "comment": "Link is visible and accessible",
+        "timestamp": "2026-01-22T07:19:03.014Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Footer - Get Started link",
+        "status": "PASS",
+        "comment": "Link is visible and accessible",
+        "timestamp": "2026-01-22T07:19:06.088Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Speech To Text button",
+        "status": "PASS",
+        "comment": "Button is visible",
+        "timestamp": "2026-01-22T07:14:27.103Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Medical Transcription button",
+        "status": "PASS",
+        "comment": "Button is visible",
+        "timestamp": "2026-01-22T07:14:29.903Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Language selector",
+        "status": "PASS",
+        "comment": "Language selector is visible",
+        "timestamp": "2026-01-22T07:14:33.189Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Pre-recorded option",
+        "status": "PASS",
+        "comment": "Option is visible",
+        "timestamp": "2026-01-22T07:14:37.887Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Live recording option",
+        "status": "PASS",
+        "comment": "Option is visible",
+        "timestamp": "2026-01-22T07:14:41.026Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Upload your file button",
+        "status": "PASS",
+        "comment": "Button is visible",
+        "timestamp": "2026-01-22T07:14:43.694Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Start Speaking button",
+        "status": "PASS",
+        "comment": "Button is visible",
+        "timestamp": "2026-01-22T07:14:46.118Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Customer Support Call option",
+        "status": "PASS",
+        "comment": "Option is visible",
+        "timestamp": "2026-01-22T07:14:48.237Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Podcast option",
+        "status": "PASS",
+        "comment": "Option is visible",
+        "timestamp": "2026-01-22T07:14:50.710Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Navigation - Product dropdown",
+        "status": "PASS",
+        "comment": "Dropdown is accessible",
+        "timestamp": "2026-01-22T07:14:53.824Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Navigation - Models dropdown",
+        "status": "PASS",
+        "comment": "Dropdown is accessible",
+        "timestamp": "2026-01-22T07:15:02.402Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Navigation - Solutions dropdown",
+        "status": "PASS",
+        "comment": "Dropdown is accessible",
+        "timestamp": "2026-01-22T07:15:05.320Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Navigation - Resources dropdown",
+        "status": "PASS",
+        "comment": "Dropdown is accessible",
+        "timestamp": "2026-01-22T07:15:08.304Z"
+      }
+    ]
+  },
+  {
+    "runId": "run_1769069415103_9aespfucx",
+    "runDate": "2026-01-22T07:29:10.545Z",
+    "passed": 36,
+    "failed": 0,
+    "total": 36,
+    "passRate": 100,
+    "tests": [
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Header - Navigation and CTAs",
+        "status": "PASS",
+        "comment": "All header elements visible and accessible",
+        "timestamp": "2026-01-22T07:29:10.545Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Hero Section - Main headline and taglines",
+        "status": "PASS",
+        "comment": "All hero content visible",
+        "timestamp": "2026-01-22T07:29:14.707Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground Section - Speech to text interface",
+        "status": "PASS",
+        "comment": "All playground elements visible",
+        "timestamp": "2026-01-22T07:29:20.288Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Primary CTAs - Cloud API, Developer Docs, Hugging Face",
+        "status": "PASS",
+        "comment": "All primary CTAs visible",
+        "timestamp": "2026-01-22T07:29:26.287Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Platform Section - Feature cards",
+        "status": "PASS",
+        "comment": "All platform feature cards visible",
+        "timestamp": "2026-01-22T07:29:31.521Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Why Shunya Labs - Feature cards",
+        "status": "PASS",
+        "comment": "All Why Shunya feature cards visible",
+        "timestamp": "2026-01-22T07:29:40.584Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Security & Compliance - Badges and certifications",
+        "status": "PASS",
+        "comment": "All security badges visible",
+        "timestamp": "2026-01-22T07:29:46.776Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Stats Section - Numbers and labels",
+        "status": "PASS",
+        "comment": "All stats numbers and labels visible",
+        "timestamp": "2026-01-22T07:29:52.367Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Language Regions - Language list and coverage",
+        "status": "PASS",
+        "comment": "Language regions section visible",
+        "timestamp": "2026-01-22T07:29:58.177Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Bottom CTA - Final call-to-action section",
+        "status": "PASS",
+        "comment": "Bottom CTA section visible",
+        "timestamp": "2026-01-22T07:30:23.930Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Footer - All links and sections",
+        "status": "PASS",
+        "comment": "All footer elements visible",
+        "timestamp": "2026-01-22T07:30:29.720Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Header - Sign In button",
+        "status": "PASS",
+        "comment": "Button/link is visible and enabled",
+        "timestamp": "2026-01-22T07:31:11.665Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Header - Get Started button",
+        "status": "PASS",
+        "comment": "Button/link is visible and enabled",
+        "timestamp": "2026-01-22T07:31:19.394Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Header - Contact Sales button",
+        "status": "PASS",
+        "comment": "Button/link is visible and enabled",
+        "timestamp": "2026-01-22T07:31:27.011Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Primary CTA - Cloud API",
+        "status": "PASS",
+        "comment": "CTA is visible and accessible",
+        "timestamp": "2026-01-22T07:31:31.099Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Primary CTA - Developer Documentation",
+        "status": "PASS",
+        "comment": "CTA is visible and accessible",
+        "timestamp": "2026-01-22T07:31:33.255Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Primary CTA - Hugging Face",
+        "status": "PASS",
+        "comment": "CTA is visible and accessible",
+        "timestamp": "2026-01-22T07:31:36.782Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Bottom CTA - Get Started button",
+        "status": "PASS",
+        "comment": "Button/link is visible and enabled",
+        "timestamp": "2026-01-22T07:31:46.121Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Bottom CTA - Contact Sales button",
+        "status": "PASS",
+        "comment": "Button/link is visible and enabled",
+        "timestamp": "2026-01-22T07:31:53.778Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Footer - Overview link",
+        "status": "PASS",
+        "comment": "Link is visible and accessible",
+        "timestamp": "2026-01-22T07:31:57.972Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Footer - Documentation link",
+        "status": "PASS",
+        "comment": "Link is visible and accessible",
+        "timestamp": "2026-01-22T07:32:00.698Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Footer - Pricing link",
+        "status": "PASS",
+        "comment": "Link is visible and accessible",
+        "timestamp": "2026-01-22T07:32:03.105Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Footer - Get Started link",
+        "status": "PASS",
+        "comment": "Link is visible and accessible",
+        "timestamp": "2026-01-22T07:32:05.585Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Speech To Text button",
+        "status": "PASS",
+        "comment": "Button is visible",
+        "timestamp": "2026-01-22T07:27:24.995Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Medical Transcription button",
+        "status": "PASS",
+        "comment": "Button is visible",
+        "timestamp": "2026-01-22T07:27:27.347Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Language selector",
+        "status": "PASS",
+        "comment": "Language selector is visible",
+        "timestamp": "2026-01-22T07:27:30.169Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Pre-recorded option",
+        "status": "PASS",
+        "comment": "Option is visible",
+        "timestamp": "2026-01-22T07:27:32.799Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Live recording option",
+        "status": "PASS",
+        "comment": "Option is visible",
+        "timestamp": "2026-01-22T07:27:34.987Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Upload your file button",
+        "status": "PASS",
+        "comment": "Button is visible",
+        "timestamp": "2026-01-22T07:27:37.309Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Start Speaking button",
+        "status": "PASS",
+        "comment": "Button is visible",
+        "timestamp": "2026-01-22T07:27:39.641Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Customer Support Call option",
+        "status": "PASS",
+        "comment": "Option is visible",
+        "timestamp": "2026-01-22T07:27:42.017Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Podcast option",
+        "status": "PASS",
+        "comment": "Option is visible",
+        "timestamp": "2026-01-22T07:27:44.243Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Navigation - Product dropdown",
+        "status": "PASS",
+        "comment": "Dropdown is accessible",
+        "timestamp": "2026-01-22T07:27:47.595Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Navigation - Models dropdown",
+        "status": "PASS",
+        "comment": "Dropdown is accessible",
+        "timestamp": "2026-01-22T07:27:56.227Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Navigation - Solutions dropdown",
+        "status": "PASS",
+        "comment": "Dropdown is accessible",
+        "timestamp": "2026-01-22T07:27:59.527Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Navigation - Resources dropdown",
+        "status": "PASS",
+        "comment": "Dropdown is accessible",
+        "timestamp": "2026-01-22T07:28:03.576Z"
+      }
+    ]
+  },
+  {
+    "runId": "run_1769075182757_mpkgju1va",
+    "runDate": "2026-01-22T09:43:24.240Z",
+    "passed": 36,
+    "failed": 0,
+    "total": 36,
+    "passRate": 100,
+    "tests": [
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Header - Navigation and CTAs",
+        "status": "PASS",
+        "comment": "All header elements visible and accessible",
+        "timestamp": "2026-01-22T09:43:24.240Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Hero Section - Main headline and taglines",
+        "status": "PASS",
+        "comment": "All hero content visible",
+        "timestamp": "2026-01-22T09:43:28.258Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground Section - Speech to text interface",
+        "status": "PASS",
+        "comment": "All playground elements visible",
+        "timestamp": "2026-01-22T09:43:33.289Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Primary CTAs - Cloud API, Developer Docs, Hugging Face",
+        "status": "PASS",
+        "comment": "All primary CTAs visible",
+        "timestamp": "2026-01-22T09:43:38.280Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Platform Section - Feature cards",
+        "status": "PASS",
+        "comment": "All platform feature cards visible",
+        "timestamp": "2026-01-22T09:43:43.388Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Why Shunya Labs - Feature cards",
+        "status": "PASS",
+        "comment": "All Why Shunya feature cards visible",
+        "timestamp": "2026-01-22T09:43:49.751Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Security & Compliance - Badges and certifications",
+        "status": "PASS",
+        "comment": "All security badges visible",
+        "timestamp": "2026-01-22T09:43:54.623Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Stats Section - Numbers and labels",
+        "status": "PASS",
+        "comment": "All stats numbers and labels visible",
+        "timestamp": "2026-01-22T09:44:05.925Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Language Regions - Language list and coverage",
+        "status": "PASS",
+        "comment": "Language regions section visible",
+        "timestamp": "2026-01-22T09:44:10.793Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Bottom CTA - Final call-to-action section",
+        "status": "PASS",
+        "comment": "Bottom CTA section visible",
+        "timestamp": "2026-01-22T09:44:36.451Z"
+      },
+      {
+        "category": "Content Validation",
+        "moduleName": "Landing Page",
+        "testPoint": "Footer - All links and sections",
+        "status": "PASS",
+        "comment": "All footer elements visible",
+        "timestamp": "2026-01-22T09:44:42.178Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Header - Sign In button",
+        "status": "PASS",
+        "comment": "Button/link is visible and enabled",
+        "timestamp": "2026-01-22T09:45:26.107Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Header - Get Started button",
+        "status": "PASS",
+        "comment": "Button/link is visible and enabled",
+        "timestamp": "2026-01-22T09:45:33.419Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Header - Contact Sales button",
+        "status": "PASS",
+        "comment": "Button/link is visible and enabled",
+        "timestamp": "2026-01-22T09:45:40.778Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Primary CTA - Cloud API",
+        "status": "PASS",
+        "comment": "CTA is visible and accessible",
+        "timestamp": "2026-01-22T09:45:44.753Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Primary CTA - Developer Documentation",
+        "status": "PASS",
+        "comment": "CTA is visible and accessible",
+        "timestamp": "2026-01-22T09:45:47.564Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Primary CTA - Hugging Face",
+        "status": "PASS",
+        "comment": "CTA is visible and accessible",
+        "timestamp": "2026-01-22T09:45:49.964Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Bottom CTA - Get Started button",
+        "status": "PASS",
+        "comment": "Button/link is visible and enabled",
+        "timestamp": "2026-01-22T09:45:58.911Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Bottom CTA - Contact Sales button",
+        "status": "PASS",
+        "comment": "Button/link is visible and enabled",
+        "timestamp": "2026-01-22T09:46:06.511Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Footer - Overview link",
+        "status": "PASS",
+        "comment": "Link is visible and accessible",
+        "timestamp": "2026-01-22T09:46:10.454Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Footer - Documentation link",
+        "status": "PASS",
+        "comment": "Link is visible and accessible",
+        "timestamp": "2026-01-22T09:46:12.959Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Footer - Pricing link",
+        "status": "PASS",
+        "comment": "Link is visible and accessible",
+        "timestamp": "2026-01-22T09:46:15.270Z"
+      },
+      {
+        "category": "Cta Redirections",
+        "moduleName": "Landing Page",
+        "testPoint": "Footer - Get Started link",
+        "status": "PASS",
+        "comment": "Link is visible and accessible",
+        "timestamp": "2026-01-22T09:46:17.563Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Speech To Text button",
+        "status": "PASS",
+        "comment": "Button is visible",
+        "timestamp": "2026-01-22T09:41:35.664Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Medical Transcription button",
+        "status": "PASS",
+        "comment": "Button is visible",
+        "timestamp": "2026-01-22T09:41:38.439Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Language selector",
+        "status": "PASS",
+        "comment": "Language selector is visible",
+        "timestamp": "2026-01-22T09:41:41.881Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Pre-recorded option",
+        "status": "PASS",
+        "comment": "Option is visible",
+        "timestamp": "2026-01-22T09:41:44.375Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Live recording option",
+        "status": "PASS",
+        "comment": "Option is visible",
+        "timestamp": "2026-01-22T09:41:46.842Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Upload your file button",
+        "status": "PASS",
+        "comment": "Button is visible",
+        "timestamp": "2026-01-22T09:41:49.085Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Start Speaking button",
+        "status": "PASS",
+        "comment": "Button is visible",
+        "timestamp": "2026-01-22T09:41:51.741Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Customer Support Call option",
+        "status": "PASS",
+        "comment": "Option is visible",
+        "timestamp": "2026-01-22T09:41:54.948Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Playground - Podcast option",
+        "status": "PASS",
+        "comment": "Option is visible",
+        "timestamp": "2026-01-22T09:41:57.500Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Navigation - Product dropdown",
+        "status": "PASS",
+        "comment": "Dropdown is accessible",
+        "timestamp": "2026-01-22T09:42:00.964Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Navigation - Models dropdown",
+        "status": "PASS",
+        "comment": "Dropdown is accessible",
+        "timestamp": "2026-01-22T09:42:09.862Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Navigation - Solutions dropdown",
+        "status": "PASS",
+        "comment": "Dropdown is accessible",
+        "timestamp": "2026-01-22T09:42:13.061Z"
+      },
+      {
+        "category": "Actions",
+        "moduleName": "Landing Page",
+        "testPoint": "Navigation - Resources dropdown",
+        "status": "PASS",
+        "comment": "Dropdown is accessible",
+        "timestamp": "2026-01-22T09:42:15.962Z"
+      }
+    ]
+  }
+]
