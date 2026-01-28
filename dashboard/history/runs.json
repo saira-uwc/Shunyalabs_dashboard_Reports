@@ -4184,5 +4184,2151 @@
         "timestamp": "2026-01-23T13:18:02.852Z"
       }
     ]
+  },
+  {
+    "runId": "run_1769586118221_n7anuyr2v",
+    "runDate": "2026-01-28T07:24:33.675Z",
+    "passed": 262,
+    "failed": 5,
+    "total": 267,
+    "passRate": 98,
+    "tests": [
+      {
+        "category": "Module Pages",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Med snapshot",
+        "status": "PASS",
+        "comment": "Snapshot matches (/Users/user/Documents/shunyalabs-web-automation/test-results/module-pages-report.csv)",
+        "timestamp": "2026-01-28T07:24:33.675Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Contact",
+        "testPoint": "Contact CTA - Submit",
+        "status": "PASS",
+        "comment": "Button visible",
+        "timestamp": "2026-01-28T07:15:03.308Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Homepage",
+        "testPoint": "Header CTA - Get Started",
+        "status": "PASS",
+        "comment": "href=/pricing",
+        "timestamp": "2026-01-28T07:16:03.795Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Homepage",
+        "testPoint": "Header CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:16:06.680Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Homepage",
+        "testPoint": "Header CTA - Sign In",
+        "status": "PASS",
+        "comment": "Button enabled",
+        "timestamp": "2026-01-28T07:16:09.515Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Homepage",
+        "testPoint": "Primary CTA - Cloud API",
+        "status": "PASS",
+        "comment": "href=/pricing",
+        "timestamp": "2026-01-28T07:16:11.765Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Homepage",
+        "testPoint": "Primary CTA - Developer Documentation",
+        "status": "PASS",
+        "comment": "href=/documentation/.../quickstart",
+        "timestamp": "2026-01-28T07:16:13.968Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Homepage",
+        "testPoint": "Primary CTA - Hugging Face",
+        "status": "PASS",
+        "comment": "href=https://huggingface.co/shunyalabs",
+        "timestamp": "2026-01-28T07:16:18.700Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Homepage",
+        "testPoint": "Header CTA - Get Started",
+        "status": "PASS",
+        "comment": "href=/pricing",
+        "timestamp": "2026-01-28T07:16:34.685Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Homepage",
+        "testPoint": "Header CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:16:37.139Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Homepage",
+        "testPoint": "Header CTA - Sign In",
+        "status": "PASS",
+        "comment": "Button enabled",
+        "timestamp": "2026-01-28T07:16:39.514Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Homepage",
+        "testPoint": "Primary CTA - Cloud API",
+        "status": "PASS",
+        "comment": "href=/pricing",
+        "timestamp": "2026-01-28T07:16:42.775Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Homepage",
+        "testPoint": "Primary CTA - Developer Documentation",
+        "status": "PASS",
+        "comment": "href=/documentation/.../quickstart",
+        "timestamp": "2026-01-28T07:16:47.112Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Homepage",
+        "testPoint": "Primary CTA - Hugging Face",
+        "status": "PASS",
+        "comment": "href=https://huggingface.co/shunyalabs",
+        "timestamp": "2026-01-28T07:16:50.020Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Homepage",
+        "testPoint": "Header CTA - Get Started",
+        "status": "PASS",
+        "comment": "href=/pricing",
+        "timestamp": "2026-01-28T07:17:04.980Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Homepage",
+        "testPoint": "Header CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:17:07.820Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Homepage",
+        "testPoint": "Header CTA - Sign In",
+        "status": "PASS",
+        "comment": "Button enabled",
+        "timestamp": "2026-01-28T07:17:10.703Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Homepage",
+        "testPoint": "Primary CTA - Cloud API",
+        "status": "PASS",
+        "comment": "href=/pricing",
+        "timestamp": "2026-01-28T07:17:13.956Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Homepage",
+        "testPoint": "Primary CTA - Developer Documentation",
+        "status": "PASS",
+        "comment": "href=/documentation/.../quickstart",
+        "timestamp": "2026-01-28T07:17:16.216Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Homepage",
+        "testPoint": "Primary CTA - Hugging Face",
+        "status": "PASS",
+        "comment": "href=https://huggingface.co/shunyalabs",
+        "timestamp": "2026-01-28T07:17:18.476Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Language Models CTA - Zero STT Indic",
+        "status": "PASS",
+        "comment": "href=/zero-indic",
+        "timestamp": "2026-01-28T07:18:59.385Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Language Models CTA - Zero STT Code-switch",
+        "status": "PASS",
+        "comment": "href=/zero-code-switch",
+        "timestamp": "2026-01-28T07:19:02.632Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Language Models CTA - Zero STT",
+        "status": "PASS",
+        "comment": "href=/zero-stt",
+        "timestamp": "2026-01-28T07:19:05.133Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Language Models CTA - Try now",
+        "status": "PASS",
+        "comment": "2 links to /documentation/models/language-models",
+        "timestamp": "2026-01-28T07:19:07.662Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Language Models CTA - Full language list",
+        "status": "PASS",
+        "comment": "href=documentation/languages",
+        "timestamp": "2026-01-28T07:19:11.316Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Language Models CTA - Get Started",
+        "status": "PASS",
+        "comment": "href=/pricing",
+        "timestamp": "2026-01-28T07:19:13.856Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Language Models CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:19:16.237Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Specialised Models CTA - Try now",
+        "status": "PASS",
+        "comment": "href=/zero-med",
+        "timestamp": "2026-01-28T07:20:42.547Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Specialised Models CTA - Learn now",
+        "status": "PASS",
+        "comment": "href=/documentation/medical-transcription",
+        "timestamp": "2026-01-28T07:20:47.603Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Specialised Models CTA - Get Started",
+        "status": "PASS",
+        "comment": "href=/pricing",
+        "timestamp": "2026-01-28T07:20:50.035Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Specialised Models CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:20:53.306Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Codeswitch CTA - Get Hinglish API now",
+        "status": "PASS",
+        "comment": "href=/documentation/models/language-models",
+        "timestamp": "2026-01-28T07:23:25.513Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Codeswitch CTA - Try for Free",
+        "status": "PASS",
+        "comment": "href=/pricing",
+        "timestamp": "2026-01-28T07:23:28.120Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Codeswitch CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:23:30.569Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Indic CTA - Try now",
+        "status": "PASS",
+        "comment": "href=/documentation/models/language-models",
+        "timestamp": "2026-01-28T07:24:01.184Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Indic CTA - Try for Free",
+        "status": "PASS",
+        "comment": "href=/pricing",
+        "timestamp": "2026-01-28T07:24:03.834Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Indic CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:24:06.160Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Med CTA - 🇺🇸English",
+        "status": "PASS",
+        "comment": "CTA button enabled",
+        "timestamp": "2026-01-28T07:24:43.050Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Med CTA - Patient Notes",
+        "status": "PASS",
+        "comment": "CTA button enabled",
+        "timestamp": "2026-01-28T07:24:45.502Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Med CTA - Doctor's Appointment",
+        "status": "PASS",
+        "comment": "CTA button enabled",
+        "timestamp": "2026-01-28T07:24:48.364Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Med CTA - Upload your file",
+        "status": "PASS",
+        "comment": "CTA button enabled",
+        "timestamp": "2026-01-28T07:24:51.192Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Med CTA - Start Speaking",
+        "status": "PASS",
+        "comment": "CTA button enabled",
+        "timestamp": "2026-01-28T07:24:54.015Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Med CTA - Play audio",
+        "status": "PASS",
+        "comment": "CTA button enabled",
+        "timestamp": "2026-01-28T07:24:57.046Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Med CTA - No conversation to copy",
+        "status": "FAIL",
+        "comment": "CTA button is disabled",
+        "timestamp": "2026-01-28T07:24:59.684Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Universal CTA - Get Zero STT API now",
+        "status": "PASS",
+        "comment": "href=/documentation/models/language-models",
+        "timestamp": "2026-01-28T07:25:23.912Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Universal CTA - Get Zero STT API now",
+        "status": "PASS",
+        "comment": "href=/documentation/models/language-models",
+        "timestamp": "2026-01-28T07:25:39.135Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Universal CTA - Get Zero STT API now",
+        "status": "PASS",
+        "comment": "href=/documentation/models/language-models",
+        "timestamp": "2026-01-28T07:25:50.551Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Pricing",
+        "testPoint": "Pricing CTA - Start for free",
+        "status": "PASS",
+        "comment": "Button visible",
+        "timestamp": "2026-01-28T07:26:24.307Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Pricing",
+        "testPoint": "Pricing CTA - Buy Now",
+        "status": "PASS",
+        "comment": "Button visible",
+        "timestamp": "2026-01-28T07:26:26.721Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Pricing",
+        "testPoint": "Pricing CTA - Contact Sales (plan)",
+        "status": "PASS",
+        "comment": "Button visible",
+        "timestamp": "2026-01-28T07:26:29.675Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Pricing",
+        "testPoint": "Pricing CTA - Add $18 to wallet",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:26:31.868Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Pricing",
+        "testPoint": "Pricing CTA - Contact Sales (STT)",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:26:35.365Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Audio Processing CTA - Contact Us",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:27:04.834Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Audio Processing CTA - Get Started",
+        "status": "PASS",
+        "comment": "href=/pricing",
+        "timestamp": "2026-01-28T07:27:07.566Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Audio Processing CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:27:10.836Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Deployment CTA - Contact Us",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:27:41.949Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Deployment CTA - Get Started",
+        "status": "PASS",
+        "comment": "href=/pricing",
+        "timestamp": "2026-01-28T07:27:44.647Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Deployment CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:27:49.608Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Product",
+        "status": "PASS",
+        "comment": "CTA button enabled",
+        "timestamp": "2026-01-28T07:28:28.245Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Models",
+        "status": "PASS",
+        "comment": "CTA button enabled",
+        "timestamp": "2026-01-28T07:28:30.751Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Solutions",
+        "status": "PASS",
+        "comment": "CTA button enabled",
+        "timestamp": "2026-01-28T07:28:32.856Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Resources",
+        "status": "PASS",
+        "comment": "CTA button enabled",
+        "timestamp": "2026-01-28T07:28:35.757Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Documentation",
+        "status": "PASS",
+        "comment": "CTA link OK: /documentation/batch-transcriptions/quickstart",
+        "timestamp": "2026-01-28T07:28:38.054Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - About Us",
+        "status": "PASS",
+        "comment": "CTA link OK: /about",
+        "timestamp": "2026-01-28T07:28:40.260Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Pricing",
+        "status": "PASS",
+        "comment": "CTA link OK: /pricing",
+        "timestamp": "2026-01-28T07:28:42.500Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Sign In",
+        "status": "PASS",
+        "comment": "CTA button enabled",
+        "timestamp": "2026-01-28T07:28:44.838Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Get Started",
+        "status": "PASS",
+        "comment": "CTA link OK: /pricing",
+        "timestamp": "2026-01-28T07:28:47.277Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "CTA link OK: /contact",
+        "timestamp": "2026-01-28T07:28:50.254Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Try Now",
+        "status": "PASS",
+        "comment": "CTA link OK: /contact",
+        "timestamp": "2026-01-28T07:28:53.524Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Learn more →",
+        "status": "PASS",
+        "comment": "CTA link OK: /zero-indic",
+        "timestamp": "2026-01-28T07:28:55.850Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Learn more →",
+        "status": "PASS",
+        "comment": "CTA link OK: /zero-med",
+        "timestamp": "2026-01-28T07:28:58.378Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Learn more →",
+        "status": "PASS",
+        "comment": "CTA link OK: /on-device-models",
+        "timestamp": "2026-01-28T07:29:00.675Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Go to Pricing page",
+        "status": "PASS",
+        "comment": "CTA link OK: /pricing",
+        "timestamp": "2026-01-28T07:29:03.681Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "CTA link OK: /contact",
+        "timestamp": "2026-01-28T07:29:06.292Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Overview",
+        "status": "PASS",
+        "comment": "CTA link OK: /overview",
+        "timestamp": "2026-01-28T07:29:08.426Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Models",
+        "status": "PASS",
+        "comment": "CTA link OK: /models-page",
+        "timestamp": "2026-01-28T07:29:10.847Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Voice Agents",
+        "status": "PASS",
+        "comment": "CTA link OK: /voice-agent",
+        "timestamp": "2026-01-28T07:29:14.955Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Speech Intelligence",
+        "status": "PASS",
+        "comment": "CTA link OK: /speech-intelligence-page",
+        "timestamp": "2026-01-28T07:29:17.530Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Audio Processing",
+        "status": "PASS",
+        "comment": "CTA link OK: /audio-processing",
+        "timestamp": "2026-01-28T07:29:20.617Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Deployment",
+        "status": "PASS",
+        "comment": "CTA link OK: /deployment",
+        "timestamp": "2026-01-28T07:29:23.121Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Language Models",
+        "status": "PASS",
+        "comment": "CTA link OK: /language-models",
+        "timestamp": "2026-01-28T07:29:25.688Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Zero STT Indic",
+        "status": "PASS",
+        "comment": "CTA link OK: /zero-indic",
+        "timestamp": "2026-01-28T07:29:28.622Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Zero STT Codeswitch",
+        "status": "PASS",
+        "comment": "CTA link OK: /zero-code-switch",
+        "timestamp": "2026-01-28T07:29:30.670Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Zero STT Universal",
+        "status": "PASS",
+        "comment": "CTA link OK: /zero-stt",
+        "timestamp": "2026-01-28T07:29:33.344Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Specialised Models",
+        "status": "PASS",
+        "comment": "CTA link OK: /domain-specialisation",
+        "timestamp": "2026-01-28T07:29:35.484Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Zero STT Med",
+        "status": "PASS",
+        "comment": "CTA link OK: /zero-med",
+        "timestamp": "2026-01-28T07:29:38.015Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - On Device Models",
+        "status": "PASS",
+        "comment": "CTA link OK: /on-device-models",
+        "timestamp": "2026-01-28T07:29:40.176Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Contact Centers",
+        "status": "PASS",
+        "comment": "CTA link OK: /contact-centers",
+        "timestamp": "2026-01-28T07:29:42.611Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Media & Entertainment",
+        "status": "PASS",
+        "comment": "CTA link OK: /media-entertainment",
+        "timestamp": "2026-01-28T07:29:45.559Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Healthcare",
+        "status": "PASS",
+        "comment": "CTA link OK: /healthcare",
+        "timestamp": "2026-01-28T07:29:47.731Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Blogs",
+        "status": "PASS",
+        "comment": "CTA link OK: /blog",
+        "timestamp": "2026-01-28T07:29:50.363Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Benchmarks",
+        "status": "PASS",
+        "comment": "CTA link OK: /benchmarks",
+        "timestamp": "2026-01-28T07:29:52.794Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - News & Media",
+        "status": "PASS",
+        "comment": "CTA link OK: /media",
+        "timestamp": "2026-01-28T07:29:55.303Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Documentation",
+        "status": "FAIL",
+        "comment": "CTA link missing or invalid href",
+        "timestamp": "2026-01-28T07:29:57.215Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Documentation",
+        "status": "PASS",
+        "comment": "CTA link OK: /documentation/batch-transcriptions/quickstart",
+        "timestamp": "2026-01-28T07:29:59.634Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - About us",
+        "status": "PASS",
+        "comment": "CTA link OK: /about",
+        "timestamp": "2026-01-28T07:30:02.177Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Pricing",
+        "status": "PASS",
+        "comment": "CTA link OK: /pricing",
+        "timestamp": "2026-01-28T07:30:05.202Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Privacy",
+        "status": "PASS",
+        "comment": "CTA link OK: /privacy-policy",
+        "timestamp": "2026-01-28T07:30:07.393Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Terms",
+        "status": "PASS",
+        "comment": "CTA link OK: /terms-conditions",
+        "timestamp": "2026-01-28T07:30:09.597Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Security",
+        "status": "PASS",
+        "comment": "CTA link OK: /security-policy",
+        "timestamp": "2026-01-28T07:30:12.215Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - General License",
+        "status": "PASS",
+        "comment": "CTA link OK: /general-rail-m-license",
+        "timestamp": "2026-01-28T07:30:14.856Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Models CTA - Custom License",
+        "status": "PASS",
+        "comment": "CTA link OK: /shunya-labs-custom-model-rail-m-license",
+        "timestamp": "2026-01-28T07:30:17.022Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Product",
+        "status": "PASS",
+        "comment": "CTA button enabled",
+        "timestamp": "2026-01-28T07:30:54.288Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Models",
+        "status": "PASS",
+        "comment": "CTA button enabled",
+        "timestamp": "2026-01-28T07:30:57.808Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Solutions",
+        "status": "PASS",
+        "comment": "CTA button enabled",
+        "timestamp": "2026-01-28T07:31:00.368Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Resources",
+        "status": "PASS",
+        "comment": "CTA button enabled",
+        "timestamp": "2026-01-28T07:31:03.974Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Documentation",
+        "status": "PASS",
+        "comment": "CTA link OK: /documentation/batch-transcriptions/quickstart",
+        "timestamp": "2026-01-28T07:31:06.242Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - About Us",
+        "status": "PASS",
+        "comment": "CTA link OK: /about",
+        "timestamp": "2026-01-28T07:31:08.787Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Pricing",
+        "status": "PASS",
+        "comment": "CTA link OK: /pricing",
+        "timestamp": "2026-01-28T07:31:10.984Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Sign In",
+        "status": "PASS",
+        "comment": "CTA button enabled",
+        "timestamp": "2026-01-28T07:31:13.576Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Get Started",
+        "status": "PASS",
+        "comment": "CTA link OK: /pricing",
+        "timestamp": "2026-01-28T07:31:25.969Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "CTA link OK: /contact",
+        "timestamp": "2026-01-28T07:31:28.700Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Learn more →",
+        "status": "PASS",
+        "comment": "CTA link OK: /language-models",
+        "timestamp": "2026-01-28T07:31:31.504Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - See full list of features in documentation",
+        "status": "PASS",
+        "comment": "CTA link OK: /documentation/features/speaker-diarization",
+        "timestamp": "2026-01-28T07:31:33.723Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Go to Pricing page",
+        "status": "PASS",
+        "comment": "CTA link OK: /pricing",
+        "timestamp": "2026-01-28T07:31:35.840Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "CTA link OK: /contact",
+        "timestamp": "2026-01-28T07:31:38.327Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Overview",
+        "status": "PASS",
+        "comment": "CTA link OK: /overview",
+        "timestamp": "2026-01-28T07:31:41.595Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Models",
+        "status": "PASS",
+        "comment": "CTA link OK: /models-page",
+        "timestamp": "2026-01-28T07:31:44.204Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Voice Agents",
+        "status": "PASS",
+        "comment": "CTA link OK: /voice-agent",
+        "timestamp": "2026-01-28T07:31:46.647Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Speech Intelligence",
+        "status": "PASS",
+        "comment": "CTA link OK: /speech-intelligence-page",
+        "timestamp": "2026-01-28T07:31:49.254Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Audio Processing",
+        "status": "PASS",
+        "comment": "CTA link OK: /audio-processing",
+        "timestamp": "2026-01-28T07:31:52.005Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Deployment",
+        "status": "PASS",
+        "comment": "CTA link OK: /deployment",
+        "timestamp": "2026-01-28T07:31:54.478Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Language Models",
+        "status": "PASS",
+        "comment": "CTA link OK: /language-models",
+        "timestamp": "2026-01-28T07:31:56.705Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Zero STT Indic",
+        "status": "PASS",
+        "comment": "CTA link OK: /zero-indic",
+        "timestamp": "2026-01-28T07:31:58.846Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Zero STT Codeswitch",
+        "status": "PASS",
+        "comment": "CTA link OK: /zero-code-switch",
+        "timestamp": "2026-01-28T07:32:01.388Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Zero STT Universal",
+        "status": "PASS",
+        "comment": "CTA link OK: /zero-stt",
+        "timestamp": "2026-01-28T07:32:03.555Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Specialised Models",
+        "status": "PASS",
+        "comment": "CTA link OK: /domain-specialisation",
+        "timestamp": "2026-01-28T07:32:05.756Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Zero STT Med",
+        "status": "PASS",
+        "comment": "CTA link OK: /zero-med",
+        "timestamp": "2026-01-28T07:32:09.175Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - On Device Models",
+        "status": "PASS",
+        "comment": "CTA link OK: /on-device-models",
+        "timestamp": "2026-01-28T07:32:12.345Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Contact Centers",
+        "status": "PASS",
+        "comment": "CTA link OK: /contact-centers",
+        "timestamp": "2026-01-28T07:32:15.096Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Media & Entertainment",
+        "status": "PASS",
+        "comment": "CTA link OK: /media-entertainment",
+        "timestamp": "2026-01-28T07:32:17.844Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Healthcare",
+        "status": "PASS",
+        "comment": "CTA link OK: /healthcare",
+        "timestamp": "2026-01-28T07:32:20.119Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Blogs",
+        "status": "PASS",
+        "comment": "CTA link OK: /blog",
+        "timestamp": "2026-01-28T07:32:22.674Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Benchmarks",
+        "status": "PASS",
+        "comment": "CTA link OK: /benchmarks",
+        "timestamp": "2026-01-28T07:32:25.191Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - News & Media",
+        "status": "PASS",
+        "comment": "CTA link OK: /media",
+        "timestamp": "2026-01-28T07:32:27.823Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Documentation",
+        "status": "FAIL",
+        "comment": "CTA link missing or invalid href",
+        "timestamp": "2026-01-28T07:32:30.034Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Documentation",
+        "status": "PASS",
+        "comment": "CTA link OK: /documentation/batch-transcriptions/quickstart",
+        "timestamp": "2026-01-28T07:32:32.533Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - About us",
+        "status": "PASS",
+        "comment": "CTA link OK: /about",
+        "timestamp": "2026-01-28T07:32:39.412Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Pricing",
+        "status": "PASS",
+        "comment": "CTA link OK: /pricing",
+        "timestamp": "2026-01-28T07:32:41.949Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Privacy",
+        "status": "PASS",
+        "comment": "CTA link OK: /privacy-policy",
+        "timestamp": "2026-01-28T07:32:44.605Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Terms",
+        "status": "PASS",
+        "comment": "CTA link OK: /terms-conditions",
+        "timestamp": "2026-01-28T07:32:46.740Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Security",
+        "status": "PASS",
+        "comment": "CTA link OK: /security-policy",
+        "timestamp": "2026-01-28T07:32:49.102Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - General License",
+        "status": "PASS",
+        "comment": "CTA link OK: /general-rail-m-license",
+        "timestamp": "2026-01-28T07:32:51.634Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Product",
+        "status": "PASS",
+        "comment": "CTA button enabled",
+        "timestamp": "2026-01-28T07:32:59.789Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Models",
+        "status": "PASS",
+        "comment": "CTA button enabled",
+        "timestamp": "2026-01-28T07:33:02.240Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Solutions",
+        "status": "PASS",
+        "comment": "CTA button enabled",
+        "timestamp": "2026-01-28T07:33:04.322Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Resources",
+        "status": "PASS",
+        "comment": "CTA button enabled",
+        "timestamp": "2026-01-28T07:33:06.833Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Documentation",
+        "status": "PASS",
+        "comment": "CTA link OK: /documentation/batch-transcriptions/quickstart",
+        "timestamp": "2026-01-28T07:33:09.060Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - About Us",
+        "status": "PASS",
+        "comment": "CTA link OK: /about",
+        "timestamp": "2026-01-28T07:33:11.695Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Pricing",
+        "status": "PASS",
+        "comment": "CTA link OK: /pricing",
+        "timestamp": "2026-01-28T07:33:14.277Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Sign In",
+        "status": "PASS",
+        "comment": "CTA button enabled",
+        "timestamp": "2026-01-28T07:33:17.329Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Get Started",
+        "status": "PASS",
+        "comment": "CTA link OK: /pricing",
+        "timestamp": "2026-01-28T07:33:19.543Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "CTA link OK: /contact",
+        "timestamp": "2026-01-28T07:33:22.203Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Learn more →",
+        "status": "PASS",
+        "comment": "CTA link OK: /language-models",
+        "timestamp": "2026-01-28T07:33:24.965Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - See full list of features in documentation",
+        "status": "PASS",
+        "comment": "CTA link OK: /documentation/features/speaker-diarization",
+        "timestamp": "2026-01-28T07:33:27.387Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Go to Pricing page",
+        "status": "PASS",
+        "comment": "CTA link OK: /pricing",
+        "timestamp": "2026-01-28T07:33:30.057Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "CTA link OK: /contact",
+        "timestamp": "2026-01-28T07:33:33.808Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Overview",
+        "status": "PASS",
+        "comment": "CTA link OK: /overview",
+        "timestamp": "2026-01-28T07:33:36.063Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Models",
+        "status": "PASS",
+        "comment": "CTA link OK: /models-page",
+        "timestamp": "2026-01-28T07:33:38.290Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Voice Agents",
+        "status": "PASS",
+        "comment": "CTA link OK: /voice-agent",
+        "timestamp": "2026-01-28T07:33:40.470Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Speech Intelligence",
+        "status": "PASS",
+        "comment": "CTA link OK: /speech-intelligence-page",
+        "timestamp": "2026-01-28T07:33:42.662Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Audio Processing",
+        "status": "PASS",
+        "comment": "CTA link OK: /audio-processing",
+        "timestamp": "2026-01-28T07:33:48.555Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Deployment",
+        "status": "PASS",
+        "comment": "CTA link OK: /deployment",
+        "timestamp": "2026-01-28T07:33:51.055Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Language Models",
+        "status": "PASS",
+        "comment": "CTA link OK: /language-models",
+        "timestamp": "2026-01-28T07:33:53.323Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Zero STT Indic",
+        "status": "PASS",
+        "comment": "CTA link OK: /zero-indic",
+        "timestamp": "2026-01-28T07:33:55.366Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Zero STT Codeswitch",
+        "status": "PASS",
+        "comment": "CTA link OK: /zero-code-switch",
+        "timestamp": "2026-01-28T07:33:57.636Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Zero STT Universal",
+        "status": "PASS",
+        "comment": "CTA link OK: /zero-stt",
+        "timestamp": "2026-01-28T07:33:59.744Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Specialised Models",
+        "status": "PASS",
+        "comment": "CTA link OK: /domain-specialisation",
+        "timestamp": "2026-01-28T07:34:02.328Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Zero STT Med",
+        "status": "PASS",
+        "comment": "CTA link OK: /zero-med",
+        "timestamp": "2026-01-28T07:34:04.724Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - On Device Models",
+        "status": "PASS",
+        "comment": "CTA link OK: /on-device-models",
+        "timestamp": "2026-01-28T07:34:06.929Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Contact Centers",
+        "status": "PASS",
+        "comment": "CTA link OK: /contact-centers",
+        "timestamp": "2026-01-28T07:34:09.378Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Media & Entertainment",
+        "status": "PASS",
+        "comment": "CTA link OK: /media-entertainment",
+        "timestamp": "2026-01-28T07:34:11.966Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Healthcare",
+        "status": "PASS",
+        "comment": "CTA link OK: /healthcare",
+        "timestamp": "2026-01-28T07:34:15.007Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Blogs",
+        "status": "PASS",
+        "comment": "CTA link OK: /blog",
+        "timestamp": "2026-01-28T07:34:17.207Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Benchmarks",
+        "status": "PASS",
+        "comment": "CTA link OK: /benchmarks",
+        "timestamp": "2026-01-28T07:34:19.664Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - News & Media",
+        "status": "PASS",
+        "comment": "CTA link OK: /media",
+        "timestamp": "2026-01-28T07:34:21.873Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Documentation",
+        "status": "FAIL",
+        "comment": "CTA link missing or invalid href",
+        "timestamp": "2026-01-28T07:34:24.311Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Documentation",
+        "status": "PASS",
+        "comment": "CTA link OK: /documentation/batch-transcriptions/quickstart",
+        "timestamp": "2026-01-28T07:34:26.706Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - About us",
+        "status": "PASS",
+        "comment": "CTA link OK: /about",
+        "timestamp": "2026-01-28T07:34:28.926Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Pricing",
+        "status": "PASS",
+        "comment": "CTA link OK: /pricing",
+        "timestamp": "2026-01-28T07:34:30.954Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Privacy",
+        "status": "PASS",
+        "comment": "CTA link OK: /privacy-policy",
+        "timestamp": "2026-01-28T07:34:33.396Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Terms",
+        "status": "PASS",
+        "comment": "CTA link OK: /terms-conditions",
+        "timestamp": "2026-01-28T07:34:35.791Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Security",
+        "status": "PASS",
+        "comment": "CTA link OK: /security-policy",
+        "timestamp": "2026-01-28T07:34:37.903Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - General License",
+        "status": "PASS",
+        "comment": "CTA link OK: /general-rail-m-license",
+        "timestamp": "2026-01-28T07:34:40.069Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Overview CTA - Custom License",
+        "status": "PASS",
+        "comment": "CTA link OK: /shunya-labs-custom-model-rail-m-license",
+        "timestamp": "2026-01-28T07:34:42.356Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Speech Intelligence CTA - Try Now",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:35:12.910Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Speech Intelligence CTA - Get Started",
+        "status": "PASS",
+        "comment": "href=/pricing",
+        "timestamp": "2026-01-28T07:35:15.774Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Speech Intelligence CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:35:18.017Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Voice Agents CTA - Contact us",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:35:42.509Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Voice Agents CTA - Get Started",
+        "status": "PASS",
+        "comment": "href=/pricing",
+        "timestamp": "2026-01-28T07:35:45.925Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Product",
+        "testPoint": "Voice Agents CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:35:49.479Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Resources",
+        "testPoint": "Benchmarks CTA - Book a Meeting",
+        "status": "PASS",
+        "comment": "Button visible",
+        "timestamp": "2026-01-28T07:36:22.215Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Resources",
+        "testPoint": "Benchmarks CTA - Get Started",
+        "status": "PASS",
+        "comment": "href=/pricing",
+        "timestamp": "2026-01-28T07:36:24.654Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Resources",
+        "testPoint": "Benchmarks CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:36:26.884Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Resources",
+        "testPoint": "Blogs CTA - Featured",
+        "status": "PASS",
+        "comment": "href=/blog/introducing-zero-stt-med-medical-speech-to-text-for-healthcare",
+        "timestamp": "2026-01-28T07:37:07.546Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Resources",
+        "testPoint": "Blogs CTA - Why Multilingual Voice AI Fails on Real-World Audio — and How We Fixed It",
+        "status": "PASS",
+        "comment": "href=/blog/why-multilingual-voice-ai-fails-on-real-world-audio-and-how-we-fixed-it",
+        "timestamp": "2026-01-28T07:37:10.109Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Resources",
+        "testPoint": "Blogs CTA - Getting Started with ASR APIs: Python Quickstart",
+        "status": "PASS",
+        "comment": "href=/blog/getting-started-with-asr-apis-python-quickstart",
+        "timestamp": "2026-01-28T07:37:12.306Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Resources",
+        "testPoint": "Blogs CTA - Getting Started with ASR APIs: Node.js Quickstart",
+        "status": "PASS",
+        "comment": "href=/blog/getting-started-with-asr-apis-node-js-quickstart",
+        "timestamp": "2026-01-28T07:37:14.541Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Resources",
+        "testPoint": "Blogs CTA - Benchmarking Top Open-Source Speech Recognition Models",
+        "status": "PASS",
+        "comment": "href=/blog/benchmarking-top-open-source-speech-recognition-models",
+        "timestamp": "2026-01-28T07:37:16.650Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Resources",
+        "testPoint": "Blogs CTA - Top 10 AI Transcription Tools: A Simple Comparison",
+        "status": "PASS",
+        "comment": "href=/blog/top-10-ai-transcription-tools-a-simple-comparison",
+        "timestamp": "2026-01-28T07:37:19.174Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Resources",
+        "testPoint": "Blogs CTA - Speech-to-Text AI in Action: Top 10 Use Cases Across Industries",
+        "status": "PASS",
+        "comment": "href=/blog/speech-to-text-ai-in-action-top-10-use-cases-across-industries",
+        "timestamp": "2026-01-28T07:37:21.266Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Resources",
+        "testPoint": "Blogs CTA - Get Started",
+        "status": "PASS",
+        "comment": "href=/pricing",
+        "timestamp": "2026-01-28T07:37:23.538Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Resources",
+        "testPoint": "Blogs CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:37:26.233Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Resources",
+        "testPoint": "Patents CTA - Contact Us",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:37:53.796Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Resources",
+        "testPoint": "Patents CTA - Get Started",
+        "status": "PASS",
+        "comment": "href=/pricing",
+        "timestamp": "2026-01-28T07:37:56.467Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Resources",
+        "testPoint": "Patents CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:37:59.604Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Solutions",
+        "testPoint": "Contact Centers CTA - Live Demo",
+        "status": "PASS",
+        "comment": "href=/",
+        "timestamp": "2026-01-28T07:38:29.055Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Solutions",
+        "testPoint": "Contact Centers CTA - Try Now",
+        "status": "PASS",
+        "comment": "3 buttons visible",
+        "timestamp": "2026-01-28T07:38:31.810Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Solutions",
+        "testPoint": "Contact Centers CTA - Try for Free",
+        "status": "PASS",
+        "comment": "href=/pricing",
+        "timestamp": "2026-01-28T07:38:34.465Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Solutions",
+        "testPoint": "Contact Centers CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:38:36.541Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Solutions",
+        "testPoint": "Healthcare CTA - Live Demo",
+        "status": "PASS",
+        "comment": "href=/",
+        "timestamp": "2026-01-28T07:39:10.364Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Solutions",
+        "testPoint": "Healthcare CTA - Try Now",
+        "status": "PASS",
+        "comment": "3 buttons visible",
+        "timestamp": "2026-01-28T07:39:12.837Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Solutions",
+        "testPoint": "Healthcare CTA - Try for Free",
+        "status": "PASS",
+        "comment": "href=/pricing",
+        "timestamp": "2026-01-28T07:39:16.050Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Solutions",
+        "testPoint": "Healthcare CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:39:18.507Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Solutions",
+        "testPoint": "Media CTA - Hero Contact Sales",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:39:46.038Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Solutions",
+        "testPoint": "Media CTA - Bottom Contact Sales",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:39:49.191Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Solutions",
+        "testPoint": "Use Cases CTA - Voice Agents",
+        "status": "PASS",
+        "comment": "href=/voice-agent",
+        "timestamp": "2026-01-28T07:40:17.574Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Solutions",
+        "testPoint": "Use Cases CTA - Medical Documentation",
+        "status": "PASS",
+        "comment": "href=/healthcare",
+        "timestamp": "2026-01-28T07:40:21.109Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Solutions",
+        "testPoint": "Use Cases CTA - Contact Center",
+        "status": "PASS",
+        "comment": "href=/contact-centers",
+        "timestamp": "2026-01-28T07:40:23.795Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Solutions",
+        "testPoint": "Use Cases CTA - Meeting Transcription",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:40:26.465Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Solutions",
+        "testPoint": "Use Cases CTA - Get Started",
+        "status": "PASS",
+        "comment": "href=/pricing",
+        "timestamp": "2026-01-28T07:40:28.795Z"
+      },
+      {
+        "category": "Module Cta",
+        "moduleName": "Solutions",
+        "testPoint": "Use Cases CTA - Contact Sales",
+        "status": "PASS",
+        "comment": "href=/contact",
+        "timestamp": "2026-01-28T07:40:31.464Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Homepage",
+        "testPoint": "Homepage Action - Speech To Text",
+        "status": "PASS",
+        "comment": "Button enabled",
+        "timestamp": "2026-01-28T07:15:11.919Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Homepage",
+        "testPoint": "Homepage Action - Medical Transcription",
+        "status": "PASS",
+        "comment": "Button enabled",
+        "timestamp": "2026-01-28T07:15:15.844Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Homepage",
+        "testPoint": "Homepage Action - Customer Support Call",
+        "status": "PASS",
+        "comment": "Button enabled",
+        "timestamp": "2026-01-28T07:15:18.654Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Homepage",
+        "testPoint": "Homepage Action - Podcast",
+        "status": "PASS",
+        "comment": "Button enabled",
+        "timestamp": "2026-01-28T07:15:21.047Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Homepage",
+        "testPoint": "Homepage Action - Upload your file",
+        "status": "PASS",
+        "comment": "Button enabled",
+        "timestamp": "2026-01-28T07:15:24.570Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Homepage",
+        "testPoint": "Homepage Action - Start Speaking",
+        "status": "PASS",
+        "comment": "Button enabled",
+        "timestamp": "2026-01-28T07:15:27.773Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Homepage",
+        "testPoint": "Homepage Action - Play audio",
+        "status": "PASS",
+        "comment": "Button enabled",
+        "timestamp": "2026-01-28T07:15:31.210Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Homepage",
+        "testPoint": "Homepage Action - No conversation to copy",
+        "status": "PASS",
+        "comment": "Button disabled as expected",
+        "timestamp": "2026-01-28T07:15:34.426Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Models",
+        "testPoint": "Language Models Actions - Try now",
+        "status": "PASS",
+        "comment": "2 links visible",
+        "timestamp": "2026-01-28T07:18:34.666Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Models",
+        "testPoint": "On Device Models Action - Contact Us",
+        "status": "PASS",
+        "comment": "Link visible",
+        "timestamp": "2026-01-28T07:19:24.377Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Models",
+        "testPoint": "Specialised Models Actions",
+        "status": "PASS",
+        "comment": "Try now + Learn now visible",
+        "timestamp": "2026-01-28T07:20:21.960Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Indic Action - Try now",
+        "status": "PASS",
+        "comment": "Link visible",
+        "timestamp": "2026-01-28T07:23:39.656Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Med Action - 🇺🇸English",
+        "status": "PASS",
+        "comment": "Action button enabled",
+        "timestamp": "2026-01-28T07:24:12.496Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Med Action - Patient Notes",
+        "status": "PASS",
+        "comment": "Action button enabled",
+        "timestamp": "2026-01-28T07:24:15.514Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Med Action - Doctor's Appointment",
+        "status": "PASS",
+        "comment": "Action button enabled",
+        "timestamp": "2026-01-28T07:24:17.846Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Med Action - Upload your file",
+        "status": "PASS",
+        "comment": "Action button enabled",
+        "timestamp": "2026-01-28T07:24:20.025Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Med Action - Start Speaking",
+        "status": "PASS",
+        "comment": "Action button enabled",
+        "timestamp": "2026-01-28T07:24:22.214Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Med Action - Play audio",
+        "status": "PASS",
+        "comment": "Action button enabled",
+        "timestamp": "2026-01-28T07:24:24.653Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Med Action - No conversation to copy",
+        "status": "FAIL",
+        "comment": "Action button is disabled",
+        "timestamp": "2026-01-28T07:24:26.966Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Models",
+        "testPoint": "Zero STT Universal Actions - Widget",
+        "status": "PASS",
+        "comment": "Widget actions verified",
+        "timestamp": "2026-01-28T07:25:06.586Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Pricing",
+        "testPoint": "Pricing Actions - STT Tabs",
+        "status": "PASS",
+        "comment": "Batch/Realtime visible",
+        "timestamp": "2026-01-28T07:26:02.442Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Pricing",
+        "testPoint": "Pricing Actions - Slider",
+        "status": "PASS",
+        "comment": "Voice agents slider visible",
+        "timestamp": "2026-01-28T07:26:05.470Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Product",
+        "testPoint": "Audio Processing Action - Contact Us",
+        "status": "PASS",
+        "comment": "Link visible",
+        "timestamp": "2026-01-28T07:26:41.634Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Product",
+        "testPoint": "Deployment Action - Contact Us",
+        "status": "PASS",
+        "comment": "Link visible",
+        "timestamp": "2026-01-28T07:27:17.809Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Product",
+        "testPoint": "Models Action - Product",
+        "status": "PASS",
+        "comment": "Action button enabled",
+        "timestamp": "2026-01-28T07:27:55.811Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Product",
+        "testPoint": "Models Action - Models",
+        "status": "PASS",
+        "comment": "Action button enabled",
+        "timestamp": "2026-01-28T07:27:58.284Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Product",
+        "testPoint": "Models Action - Solutions",
+        "status": "PASS",
+        "comment": "Action button enabled",
+        "timestamp": "2026-01-28T07:28:00.635Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Product",
+        "testPoint": "Models Action - Resources",
+        "status": "PASS",
+        "comment": "Action button enabled",
+        "timestamp": "2026-01-28T07:28:02.989Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Product",
+        "testPoint": "Models Action - Sign In",
+        "status": "PASS",
+        "comment": "Action button enabled",
+        "timestamp": "2026-01-28T07:28:05.660Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Product",
+        "testPoint": "Overview Action - Product",
+        "status": "PASS",
+        "comment": "Action button enabled",
+        "timestamp": "2026-01-28T07:30:25.767Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Product",
+        "testPoint": "Overview Action - Models",
+        "status": "PASS",
+        "comment": "Action button enabled",
+        "timestamp": "2026-01-28T07:30:28.132Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Product",
+        "testPoint": "Overview Action - Solutions",
+        "status": "PASS",
+        "comment": "Action button enabled",
+        "timestamp": "2026-01-28T07:30:30.833Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Product",
+        "testPoint": "Overview Action - Resources",
+        "status": "PASS",
+        "comment": "Action button enabled",
+        "timestamp": "2026-01-28T07:30:33.803Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Product",
+        "testPoint": "Overview Action - Sign In",
+        "status": "PASS",
+        "comment": "Action button enabled",
+        "timestamp": "2026-01-28T07:30:36.068Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Product",
+        "testPoint": "Speech Intelligence Action - Try Now",
+        "status": "PASS",
+        "comment": "Link visible",
+        "timestamp": "2026-01-28T07:34:50.961Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Product",
+        "testPoint": "Voice Agents Action - Contact us",
+        "status": "PASS",
+        "comment": "Link visible",
+        "timestamp": "2026-01-28T07:35:23.838Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Resources",
+        "testPoint": "Benchmarks Actions - Tabs",
+        "status": "PASS",
+        "comment": "Tabs visible",
+        "timestamp": "2026-01-28T07:35:57.287Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Resources",
+        "testPoint": "Blogs Action - Search",
+        "status": "PASS",
+        "comment": "Search input visible",
+        "timestamp": "2026-01-28T07:36:33.891Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Resources",
+        "testPoint": "Blogs Action - Search",
+        "status": "PASS",
+        "comment": "Search input visible",
+        "timestamp": "2026-01-28T07:36:39.920Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Resources",
+        "testPoint": "Blogs Action - Search",
+        "status": "PASS",
+        "comment": "Search input visible",
+        "timestamp": "2026-01-28T07:36:46.016Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Resources",
+        "testPoint": "Patents Actions - Cards",
+        "status": "PASS",
+        "comment": "Patent cards visible",
+        "timestamp": "2026-01-28T07:37:32.591Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Solutions",
+        "testPoint": "Contact Centers Actions - Try Now",
+        "status": "PASS",
+        "comment": "3 enabled buttons",
+        "timestamp": "2026-01-28T07:38:06.971Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Solutions",
+        "testPoint": "Healthcare Actions - Try Now",
+        "status": "PASS",
+        "comment": "3 enabled buttons",
+        "timestamp": "2026-01-28T07:38:43.472Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Solutions",
+        "testPoint": "Media Actions - Contact Sales",
+        "status": "PASS",
+        "comment": "Link visible",
+        "timestamp": "2026-01-28T07:39:25.287Z"
+      },
+      {
+        "category": "Module Actions",
+        "moduleName": "Solutions",
+        "testPoint": "Use Cases Actions - Learn more",
+        "status": "PASS",
+        "comment": "4 CTA links visible",
+        "timestamp": "2026-01-28T07:39:55.705Z"
+      }
+    ]
   }
 ]
