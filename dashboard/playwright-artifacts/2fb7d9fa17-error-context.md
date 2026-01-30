@@ -1,0 +1,252 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - navigation [ref=e4]:
+        - generic [ref=e5]:
+          - link "Shunya Labs Logo" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img "Shunya Labs Logo" [ref=e7]
+          - generic [ref=e8]:
+            - button "Product" [ref=e10] [cursor=pointer]:
+              - text: Product
+              - img [ref=e11]
+            - button "Models" [ref=e14] [cursor=pointer]:
+              - text: Models
+              - img [ref=e15]
+            - button "Solutions" [ref=e18] [cursor=pointer]:
+              - text: Solutions
+              - img [ref=e19]
+            - button "Resources" [ref=e22] [cursor=pointer]:
+              - text: Resources
+              - img [ref=e23]
+            - link "Documentation" [ref=e25] [cursor=pointer]:
+              - /url: /documentation/batch-transcriptions/quickstart
+            - link "About Us" [ref=e26] [cursor=pointer]:
+              - /url: /about
+            - link "Pricing" [ref=e27] [cursor=pointer]:
+              - /url: /pricing
+          - generic [ref=e28]:
+            - button "Sign In" [ref=e29] [cursor=pointer]
+            - link "Get Started" [ref=e30] [cursor=pointer]:
+              - /url: /pricing
+            - link "Contact Sales" [ref=e31] [cursor=pointer]:
+              - /url: /contact
+      - heading "Our Blogs" [level=1] [ref=e34]
+      - 'link "Blog Banner 18 Nov 2025 Introducing Zero STT Med: Shunya Labs’ Purpose-Built Medical Speech-to-Text Transcription for Healthcare Actual hospitals are inundated with alarms, cross-talk, muffled conversations through surgical masks and contextual shorthands that can generally be understood only by highly specialized participants. Product Abeer Sehrawat" [ref=e36] [cursor=pointer]':
+        - /url: /blog/introducing-zero-stt-med-medical-speech-to-text-for-healthcare
+        - img "Blog Banner" [ref=e38]
+        - generic [ref=e40]: 18 Nov 2025
+        - 'heading "Introducing Zero STT Med: Shunya Labs’ Purpose-Built Medical Speech-to-Text Transcription for Healthcare" [level=2] [ref=e41]'
+        - paragraph [ref=e42]: Actual hospitals are inundated with alarms, cross-talk, muffled conversations through surgical masks and contextual shorthands that can generally be understood only by highly specialized participants.
+        - generic [ref=e44]: Product
+        - paragraph [ref=e45]: Abeer Sehrawat
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - heading "Topics" [level=2] [ref=e50]
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - img [ref=e53]
+              - textbox "Search" [ref=e56]
+            - generic [ref=e57]:
+              - button "All" [ref=e58] [cursor=pointer]:
+                - generic [ref=e59]: All
+                - img [ref=e60]
+              - button "Engineering & Research" [ref=e63] [cursor=pointer]:
+                - generic [ref=e64]: Engineering & Research
+              - button "AI Trends" [ref=e65] [cursor=pointer]:
+                - generic [ref=e66]: AI Trends
+              - button "Product" [ref=e67] [cursor=pointer]:
+                - generic [ref=e68]: Product
+              - button "Build & Learn" [ref=e69] [cursor=pointer]:
+                - generic [ref=e70]: Build & Learn
+              - button "Use Cases" [ref=e71] [cursor=pointer]:
+                - generic [ref=e72]: Use Cases
+        - main [ref=e73]:
+          - link "Why Multilingual Voice AI Fails on Real-World Audio — and How We Fixed It Product Why Multilingual Voice AI Fails on Real-World Audio — and How We Fixed It 03 Nov 2025" [ref=e74] [cursor=pointer]:
+            - /url: /blog/why-multilingual-voice-ai-fails-on-real-world-audio-and-how-we-fixed-it
+            - img "Why Multilingual Voice AI Fails on Real-World Audio — and How We Fixed It" [ref=e76]
+            - generic [ref=e77]:
+              - text: Product
+              - heading "Why Multilingual Voice AI Fails on Real-World Audio — and How We Fixed It" [level=3] [ref=e78]
+              - paragraph [ref=e79]: 03 Nov 2025
+          - 'link "Getting Started with ASR APIs: Python Quickstart Build & Learn Getting Started with ASR APIs: Python Quickstart 23 Oct 2025" [ref=e80] [cursor=pointer]':
+            - /url: /blog/getting-started-with-asr-apis-python-quickstart
+            - 'img "Getting Started with ASR APIs: Python Quickstart" [ref=e82]'
+            - generic [ref=e83]:
+              - text: Build & Learn
+              - 'heading "Getting Started with ASR APIs: Python Quickstart" [level=3] [ref=e84]'
+              - paragraph [ref=e85]: 23 Oct 2025
+          - 'link "Getting Started with ASR APIs: Node.js Quickstart Build & Learn Getting Started with ASR APIs: Node.js Quickstart 23 Oct 2025" [ref=e86] [cursor=pointer]':
+            - /url: /blog/getting-started-with-asr-apis-node-js-quickstart
+            - 'img "Getting Started with ASR APIs: Node.js Quickstart" [ref=e88]'
+            - generic [ref=e89]:
+              - text: Build & Learn
+              - 'heading "Getting Started with ASR APIs: Node.js Quickstart" [level=3] [ref=e90]'
+              - paragraph [ref=e91]: 23 Oct 2025
+          - link "Benchmarking Top Open-Source Speech Recognition Models AI Trends Benchmarking Top Open-Source Speech Recognition Models 10 Oct 2025" [ref=e92] [cursor=pointer]:
+            - /url: /blog/benchmarking-top-open-source-speech-recognition-models
+            - img "Benchmarking Top Open-Source Speech Recognition Models" [ref=e94]
+            - generic [ref=e95]:
+              - text: AI Trends
+              - heading "Benchmarking Top Open-Source Speech Recognition Models" [level=3] [ref=e96]
+              - paragraph [ref=e97]: 10 Oct 2025
+          - 'link "Top 10 AI Transcription Tools: A Simple Comparison AI Trends Top 10 AI Transcription Tools: A Simple Comparison 10 Oct 2025" [ref=e98] [cursor=pointer]':
+            - /url: /blog/top-10-ai-transcription-tools-a-simple-comparison
+            - 'img "Top 10 AI Transcription Tools: A Simple Comparison" [ref=e100]'
+            - generic [ref=e101]:
+              - text: AI Trends
+              - 'heading "Top 10 AI Transcription Tools: A Simple Comparison" [level=3] [ref=e102]'
+              - paragraph [ref=e103]: 10 Oct 2025
+          - 'link "Speech-to-Text AI in Action: Top 10 Use Cases Across Industries Use cases Speech-to-Text AI in Action: Top 10 Use Cases Across Industries 10 Oct 2025" [ref=e104] [cursor=pointer]':
+            - /url: /blog/speech-to-text-ai-in-action-top-10-use-cases-across-industries
+            - 'img "Speech-to-Text AI in Action: Top 10 Use Cases Across Industries" [ref=e106]'
+            - generic [ref=e107]:
+              - text: Use cases
+              - 'heading "Speech-to-Text AI in Action: Top 10 Use Cases Across Industries" [level=3] [ref=e108]'
+              - paragraph [ref=e109]: 10 Oct 2025
+        - generic [ref=e110]:
+          - button [disabled] [ref=e111]:
+            - img [ref=e112]
+          - button [ref=e114] [cursor=pointer]:
+            - img [ref=e115]
+    - contentinfo [ref=e117]:
+      - generic [ref=e121]:
+        - paragraph [ref=e122]: The fastest way to add voice AI to your products
+        - paragraph [ref=e123]: One platform for speech in and speech out—secure by design, built to scale.
+        - generic [ref=e124]:
+          - link "Go to Pricing page" [ref=e125] [cursor=pointer]:
+            - /url: /pricing
+            - text: Get Started
+          - link "Contact Sales" [ref=e126] [cursor=pointer]:
+            - /url: /contact
+    - contentinfo [ref=e127]:
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - img "Shunya Labs" [ref=e130]
+          - paragraph [ref=e131]: Shunya Labs, Inc.
+        - generic [ref=e132]:
+          - paragraph [ref=e133]: Product
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - link "Overview" [ref=e136] [cursor=pointer]:
+                - /url: /overview
+            - listitem [ref=e137]:
+              - link "Models" [ref=e138] [cursor=pointer]:
+                - /url: /models-page
+            - listitem [ref=e139]:
+              - link "Voice Agents" [ref=e140] [cursor=pointer]:
+                - /url: /voice-agent
+            - listitem [ref=e141]:
+              - link "Speech Intelligence" [ref=e142] [cursor=pointer]:
+                - /url: /speech-intelligence-page
+            - listitem [ref=e143]:
+              - link "Audio Processing" [ref=e144] [cursor=pointer]:
+                - /url: /audio-processing
+            - listitem [ref=e145]:
+              - link "Deployment" [ref=e146] [cursor=pointer]:
+                - /url: /deployment
+        - generic [ref=e147]:
+          - paragraph [ref=e148]: Models
+          - list [ref=e149]:
+            - listitem [ref=e150]:
+              - link "Language Models" [ref=e151] [cursor=pointer]:
+                - /url: /language-models
+            - listitem [ref=e152]:
+              - link "Zero STT Indic" [ref=e153] [cursor=pointer]:
+                - /url: /zero-indic
+            - listitem [ref=e154]:
+              - link "Zero STT Codeswitch" [ref=e155] [cursor=pointer]:
+                - /url: /zero-code-switch
+            - listitem [ref=e156]:
+              - link "Zero STT Universal" [ref=e157] [cursor=pointer]:
+                - /url: /zero-stt
+            - listitem [ref=e158]:
+              - link "Specialised Models" [ref=e159] [cursor=pointer]:
+                - /url: /domain-specialisation
+            - listitem [ref=e160]:
+              - link "Zero STT Med" [ref=e161] [cursor=pointer]:
+                - /url: /zero-med
+            - listitem [ref=e162]:
+              - link "On Device Models" [ref=e163] [cursor=pointer]:
+                - /url: /on-device-models
+        - generic [ref=e164]:
+          - paragraph [ref=e165]: Solutions
+          - list [ref=e166]:
+            - listitem [ref=e167]:
+              - link "Contact Centers" [ref=e168] [cursor=pointer]:
+                - /url: /contact-centers
+            - listitem [ref=e169]:
+              - link "Media & Entertainment" [ref=e170] [cursor=pointer]:
+                - /url: /media-entertainment
+            - listitem [ref=e171]:
+              - link "Healthcare" [ref=e172] [cursor=pointer]:
+                - /url: /healthcare
+        - generic [ref=e173]:
+          - paragraph [ref=e174]: Resources
+          - list [ref=e175]:
+            - listitem [ref=e176]:
+              - link "Blogs" [ref=e177] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e178]:
+              - link "Benchmarks" [ref=e179] [cursor=pointer]:
+                - /url: /benchmarks
+            - listitem [ref=e180]:
+              - link "News & Media" [ref=e181] [cursor=pointer]:
+                - /url: /media
+        - paragraph [ref=e183]:
+          - link "Documentation" [ref=e184] [cursor=pointer]:
+            - /url: /documentation/batch-transcriptions/quickstart
+        - list [ref=e186]:
+          - listitem [ref=e187]:
+            - link "About us" [ref=e188] [cursor=pointer]:
+              - /url: /about
+        - list [ref=e190]:
+          - listitem [ref=e191]:
+            - link "Pricing" [ref=e192] [cursor=pointer]:
+              - /url: /pricing
+      - generic [ref=e193]:
+        - paragraph [ref=e194]: Follow us on
+        - generic [ref=e195]:
+          - link [ref=e196] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/shunya-labs-ai/
+            - img [ref=e197]
+          - link [ref=e199] [cursor=pointer]:
+            - /url: https://www.facebook.com/people/ShunyaLabsAI/61577801851308/
+            - img [ref=e200]
+          - link [ref=e202] [cursor=pointer]:
+            - /url: https://www.instagram.com/shunyalabsai/
+            - img [ref=e203]
+          - link [ref=e205] [cursor=pointer]:
+            - /url: https://x.com/ShunyaLabsAI
+            - img [ref=e206]
+      - generic [ref=e208]:
+        - paragraph [ref=e209]: © 2026 Shunya Labs Inc. All rights reserved.
+        - generic [ref=e210]:
+          - link "Privacy" [ref=e211] [cursor=pointer]:
+            - /url: /privacy-policy
+          - link "Terms" [ref=e212] [cursor=pointer]:
+            - /url: /terms-conditions
+          - link "Security" [ref=e213] [cursor=pointer]:
+            - /url: /security-policy
+          - link "General License" [ref=e214] [cursor=pointer]:
+            - /url: /general-rail-m-license
+          - link "Custom License" [ref=e215] [cursor=pointer]:
+            - /url: /shunya-labs-custom-model-rail-m-license
+  - alert [ref=e216]
+  - iframe [ref=e219]:
+    - generic [ref=f1e2]:
+      - generic [ref=f1e5]:
+        - link "Privacy" [ref=f1e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f1e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f1e8]:
+        - generic [ref=f1e9]:
+          - text: protected by
+          - strong [ref=f1e10]: reCAPTCHA
+        - generic [ref=f1e11]: "-"
+```

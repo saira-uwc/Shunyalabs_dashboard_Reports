@@ -1,0 +1,271 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - navigation [ref=e4]:
+        - generic [ref=e5]:
+          - link "Shunya Labs Logo" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img "Shunya Labs Logo" [ref=e7]
+          - generic [ref=e8]:
+            - button "Product" [ref=e10] [cursor=pointer]:
+              - text: Product
+              - img [ref=e11]
+            - button "Models" [ref=e14] [cursor=pointer]:
+              - text: Models
+              - img [ref=e15]
+            - button "Solutions" [ref=e18] [cursor=pointer]:
+              - text: Solutions
+              - img [ref=e19]
+            - button "Resources" [ref=e22] [cursor=pointer]:
+              - text: Resources
+              - img [ref=e23]
+            - link "Documentation" [ref=e25] [cursor=pointer]:
+              - /url: /documentation/batch-transcriptions/quickstart
+            - link "About Us" [ref=e26] [cursor=pointer]:
+              - /url: /about
+            - link "Pricing" [ref=e27] [cursor=pointer]:
+              - /url: /pricing
+          - generic [ref=e28]:
+            - button "Sign In" [ref=e29] [cursor=pointer]
+            - link "Get Started" [ref=e30] [cursor=pointer]:
+              - /url: /pricing
+            - link "Contact Sales" [ref=e31] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e33]:
+        - heading "Voice Stack for Global Media to Localise at Scale" [level=1] [ref=e34]
+        - paragraph [ref=e35]: Dubbing, translation, subtitling, voice cloning, and lip sync—220+ languages, one platform, studio-grade quality
+        - link "Contact Sales" [ref=e36] [cursor=pointer]:
+          - /url: /contact
+          - button "Contact Sales" [ref=e37]
+      - generic [ref=e40]:
+        - generic [ref=e41]: Global Language Coverage
+        - generic [ref=e43]: Codeswitch Native Models
+        - generic [ref=e45]: Fully Configurable Tools
+      - generic [ref=e47]:
+        - heading "Deep Language Coverage to Reach Every Viewer" [level=2] [ref=e48]
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - img [ref=e56]
+              - heading "Translate across formats" [level=3] [ref=e60]
+            - paragraph [ref=e61]: Text-to-text, speech-to-speech, speech-to-text — translate in any direction.
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - img [ref=e65]
+              - heading "Languages & dialects" [level=3] [ref=e67]
+            - paragraph [ref=e68]: 220+ languages with dialect-level precision across regions.
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - img [ref=e72]
+              - heading "Native codeswitch AI" [level=3] [ref=e74]
+            - paragraph [ref=e75]: Real-world code switching like Hinglish, Tanglish, Arabizi.
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - img [ref=e79]
+              - heading "Foundation models" [level=3] [ref=e81]
+            - paragraph [ref=e82]: 220+ languages with dialect-level precision (LatAm vs European Spanish, Gulf vs Levantine Arabic)
+      - generic [ref=e84]:
+        - heading "Turn Content into Searchable, Monetizable Assets" [level=2] [ref=e85]
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - img [ref=e93]
+              - heading "Speech Intelligence" [level=3] [ref=e95]
+            - paragraph [ref=e96]: Scene segmentation, emotion arcs, and narrative beat detection.
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - img [ref=e100]
+              - heading "Content generation" [level=3] [ref=e102]
+            - paragraph [ref=e103]: Auto-generate highlights, trailers, and chaptered indexes.
+          - generic [ref=e104]:
+            - generic [ref=e105]:
+              - img [ref=e107]
+              - heading "Compliance at scale" [level=3] [ref=e110]
+            - paragraph [ref=e111]: Ad suitability, compliance tagging, and multilingual metadata at scale.
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - img [ref=e115]
+              - heading "Global discoverability" [level=3] [ref=e117]
+            - paragraph [ref=e118]: Search inside video and audio, in any language.
+      - generic [ref=e120]:
+        - heading "Create Characters, not just Voiceovers" [level=2] [ref=e121]
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - generic [ref=e127]:
+              - img [ref=e129]
+              - heading "Configurable voices" [level=3] [ref=e132]
+            - paragraph [ref=e133]: Design and modulate voices—adjust tone, age, accent, and personality in real time.
+          - generic [ref=e134]:
+            - generic [ref=e135]:
+              - img [ref=e137]
+              - heading "Script to audio" [level=3] [ref=e140]
+            - paragraph [ref=e141]: Skip the recording studio—go from script to final audio instantly.
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - img [ref=e145]
+              - heading "Emotion tagging" [level=3] [ref=e153]
+            - paragraph [ref=e154]: Natural emotion tagging for high-fidelity, expressive output.
+          - generic [ref=e155]:
+            - generic [ref=e156]:
+              - img [ref=e158]
+              - heading "Character consistency" [level=3] [ref=e161]
+            - paragraph [ref=e162]: Save and reuse character voices across projects, episodes, and languages.
+      - generic [ref=e164]:
+        - heading "Dubbing, Cloning and Lip Sync that Sounds Natural, not Synthetic" [level=2] [ref=e165]
+        - generic [ref=e169]:
+          - generic [ref=e170]:
+            - generic [ref=e171]:
+              - img [ref=e173]
+              - heading "Advanced dubbing" [level=3] [ref=e177]
+            - paragraph [ref=e178]: Voice-matched dubbing that preserves emotion, tone, and speaker identity.
+          - generic [ref=e179]:
+            - generic [ref=e180]:
+              - img [ref=e182]
+              - heading "Accurate lip sync" [level=3] [ref=e185]
+            - paragraph [ref=e186]: Phoneme-accurate lip sync for film, animation, games, and avatars.
+          - generic [ref=e187]:
+            - generic [ref=e188]:
+              - img [ref=e190]
+              - heading "Low-shot cloning" [level=3] [ref=e193]
+            - paragraph [ref=e194]: Studio-quality clones from just minutes of audio.
+          - generic [ref=e195]:
+            - generic [ref=e196]:
+              - img [ref=e198]
+              - heading "Preserved accents" [level=3] [ref=e201]
+            - paragraph [ref=e202]: Accent and identity preservation across languages.
+      - generic [ref=e206]:
+        - heading "Ready to Localise your Content at Scale?" [level=2] [ref=e207]
+        - paragraph [ref=e208]: Skip stitching multiple vendors. Choose Shunya Lab's one stop solution to configure all your audio and speech intelligence needs across geographies.
+        - link "Contact Sales" [ref=e210] [cursor=pointer]:
+          - /url: /contact
+    - contentinfo [ref=e211]:
+      - generic [ref=e212]:
+        - generic [ref=e213]:
+          - img "Shunya Labs" [ref=e214]
+          - paragraph [ref=e215]: Shunya Labs, Inc.
+        - generic [ref=e216]:
+          - paragraph [ref=e217]: Product
+          - list [ref=e218]:
+            - listitem [ref=e219]:
+              - link "Overview" [ref=e220] [cursor=pointer]:
+                - /url: /overview
+            - listitem [ref=e221]:
+              - link "Models" [ref=e222] [cursor=pointer]:
+                - /url: /models-page
+            - listitem [ref=e223]:
+              - link "Voice Agents" [ref=e224] [cursor=pointer]:
+                - /url: /voice-agent
+            - listitem [ref=e225]:
+              - link "Speech Intelligence" [ref=e226] [cursor=pointer]:
+                - /url: /speech-intelligence-page
+            - listitem [ref=e227]:
+              - link "Audio Processing" [ref=e228] [cursor=pointer]:
+                - /url: /audio-processing
+            - listitem [ref=e229]:
+              - link "Deployment" [ref=e230] [cursor=pointer]:
+                - /url: /deployment
+        - generic [ref=e231]:
+          - paragraph [ref=e232]: Models
+          - list [ref=e233]:
+            - listitem [ref=e234]:
+              - link "Language Models" [ref=e235] [cursor=pointer]:
+                - /url: /language-models
+            - listitem [ref=e236]:
+              - link "Zero STT Indic" [ref=e237] [cursor=pointer]:
+                - /url: /zero-indic
+            - listitem [ref=e238]:
+              - link "Zero STT Codeswitch" [ref=e239] [cursor=pointer]:
+                - /url: /zero-code-switch
+            - listitem [ref=e240]:
+              - link "Zero STT Universal" [ref=e241] [cursor=pointer]:
+                - /url: /zero-stt
+            - listitem [ref=e242]:
+              - link "Specialised Models" [ref=e243] [cursor=pointer]:
+                - /url: /domain-specialisation
+            - listitem [ref=e244]:
+              - link "Zero STT Med" [ref=e245] [cursor=pointer]:
+                - /url: /zero-med
+            - listitem [ref=e246]:
+              - link "On Device Models" [ref=e247] [cursor=pointer]:
+                - /url: /on-device-models
+        - generic [ref=e248]:
+          - paragraph [ref=e249]: Solutions
+          - list [ref=e250]:
+            - listitem [ref=e251]:
+              - link "Contact Centers" [ref=e252] [cursor=pointer]:
+                - /url: /contact-centers
+            - listitem [ref=e253]:
+              - link "Media & Entertainment" [ref=e254] [cursor=pointer]:
+                - /url: /media-entertainment
+            - listitem [ref=e255]:
+              - link "Healthcare" [ref=e256] [cursor=pointer]:
+                - /url: /healthcare
+        - generic [ref=e257]:
+          - paragraph [ref=e258]: Resources
+          - list [ref=e259]:
+            - listitem [ref=e260]:
+              - link "Blogs" [ref=e261] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e262]:
+              - link "Benchmarks" [ref=e263] [cursor=pointer]:
+                - /url: /benchmarks
+            - listitem [ref=e264]:
+              - link "News & Media" [ref=e265] [cursor=pointer]:
+                - /url: /media
+        - paragraph [ref=e267]:
+          - link "Documentation" [ref=e268] [cursor=pointer]:
+            - /url: /documentation/batch-transcriptions/quickstart
+        - list [ref=e270]:
+          - listitem [ref=e271]:
+            - link "About us" [ref=e272] [cursor=pointer]:
+              - /url: /about
+        - list [ref=e274]:
+          - listitem [ref=e275]:
+            - link "Pricing" [ref=e276] [cursor=pointer]:
+              - /url: /pricing
+      - generic [ref=e277]:
+        - paragraph [ref=e278]: Follow us on
+        - generic [ref=e279]:
+          - link [ref=e280] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/shunya-labs-ai/
+            - img [ref=e281]
+          - link [ref=e283] [cursor=pointer]:
+            - /url: https://www.facebook.com/people/ShunyaLabsAI/61577801851308/
+            - img [ref=e284]
+          - link [ref=e286] [cursor=pointer]:
+            - /url: https://www.instagram.com/shunyalabsai/
+            - img [ref=e287]
+          - link [ref=e289] [cursor=pointer]:
+            - /url: https://x.com/ShunyaLabsAI
+            - img [ref=e290]
+      - generic [ref=e292]:
+        - paragraph [ref=e293]: © 2026 Shunya Labs Inc. All rights reserved.
+        - generic [ref=e294]:
+          - link "Privacy" [ref=e295] [cursor=pointer]:
+            - /url: /privacy-policy
+          - link "Terms" [ref=e296] [cursor=pointer]:
+            - /url: /terms-conditions
+          - link "Security" [ref=e297] [cursor=pointer]:
+            - /url: /security-policy
+          - link "General License" [ref=e298] [cursor=pointer]:
+            - /url: /general-rail-m-license
+          - link "Custom License" [ref=e299] [cursor=pointer]:
+            - /url: /shunya-labs-custom-model-rail-m-license
+  - alert [ref=e300]
+  - iframe [ref=e303]:
+    - generic [ref=f1e2]:
+      - generic [ref=f1e5]:
+        - link "Privacy" [ref=f1e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f1e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f1e8]:
+        - generic [ref=f1e9]:
+          - text: protected by
+          - strong [ref=f1e10]: reCAPTCHA
+        - generic [ref=f1e11]: "-"
+```
