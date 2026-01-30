@@ -11626,1883 +11626,1600 @@
     ]
   },
   {
-    "runId": "run_1769770492077_8hgn9ams3",
+    "runId": "run_1769770978868_374wjrl93",
     "runDate": "2026-01-30T07:28:10.967Z",
-    "passed": 205,
-    "failed": 3,
-    "total": 208,
-    "passRate": 99,
+    "passed": 86,
+    "failed": 32,
+    "total": 118,
+    "passRate": 73,
     "tests": [
       {
-        "category": "Module Pages",
-        "moduleName": "Models",
-        "testPoint": "Zero STT Med snapshot",
-        "status": "PASS",
-        "comment": "Snapshot matches (/Users/user/Documents/shunyalabs-web-automation/test-results/module-pages-report.csv)",
-        "timestamp": "2026-01-30T07:28:10.967Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Contact",
-        "testPoint": "Contact CTA - Submit",
-        "status": "PASS",
-        "comment": "Button visible",
-        "timestamp": "2026-01-30T07:14:11.917Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Homepage",
-        "testPoint": "Header CTA - Get Started",
-        "status": "PASS",
-        "comment": "href=/pricing",
-        "timestamp": "2026-01-30T07:15:07.030Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Homepage",
-        "testPoint": "Header CTA - Contact Sales",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:15:09.709Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Homepage",
-        "testPoint": "Header CTA - Sign In",
-        "status": "PASS",
-        "comment": "Button enabled",
-        "timestamp": "2026-01-30T07:15:12.201Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Homepage",
-        "testPoint": "Primary CTA - Cloud API",
-        "status": "PASS",
-        "comment": "href=/pricing",
-        "timestamp": "2026-01-30T07:15:14.983Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Homepage",
-        "testPoint": "Primary CTA - Developer Documentation",
-        "status": "PASS",
-        "comment": "href=/documentation/.../quickstart",
-        "timestamp": "2026-01-30T07:15:17.282Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Homepage",
-        "testPoint": "Primary CTA - Hugging Face",
-        "status": "PASS",
-        "comment": "href=https://huggingface.co/shunyalabs",
-        "timestamp": "2026-01-30T07:15:20.281Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Homepage",
-        "testPoint": "Header CTA - Get Started",
-        "status": "PASS",
-        "comment": "href=/pricing",
-        "timestamp": "2026-01-30T07:15:37.134Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Homepage",
-        "testPoint": "Header CTA - Contact Sales",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:15:39.863Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Homepage",
-        "testPoint": "Header CTA - Sign In",
-        "status": "PASS",
-        "comment": "Button enabled",
-        "timestamp": "2026-01-30T07:15:42.198Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Homepage",
-        "testPoint": "Primary CTA - Cloud API",
-        "status": "PASS",
-        "comment": "href=/pricing",
-        "timestamp": "2026-01-30T07:15:44.651Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Homepage",
-        "testPoint": "Primary CTA - Developer Documentation",
-        "status": "PASS",
-        "comment": "href=/documentation/.../quickstart",
-        "timestamp": "2026-01-30T07:15:46.970Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Homepage",
-        "testPoint": "Primary CTA - Hugging Face",
-        "status": "PASS",
-        "comment": "href=https://huggingface.co/shunyalabs",
-        "timestamp": "2026-01-30T07:15:49.348Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Homepage",
-        "testPoint": "Header CTA - Get Started",
-        "status": "PASS",
-        "comment": "href=/pricing",
-        "timestamp": "2026-01-30T07:20:06.316Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Homepage",
-        "testPoint": "Header CTA - Contact Sales",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:20:10.108Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Homepage",
-        "testPoint": "Header CTA - Sign In",
-        "status": "PASS",
-        "comment": "Button enabled",
-        "timestamp": "2026-01-30T07:20:13.160Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Homepage",
-        "testPoint": "Primary CTA - Cloud API",
-        "status": "PASS",
-        "comment": "href=/pricing",
-        "timestamp": "2026-01-30T07:20:15.312Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Homepage",
-        "testPoint": "Primary CTA - Developer Documentation",
-        "status": "PASS",
-        "comment": "href=/documentation/.../quickstart",
-        "timestamp": "2026-01-30T07:20:17.987Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Homepage",
-        "testPoint": "Primary CTA - Hugging Face",
-        "status": "PASS",
-        "comment": "href=https://huggingface.co/shunyalabs",
-        "timestamp": "2026-01-30T07:20:20.536Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Models",
-        "testPoint": "Language Models CTA - Zero STT Indic",
-        "status": "PASS",
-        "comment": "href=/zero-indic",
-        "timestamp": "2026-01-30T07:24:31.048Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Models",
-        "testPoint": "Language Models CTA - Zero STT Code-switch",
-        "status": "PASS",
-        "comment": "href=/zero-code-switch",
-        "timestamp": "2026-01-30T07:24:33.667Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Models",
-        "testPoint": "Language Models CTA - Zero STT",
-        "status": "PASS",
-        "comment": "href=/zero-stt",
-        "timestamp": "2026-01-30T07:24:35.910Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Models",
-        "testPoint": "Language Models CTA - Try now",
-        "status": "PASS",
-        "comment": "2 links to /documentation/models/language-models",
-        "timestamp": "2026-01-30T07:24:38.299Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Models",
-        "testPoint": "Language Models CTA - Full language list",
-        "status": "PASS",
-        "comment": "href=documentation/languages",
-        "timestamp": "2026-01-30T07:24:41.137Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Models",
-        "testPoint": "Language Models CTA - Get Started",
-        "status": "PASS",
-        "comment": "href=/pricing",
-        "timestamp": "2026-01-30T07:24:43.891Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Models",
-        "testPoint": "Language Models CTA - Contact Sales",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:24:46.318Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Models",
-        "testPoint": "Specialised Models CTA - Try now",
-        "status": "PASS",
-        "comment": "href=/zero-med",
-        "timestamp": "2026-01-30T07:26:03.757Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Models",
-        "testPoint": "Specialised Models CTA - Learn now",
-        "status": "PASS",
-        "comment": "href=/documentation/medical-transcription",
-        "timestamp": "2026-01-30T07:26:07.434Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Models",
-        "testPoint": "Specialised Models CTA - Get Started",
-        "status": "PASS",
-        "comment": "href=/pricing",
-        "timestamp": "2026-01-30T07:26:09.910Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Models",
-        "testPoint": "Specialised Models CTA - Contact Sales",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:26:12.147Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Models",
-        "testPoint": "Zero STT Codeswitch CTA - Get Hinglish API now",
-        "status": "PASS",
-        "comment": "href=/documentation/models/language-models",
-        "timestamp": "2026-01-30T07:27:02.571Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Models",
-        "testPoint": "Zero STT Codeswitch CTA - Try for Free",
-        "status": "PASS",
-        "comment": "href=/pricing",
-        "timestamp": "2026-01-30T07:27:05.508Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Models",
-        "testPoint": "Zero STT Codeswitch CTA - Contact Sales",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:27:07.963Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Models",
-        "testPoint": "Zero STT Indic CTA - Try now",
-        "status": "PASS",
-        "comment": "href=/documentation/models/language-models",
-        "timestamp": "2026-01-30T07:27:35.144Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Models",
-        "testPoint": "Zero STT Indic CTA - Try for Free",
-        "status": "PASS",
-        "comment": "href=/pricing",
-        "timestamp": "2026-01-30T07:27:37.916Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Models",
-        "testPoint": "Zero STT Indic CTA - Contact Sales",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:27:40.664Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Models",
-        "testPoint": "Zero STT Med CTAs",
-        "status": "PASS",
-        "comment": "No CTAs found on page",
-        "timestamp": "2026-01-30T07:28:17.253Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Models",
-        "testPoint": "Zero STT Universal CTA - Get Zero STT API now",
-        "status": "PASS",
-        "comment": "href=/documentation/models/language-models",
-        "timestamp": "2026-01-30T07:28:44.852Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Models",
-        "testPoint": "Zero STT Universal CTA - Get Zero STT API now",
-        "status": "PASS",
-        "comment": "href=/documentation/models/language-models",
-        "timestamp": "2026-01-30T07:28:56.309Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Models",
-        "testPoint": "Zero STT Universal CTA - Get Zero STT API now",
-        "status": "PASS",
-        "comment": "href=/documentation/models/language-models",
-        "timestamp": "2026-01-30T07:29:09.101Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Pricing",
-        "testPoint": "Pricing CTA - Start for free",
-        "status": "PASS",
-        "comment": "Button visible",
-        "timestamp": "2026-01-30T07:29:44.262Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Pricing",
-        "testPoint": "Pricing CTA - Buy Now",
-        "status": "PASS",
-        "comment": "Button visible",
-        "timestamp": "2026-01-30T07:29:46.764Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Pricing",
-        "testPoint": "Pricing CTA - Contact Sales (plan)",
-        "status": "PASS",
-        "comment": "Button visible",
-        "timestamp": "2026-01-30T07:29:49.070Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Pricing",
-        "testPoint": "Pricing CTA - Add $18 to wallet",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:29:51.839Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Pricing",
-        "testPoint": "Pricing CTA - Contact Sales (STT)",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:29:55.052Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Audio Processing CTA - Contact Us",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:30:19.637Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Audio Processing CTA - Get Started",
-        "status": "PASS",
-        "comment": "href=/pricing",
-        "timestamp": "2026-01-30T07:30:22.798Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Audio Processing CTA - Contact Sales",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:30:25.680Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Deployment CTA - Contact Us",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:30:51.969Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Deployment CTA - Get Started",
-        "status": "PASS",
-        "comment": "href=/pricing",
-        "timestamp": "2026-01-30T07:30:54.498Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Deployment CTA - Contact Sales",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:30:57.076Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Documentation",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/documentation/batch-transcriptions/quickstart",
-        "timestamp": "2026-01-30T07:31:35.155Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - About Us",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/about",
-        "timestamp": "2026-01-30T07:31:41.023Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Pricing",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/pricing",
-        "timestamp": "2026-01-30T07:31:46.541Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Get Started",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/pricing",
-        "timestamp": "2026-01-30T07:31:52.067Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Contact Sales",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/contact",
-        "timestamp": "2026-01-30T07:31:57.088Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Try Now",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/contact",
-        "timestamp": "2026-01-30T07:32:02.763Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Learn more →",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/zero-indic",
-        "timestamp": "2026-01-30T07:32:07.654Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Learn more →",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/zero-med",
-        "timestamp": "2026-01-30T07:32:13.034Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Learn more →",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/on-device-models",
-        "timestamp": "2026-01-30T07:32:17.471Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Go to Pricing page",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/pricing",
-        "timestamp": "2026-01-30T07:32:22.274Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Contact Sales",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/contact",
-        "timestamp": "2026-01-30T07:32:27.095Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Overview",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/overview",
-        "timestamp": "2026-01-30T07:32:32.240Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Models",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/contact/contact/actions.spec.js › Contact - Contact Us actions (Figma exact) › Form fields and checkboxes visible",
         "status": "FAIL",
-        "comment": "CTA did not navigate to another page",
-        "timestamp": "2026-01-30T07:33:07.483Z",
-        "attachments": []
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByLabel('Name *')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByLabel('Name *')\u001b[22m\n\n\n  13 |     });\n  14 |\n> 15 |     await expect(page.getByLabel('Name *')).toBeVisible();\n     |                                             ^\n  16 |     await expect(page.getByLabel('Work Email *')).toBeVi",
+        "timestamp": "2026-01-30T07:13:42.071Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
       },
       {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Voice Agents",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/voice-agent",
-        "timestamp": "2026-01-30T07:33:10.089Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Speech Intelligence",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/speech-intelligence-page",
-        "timestamp": "2026-01-30T07:33:15.439Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Audio Processing",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/audio-processing",
-        "timestamp": "2026-01-30T07:33:20.356Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Deployment",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/deployment",
-        "timestamp": "2026-01-30T07:33:24.888Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Language Models",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/language-models",
-        "timestamp": "2026-01-30T07:33:29.740Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Zero STT Indic",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/zero-indic",
-        "timestamp": "2026-01-30T07:33:34.571Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Zero STT Codeswitch",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/zero-code-switch",
-        "timestamp": "2026-01-30T07:33:38.954Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Zero STT Universal",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/zero-stt",
-        "timestamp": "2026-01-30T07:33:43.741Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Specialised Models",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/domain-specialisation",
-        "timestamp": "2026-01-30T07:33:48.804Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Zero STT Med",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/zero-med",
-        "timestamp": "2026-01-30T07:33:53.978Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - On Device Models",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/on-device-models",
-        "timestamp": "2026-01-30T07:33:58.738Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Contact Centers",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/contact-centers",
-        "timestamp": "2026-01-30T07:34:02.938Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Media & Entertainment",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/media-entertainment",
-        "timestamp": "2026-01-30T07:34:07.505Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Healthcare",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/healthcare",
-        "timestamp": "2026-01-30T07:34:11.788Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Blogs",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/blog",
-        "timestamp": "2026-01-30T07:34:16.247Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Benchmarks",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/benchmarks",
-        "timestamp": "2026-01-30T07:34:21.225Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - News & Media",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/media",
-        "timestamp": "2026-01-30T07:34:26.655Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Documentation",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/documentation/batch-transcriptions/quickstart",
-        "timestamp": "2026-01-30T07:34:31.485Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - About us",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/about",
-        "timestamp": "2026-01-30T07:34:36.191Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Pricing",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/pricing",
-        "timestamp": "2026-01-30T07:34:41.333Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Privacy",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/privacy-policy",
-        "timestamp": "2026-01-30T07:34:45.893Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Terms",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/terms-conditions",
-        "timestamp": "2026-01-30T07:34:50.781Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Security",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/security-policy",
-        "timestamp": "2026-01-30T07:34:56.455Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - General License",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/general-rail-m-license",
-        "timestamp": "2026-01-30T07:35:01.591Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Models CTA - Custom License",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/shunya-labs-custom-model-rail-m-license",
-        "timestamp": "2026-01-30T07:35:08.446Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Documentation",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/documentation/batch-transcriptions/quickstart",
-        "timestamp": "2026-01-30T07:35:45.300Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - About Us",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/about",
-        "timestamp": "2026-01-30T07:35:50.040Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Pricing",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/pricing",
-        "timestamp": "2026-01-30T07:35:55.422Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Get Started",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/pricing",
-        "timestamp": "2026-01-30T07:36:00.318Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Contact Sales",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/contact",
-        "timestamp": "2026-01-30T07:36:05.364Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Learn more →",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/language-models",
-        "timestamp": "2026-01-30T07:36:09.579Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - See full list of features in documentation",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/documentation/features/speaker-diarization",
-        "timestamp": "2026-01-30T07:36:14.305Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Go to Pricing page",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/pricing",
-        "timestamp": "2026-01-30T07:36:19.237Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Contact Sales",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/contact",
-        "timestamp": "2026-01-30T07:36:23.588Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Overview",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/contact/contact/content.spec.js › Contact - Contact Us content (Figma exact) › Matches exact contact copy and ordering",
         "status": "FAIL",
-        "comment": "CTA did not navigate to another page",
-        "timestamp": "2026-01-30T07:36:57.899Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Models",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/models-page",
-        "timestamp": "2026-01-30T07:37:02.053Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Voice Agents",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/voice-agent",
-        "timestamp": "2026-01-30T07:37:06.689Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Speech Intelligence",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/speech-intelligence-page",
-        "timestamp": "2026-01-30T07:37:10.688Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Audio Processing",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/audio-processing",
-        "timestamp": "2026-01-30T07:37:15.153Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Deployment",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/deployment",
-        "timestamp": "2026-01-30T07:37:19.405Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Language Models",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/language-models",
-        "timestamp": "2026-01-30T07:37:23.942Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Zero STT Indic",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/zero-indic",
-        "timestamp": "2026-01-30T07:37:28.227Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Zero STT Codeswitch",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/zero-code-switch",
-        "timestamp": "2026-01-30T07:37:33.426Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Zero STT Universal",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/zero-stt",
-        "timestamp": "2026-01-30T07:37:38.775Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Specialised Models",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/domain-specialisation",
-        "timestamp": "2026-01-30T07:37:43.122Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Zero STT Med",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/zero-med",
-        "timestamp": "2026-01-30T07:37:48.078Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - On Device Models",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/on-device-models",
-        "timestamp": "2026-01-30T07:37:52.571Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Contact Centers",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/contact-centers",
-        "timestamp": "2026-01-30T07:37:57.922Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Media & Entertainment",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/media-entertainment",
-        "timestamp": "2026-01-30T07:38:02.188Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Healthcare",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/healthcare",
-        "timestamp": "2026-01-30T07:38:06.836Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Blogs",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/blog",
-        "timestamp": "2026-01-30T07:38:11.453Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Benchmarks",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/benchmarks",
-        "timestamp": "2026-01-30T07:38:15.655Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - News & Media",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/media",
-        "timestamp": "2026-01-30T07:38:20.005Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Documentation",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/documentation/batch-transcriptions/quickstart",
-        "timestamp": "2026-01-30T07:38:27.692Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - About us",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/about",
-        "timestamp": "2026-01-30T07:38:33.145Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Pricing",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/pricing",
-        "timestamp": "2026-01-30T07:38:37.594Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Privacy",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/privacy-policy",
-        "timestamp": "2026-01-30T07:38:42.279Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Terms",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/terms-conditions",
-        "timestamp": "2026-01-30T07:38:48.083Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Security",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/security-policy",
-        "timestamp": "2026-01-30T07:38:52.999Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - General License",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/general-rail-m-license",
-        "timestamp": "2026-01-30T07:38:57.683Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Overview CTA - Custom License",
-        "status": "PASS",
-        "comment": "CTA navigation OK: https://www.shunyalabs.ai/shunya-labs-custom-model-rail-m-license",
-        "timestamp": "2026-01-30T07:39:02.550Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Speech Intelligence CTA - Try Now",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:39:39.313Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Speech Intelligence CTA - Get Started",
-        "status": "PASS",
-        "comment": "href=/pricing",
-        "timestamp": "2026-01-30T07:39:42.870Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Speech Intelligence CTA - Contact Sales",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:39:45.218Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Voice Agents CTA - Contact us",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:40:13.207Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Voice Agents CTA - Get Started",
-        "status": "PASS",
-        "comment": "href=/pricing",
-        "timestamp": "2026-01-30T07:40:15.434Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Product",
-        "testPoint": "Voice Agents CTA - Contact Sales",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:40:21.005Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Resources",
-        "testPoint": "Benchmarks CTA - Book a Meeting",
-        "status": "PASS",
-        "comment": "Button visible",
-        "timestamp": "2026-01-30T07:40:54.510Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Resources",
-        "testPoint": "Benchmarks CTA - Get Started",
-        "status": "PASS",
-        "comment": "href=/pricing",
-        "timestamp": "2026-01-30T07:40:57.415Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Resources",
-        "testPoint": "Benchmarks CTA - Contact Sales",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:40:59.959Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Resources",
-        "testPoint": "Blogs CTA - Featured",
-        "status": "PASS",
-        "comment": "href=/blog/introducing-zero-stt-med-medical-speech-to-text-for-healthcare",
-        "timestamp": "2026-01-30T07:41:48.021Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Resources",
-        "testPoint": "Blogs CTA - Why Multilingual Voice AI Fails on Real-World Audio — and How We Fixed It",
-        "status": "PASS",
-        "comment": "href=/blog/why-multilingual-voice-ai-fails-on-real-world-audio-and-how-we-fixed-it",
-        "timestamp": "2026-01-30T07:41:50.664Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Resources",
-        "testPoint": "Blogs CTA - Getting Started with ASR APIs: Python Quickstart",
-        "status": "PASS",
-        "comment": "href=/blog/getting-started-with-asr-apis-python-quickstart",
-        "timestamp": "2026-01-30T07:41:53.636Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Resources",
-        "testPoint": "Blogs CTA - Getting Started with ASR APIs: Node.js Quickstart",
-        "status": "PASS",
-        "comment": "href=/blog/getting-started-with-asr-apis-node-js-quickstart",
-        "timestamp": "2026-01-30T07:41:55.767Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Resources",
-        "testPoint": "Blogs CTA - Benchmarking Top Open-Source Speech Recognition Models",
-        "status": "PASS",
-        "comment": "href=/blog/benchmarking-top-open-source-speech-recognition-models",
-        "timestamp": "2026-01-30T07:41:57.982Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Resources",
-        "testPoint": "Blogs CTA - Top 10 AI Transcription Tools: A Simple Comparison",
-        "status": "PASS",
-        "comment": "href=/blog/top-10-ai-transcription-tools-a-simple-comparison",
-        "timestamp": "2026-01-30T07:42:00.247Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Resources",
-        "testPoint": "Blogs CTA - Speech-to-Text AI in Action: Top 10 Use Cases Across Industries",
-        "status": "PASS",
-        "comment": "href=/blog/speech-to-text-ai-in-action-top-10-use-cases-across-industries",
-        "timestamp": "2026-01-30T07:42:03.103Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Resources",
-        "testPoint": "Blogs CTA - Get Started",
-        "status": "PASS",
-        "comment": "href=/pricing",
-        "timestamp": "2026-01-30T07:42:05.705Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Resources",
-        "testPoint": "Blogs CTA - Contact Sales",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:42:08.363Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Resources",
-        "testPoint": "Patents CTA - Contact Us",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:42:36.330Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Resources",
-        "testPoint": "Patents CTA - Get Started",
-        "status": "PASS",
-        "comment": "href=/pricing",
-        "timestamp": "2026-01-30T07:42:38.782Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Resources",
-        "testPoint": "Patents CTA - Contact Sales",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:42:40.882Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Solutions",
-        "testPoint": "Contact Centers CTA - Live Demo",
-        "status": "PASS",
-        "comment": "href=/",
-        "timestamp": "2026-01-30T07:43:10.227Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Solutions",
-        "testPoint": "Contact Centers CTA - Try Now",
-        "status": "PASS",
-        "comment": "3 buttons visible",
-        "timestamp": "2026-01-30T07:43:12.925Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Solutions",
-        "testPoint": "Contact Centers CTA - Try for Free",
-        "status": "PASS",
-        "comment": "href=/pricing",
-        "timestamp": "2026-01-30T07:43:15.136Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Solutions",
-        "testPoint": "Contact Centers CTA - Contact Sales",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:43:18.191Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Solutions",
-        "testPoint": "Healthcare CTA - Live Demo",
-        "status": "PASS",
-        "comment": "href=/",
-        "timestamp": "2026-01-30T07:43:47.253Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Solutions",
-        "testPoint": "Healthcare CTA - Try Now",
-        "status": "PASS",
-        "comment": "3 buttons visible",
-        "timestamp": "2026-01-30T07:43:51.061Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Solutions",
-        "testPoint": "Healthcare CTA - Try for Free",
-        "status": "PASS",
-        "comment": "href=/pricing",
-        "timestamp": "2026-01-30T07:43:53.659Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Solutions",
-        "testPoint": "Healthcare CTA - Contact Sales",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:43:56.301Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Solutions",
-        "testPoint": "Media CTA - Hero Contact Sales",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:44:24.156Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Solutions",
-        "testPoint": "Media CTA - Bottom Contact Sales",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:44:26.603Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Solutions",
-        "testPoint": "Use Cases CTA - Voice Agents",
-        "status": "PASS",
-        "comment": "href=/voice-agent",
-        "timestamp": "2026-01-30T07:44:55.882Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Solutions",
-        "testPoint": "Use Cases CTA - Medical Documentation",
-        "status": "PASS",
-        "comment": "href=/healthcare",
-        "timestamp": "2026-01-30T07:44:58.457Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Solutions",
-        "testPoint": "Use Cases CTA - Contact Center",
-        "status": "PASS",
-        "comment": "href=/contact-centers",
-        "timestamp": "2026-01-30T07:45:01.613Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Solutions",
-        "testPoint": "Use Cases CTA - Meeting Transcription",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:45:04.125Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Solutions",
-        "testPoint": "Use Cases CTA - Get Started",
-        "status": "PASS",
-        "comment": "href=/pricing",
-        "timestamp": "2026-01-30T07:45:07.576Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Cta",
-        "moduleName": "Solutions",
-        "testPoint": "Use Cases CTA - Contact Sales",
-        "status": "PASS",
-        "comment": "href=/contact",
-        "timestamp": "2026-01-30T07:45:10.838Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Actions",
-        "moduleName": "Homepage",
-        "testPoint": "Homepage Action - Speech To Text",
-        "status": "PASS",
-        "comment": "Button enabled",
-        "timestamp": "2026-01-30T07:14:19.473Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Actions",
-        "moduleName": "Homepage",
-        "testPoint": "Homepage Action - Medical Transcription",
-        "status": "PASS",
-        "comment": "Button enabled",
-        "timestamp": "2026-01-30T07:14:21.980Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Actions",
-        "moduleName": "Homepage",
-        "testPoint": "Homepage Action - Customer Support Call",
-        "status": "PASS",
-        "comment": "Button enabled",
-        "timestamp": "2026-01-30T07:14:24.907Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Actions",
-        "moduleName": "Homepage",
-        "testPoint": "Homepage Action - Podcast",
-        "status": "PASS",
-        "comment": "Button enabled",
-        "timestamp": "2026-01-30T07:14:27.441Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Actions",
-        "moduleName": "Homepage",
-        "testPoint": "Homepage Action - Upload your file",
-        "status": "PASS",
-        "comment": "Button enabled",
-        "timestamp": "2026-01-30T07:14:29.916Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Actions",
-        "moduleName": "Homepage",
-        "testPoint": "Homepage Action - Start Speaking",
-        "status": "PASS",
-        "comment": "Button enabled",
-        "timestamp": "2026-01-30T07:14:32.387Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Actions",
-        "moduleName": "Homepage",
-        "testPoint": "Homepage Action - Play audio",
-        "status": "PASS",
-        "comment": "Button enabled",
-        "timestamp": "2026-01-30T07:14:35.710Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Actions",
-        "moduleName": "Homepage",
-        "testPoint": "Homepage Action - No conversation to copy",
-        "status": "PASS",
-        "comment": "Button disabled as expected",
-        "timestamp": "2026-01-30T07:14:38.375Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Actions",
-        "moduleName": "Models",
-        "testPoint": "Language Models Actions - Try now",
-        "status": "PASS",
-        "comment": "2 links visible",
-        "timestamp": "2026-01-30T07:24:14.442Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Actions",
-        "moduleName": "Models",
-        "testPoint": "On Device Models Action - Contact Us",
-        "status": "PASS",
-        "comment": "Link visible",
-        "timestamp": "2026-01-30T07:24:53.334Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Actions",
-        "moduleName": "Models",
-        "testPoint": "Specialised Models Actions",
-        "status": "PASS",
-        "comment": "Try now + Learn now visible",
-        "timestamp": "2026-01-30T07:25:43.880Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Actions",
-        "moduleName": "Models",
-        "testPoint": "Zero STT Indic Action - Try now",
-        "status": "PASS",
-        "comment": "Link visible",
-        "timestamp": "2026-01-30T07:27:14.372Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Actions",
-        "moduleName": "Models",
-        "testPoint": "Zero STT Med Action - 🇺🇸English",
-        "status": "PASS",
-        "comment": "Action button enabled",
-        "timestamp": "2026-01-30T07:27:47.212Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Actions",
-        "moduleName": "Models",
-        "testPoint": "Zero STT Med Action - Patient Notes",
-        "status": "PASS",
-        "comment": "Action button enabled",
-        "timestamp": "2026-01-30T07:27:49.549Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Actions",
-        "moduleName": "Models",
-        "testPoint": "Zero STT Med Action - Doctor's Appointment",
-        "status": "PASS",
-        "comment": "Action button enabled",
-        "timestamp": "2026-01-30T07:27:52.168Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Actions",
-        "moduleName": "Models",
-        "testPoint": "Zero STT Med Action - Upload your file",
-        "status": "PASS",
-        "comment": "Action button enabled",
-        "timestamp": "2026-01-30T07:27:54.625Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Actions",
-        "moduleName": "Models",
-        "testPoint": "Zero STT Med Action - Start Speaking",
-        "status": "PASS",
-        "comment": "Action button enabled",
-        "timestamp": "2026-01-30T07:27:57.726Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Actions",
-        "moduleName": "Models",
-        "testPoint": "Zero STT Med Action - Play audio",
-        "status": "PASS",
-        "comment": "Action button enabled",
-        "timestamp": "2026-01-30T07:28:00.851Z",
-        "attachments": []
-      },
-      {
-        "category": "Module Actions",
-        "moduleName": "Models",
-        "testPoint": "Zero STT Med Action - No conversation to copy",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 0\u001b[39m\n\n\u001b[33m@@ -1,11 +1,10 @@\u001b[39m\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    \"Our Offices\",\u001b[22m\n\u001b[2m    \"Los Angeles (HQ)\",\u001b[22m\n\u001b[2m    \"Unit 303, 10645 Wilshire Blvd, Los Angeles, 90024\",\u001b[22m\n\u001b[2m    \"Gurgaon, IN\",\u001b[22m\n\u001b[32m-   \"22nd Floor, Ireo Grand View Tower, Sector 58, Gurugram, Haryana, 122002\",\u001b[39m\n\u001b[2m    \"+91 99713 41448\",\u001b[22m\n\u001b[2m    ",
+        "timestamp": "2026-01-30T07:14:00.944Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/contact/contact/cta.spec.js › Contact - Contact Us CTAs (Figma exact) › CTA visibility",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:14:05.998Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/homepage/homepage/actions.spec.js › Homepage - actions (Figma exact) › Playground actions are enabled",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:14:15.132Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/homepage/homepage/content.spec.js › Homepage - content (Figma exact) › Matches exact homepage copy and ordering",
         "status": "FAIL",
-        "comment": "Action button is disabled",
-        "timestamp": "2026-01-30T07:28:03.384Z",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 0\u001b[39m\n\n\u001b[33m@@ -1,7 +1,6 @@\u001b[39m\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"Shunya Labs Logo\",\u001b[39m\n\u001b[2m    \"Product\",\u001b[22m\n\u001b[2m    \"Models\",\u001b[22m\n\u001b[2m    \"Solutions\",\u001b[22m\n\u001b[2m    \"Resources\",\u001b[22m\n\u001b[2m    \"Documentation\",\u001b[22m\n\n  26 |\n  27 |     const headerNav = homepage.normalizeTextList(await homepage.getHeaderNavLabels());\n> 28 |     expect(hea",
+        "timestamp": "2026-01-30T07:14:54.932Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/homepage/homepage/cta.spec.js › Homepage - CTAs (Figma exact) › CTA labels + destinations",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('The fastest way to add voice AI to your products').locator('..').getByRole('link', { name: 'Get Started' }).first()\nExpected: \u001b[32m\"/pricing\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('The fastest way to add voice AI to your products').locator('..').getByRole('",
+        "timestamp": "2026-01-30T07:20:01.161Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/homepage/homepage/footer.spec.js › Homepage - footer menu (Figma exact) › Footer columns, follow us, copyright",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"Follow us on\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\n\n  24 |\n  25 |     const footerData = await homepage.getFooterMenuStructure();\n> 26 |     expect(footerData.followUs).toBe(footerExpectations.followUs);\n     |                                 ^\n  27 |     expect(footerData.copyright).toBe(footerExpectations.copyright);\n  28 |\n  29 |     const expectedColumns = footerExpect",
+        "timestamp": "2026-01-30T07:23:25.012Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/homepage/homepage/nav.spec.js › Homepage - navigation (Figma exact) › Top nav dropdowns match labels, descriptions, and hrefs",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 32\u001b[39m\n\u001b[31m+ Received  +  1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   Object {\u001b[39m\n\u001b[32m-     \"description\": \"High-level view of the Shunya Labs AI ecosystem\",\u001b[39m\n\u001b[32m-     \"href\": \"/overview\",\u001b[39m\n\u001b[32m-     \"label\": \"Overview\",\u001b[39m\n\u001b[32m-   },\u001b[39m\n\u001b[32m-   Object {\u001b[39m\n\u001b[32m-     \"description\": \"Explore detailed specifications of our AI models\",\u001b[39m\n\u001b[32m- ",
+        "timestamp": "2026-01-30T07:23:46.963Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/homepage/homepage/widget.spec.js › Homepage - widget (Figma exact) › Widget content and actions",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 17\u001b[39m\n\u001b[31m+ Received  +  1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"Speech To Text\",\u001b[39m\n\u001b[32m-   \"Medical Transcription\",\u001b[39m\n\u001b[32m-   \"Language\",\u001b[39m\n\u001b[32m-   \"🇺🇸English\",\u001b[39m\n\u001b[32m-   \"Input Audio\",\u001b[39m\n\u001b[32m-   \"Pre-recorded\",\u001b[39m\n\u001b[32m-   \"Customer Support Call\",\u001b[39m\n\u001b[32m-   \"Podcast\",\u001b[39m\n\u001b[32m-   \"Upload your file\",\u001b[39m\n\u001b[32m-   \"or\",\u001b[39m\n\u001b[32m-",
+        "timestamp": "2026-01-30T07:24:03.789Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/language-models/actions.spec.js › Models - Language Models actions (Figma exact) › Try now links visible",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:24:11.643Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Models",
-        "testPoint": "Zero STT Universal Actions - Widget",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/language-models/content.spec.js › Models - Language Models content (Figma exact) › Matches exact language models copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    \"Zero STT Indic\",\u001b[22m\n\u001b[2m    \"Superior Indic models for industry best accuracy and speed in transcribing speech in Hindi, Bengali, Kannada and Telugu.\",\u001b[22m\n\u001b[2m    \"Learn more\",\u001b[22m\n\u001b[31m+   \"Learn more\",\u001b[39m\n\u001b[2m    \"Zero STT Code-switch\",\u001b[22m\n\u001b[2m    \"The only model in the world that processes ",
+        "timestamp": "2026-01-30T07:24:24.669Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/language-models/cta.spec.js › Models - Language Models CTAs (Figma exact) › CTA hrefs",
         "status": "PASS",
-        "comment": "Widget actions verified",
-        "timestamp": "2026-01-30T07:28:24.390Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:24:28.011Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Pricing",
-        "testPoint": "Pricing Actions - STT Tabs",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/on-device-models/actions.spec.js › Models - On Device Models actions (Figma exact) › Contact Us visible",
         "status": "PASS",
-        "comment": "Batch/Realtime visible",
-        "timestamp": "2026-01-30T07:29:22.491Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:24:49.542Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Pricing",
-        "testPoint": "Pricing Actions - Slider",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/on-device-models/content.spec.js › Models - On Device Models content (Figma exact) › Matches exact on-device models copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"Contact Us\",\u001b[39m\n\u001b[32m- ]\u001b[39m\n\u001b[31m+ Array []\u001b[39m\n\n  36 |       await onDevice.getSectionTextByAnchors(expectations.contactCta)\n  37 |     );\n> 38 |     expect(contactText).toEqual(expectations.contactCta);\n     |                         ^\n  39 |\n  40 |     const bottomCtaText = onDevice.normalize",
+        "timestamp": "2026-01-30T07:25:05.539Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/on-device-models/cta.spec.js › Models - On Device Models CTAs (Figma exact) › CTA hrefs",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('link', { name: 'Contact Us' }).first()\nExpected: \u001b[32m\"\u001b[7m/\u001b[27mcontact\"\u001b[39m\nReceived: \u001b[31m\"contact\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('link', { name: 'Contact Us' }).first()\u001b[22m\n\u001b[2m    9 × locator resolved to <a href=\"contact\" class=\"px-10 py-3 rounded-full text-white text",
+        "timestamp": "2026-01-30T07:25:29.023Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/specialised-models/actions.spec.js › Models - Specialised Models actions (Figma exact) › Try now / Learn now visible",
         "status": "PASS",
-        "comment": "Voice agents slider visible",
-        "timestamp": "2026-01-30T07:29:25.137Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:25:39.434Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Product",
-        "testPoint": "Audio Processing Action - Contact Us",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/specialised-models/content.spec.js › Models - Specialised Models content (Figma exact) › Matches exact specialised models copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    \"Zero STT Med\",\u001b[22m\n\u001b[2m    \"Medical transcription model trained on clinical audio, built to capture medical terminology and abbreviations.\",\u001b[22m\n\u001b[2m    \"Try now\",\u001b[22m\n\u001b[31m+   \"Try now\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  25 |       await specialised.getSectionTextByAnchors(expectations.zeroMed)\n  26 |     );\n> ",
+        "timestamp": "2026-01-30T07:25:55.944Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/specialised-models/cta.spec.js › Models - Specialised Models CTAs (Figma exact) › CTA hrefs",
         "status": "PASS",
-        "comment": "Link visible",
-        "timestamp": "2026-01-30T07:30:01.423Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:26:00.919Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Product",
-        "testPoint": "Deployment Action - Contact Us",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-codeswitch/actions.spec.js › Models - Zero STT Codeswitch actions (Figma exact) › Widget buttons enabled",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeEnabled\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Customer Support Call' }).first()\nExpected: enabled\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeEnabled\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Customer Support Call' }).first()\u001b[22m\n\n\n  23 |     for (const label of enabledButtons) {\n  24 |       const button = page.getByRole('button', { name: label }).f",
+        "timestamp": "2026-01-30T07:26:34.149Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-codeswitch/content.spec.js › Models - Zero STT Codeswitch content (Figma exact) › Matches exact codeswitch copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 13\u001b[39m\n\u001b[31m+ Received  +  1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"Input Audio\",\u001b[39m\n\u001b[32m-   \"Pre-recorded\",\u001b[39m\n\u001b[32m-   \"Customer Support Call\",\u001b[39m\n\u001b[32m-   \"Podcast\",\u001b[39m\n\u001b[32m-   \"Upload your file\",\u001b[39m\n\u001b[32m-   \"or\",\u001b[39m\n\u001b[32m-   \"Live recording\",\u001b[39m\n\u001b[32m-   \"Start Speaking\",\u001b[39m\n\u001b[32m-   \"Play audio\",\u001b[39m\n\u001b[32m-   \"No conversation to copy\",\u001b[39m",
+        "timestamp": "2026-01-30T07:26:53.554Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-codeswitch/cta.spec.js › Models - Zero STT Codeswitch CTAs (Figma exact) › CTA hrefs",
         "status": "PASS",
-        "comment": "Link visible",
-        "timestamp": "2026-01-30T07:30:32.111Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:26:58.267Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Product",
-        "testPoint": "Models Action - Product",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-indic/actions.spec.js › Models - Zero STT Indic actions (Figma exact) › Try now link visible",
         "status": "PASS",
-        "comment": "Action button enabled",
-        "timestamp": "2026-01-30T07:31:02.495Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:27:10.682Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Product",
-        "testPoint": "Models Action - Models",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-indic/content.spec.js › Models - Zero STT Indic content (Figma exact) › Matches exact Zero STT Indic copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"Try now\",\u001b[39m\n\u001b[32m- ]\u001b[39m\n\u001b[31m+ Array []\u001b[39m\n\n  45 |       await zeroIndic.getSectionTextByAnchors(expectations.cta)\n  46 |     );\n> 47 |     expect(ctaText).toEqual(expectations.cta);\n     |                     ^\n  48 |\n  49 |     const bottomCtaText = zeroIndic.normalizeTextList(\n  50 |       ",
+        "timestamp": "2026-01-30T07:27:26.596Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-indic/cta.spec.js › Models - Zero STT Indic CTAs (Figma exact) › CTA hrefs",
         "status": "PASS",
-        "comment": "Action button enabled",
-        "timestamp": "2026-01-30T07:31:05.724Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:27:31.656Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Product",
-        "testPoint": "Models Action - Solutions",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-med/actions.spec.js › Models - Zero STT Med actions › Actions",
         "status": "PASS",
-        "comment": "Action button enabled",
-        "timestamp": "2026-01-30T07:31:08.455Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:27:43.903Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Product",
-        "testPoint": "Models Action - Resources",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-med/content.spec.js › Models - Zero STT Med content › Content snapshot",
         "status": "PASS",
-        "comment": "Action button enabled",
-        "timestamp": "2026-01-30T07:31:11.047Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:28:06.446Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Product",
-        "testPoint": "Models Action - Sign In",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-med/cta.spec.js › Models - Zero STT Med CTAs › CTAs",
         "status": "PASS",
-        "comment": "Action button enabled",
-        "timestamp": "2026-01-30T07:31:13.749Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:28:13.776Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Product",
-        "testPoint": "Overview Action - Product",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-universal/actions.spec.js › Models - Zero STT Universal actions (Figma exact) › Widget buttons enabled",
         "status": "PASS",
-        "comment": "Action button enabled",
-        "timestamp": "2026-01-30T07:35:14.370Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:28:20.995Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Product",
-        "testPoint": "Overview Action - Models",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-universal/content.spec.js › Models - Zero STT Universal content (Figma exact) › Matches exact Zero STT Universal copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 15\u001b[39m\n\u001b[31m+ Received  +  1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"Language\",\u001b[39m\n\u001b[32m-   \"🇺🇸English\",\u001b[39m\n\u001b[32m-   \"Input Audio\",\u001b[39m\n\u001b[32m-   \"Pre-recorded\",\u001b[39m\n\u001b[32m-   \"Customer Support Call\",\u001b[39m\n\u001b[32m-   \"Podcast\",\u001b[39m\n\u001b[32m-   \"Upload your file\",\u001b[39m\n\u001b[32m-   \"or\",\u001b[39m\n\u001b[32m-   \"Live recording\",\u001b[39m\n\u001b[32m-   \"Start Speaking\",\u001b[39m\n\u001b[32m-   \"Pla",
+        "timestamp": "2026-01-30T07:28:35.406Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-universal/cta.spec.js › Models - Zero STT Universal CTAs (Figma exact) › CTA hrefs",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('link', { name: 'Try for Free' }).first()\nExpected: \u001b[32m\"/pricing\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('link', { name: 'Try for Free' }).first()\u001b[22m\n\n\n  18 |\n  19 |     const bottomTry = page.getByRole('link', { name: 'Try for Free' }).first();\n> 20 |   ",
+        "timestamp": "2026-01-30T07:29:04.902Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/pricing/pricing/actions.spec.js › Pricing - Pricing actions (Figma exact) › Tabs and slider visible",
         "status": "PASS",
-        "comment": "Action button enabled",
-        "timestamp": "2026-01-30T07:35:16.814Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:29:17.668Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Product",
-        "testPoint": "Overview Action - Solutions",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/pricing/pricing/content.spec.js › Pricing - Pricing content (Figma exact) › Matches exact pricing copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 27\u001b[39m\n\u001b[31m+ Received  +  1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"Pay as you go\",\u001b[39m\n\u001b[32m-   \"Free\",\u001b[39m\n\u001b[32m-   \"$200\",\u001b[39m\n\u001b[32m-   \"of Credit\",\u001b[39m\n\u001b[32m-   \"Then pay-as-you-go. No minimums. No expiration. No credit card required.\",\u001b[39m\n\u001b[32m-   \"Industry leading speech to text foundation models\",\u001b[39m\n\u001b[32m-   \"Advanced intelligence features\",\u001b[39m\n\u001b[",
+        "timestamp": "2026-01-30T07:29:35.348Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/pricing/pricing/cta.spec.js › Pricing - Pricing CTAs (Figma exact) › CTA hrefs",
         "status": "PASS",
-        "comment": "Action button enabled",
-        "timestamp": "2026-01-30T07:35:19.351Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:29:38.795Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Product",
-        "testPoint": "Overview Action - Resources",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/audio-processing/actions.spec.js › Product - Audio Processing actions (Figma exact) › Contact CTA visible",
         "status": "PASS",
-        "comment": "Action button enabled",
-        "timestamp": "2026-01-30T07:35:23.010Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:29:58.083Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Product",
-        "testPoint": "Overview Action - Sign In",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/audio-processing/content.spec.js › Product - Audio Processing content (Figma exact) › Matches exact audio processing copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"Contact Us\",\u001b[39m\n\u001b[32m- ]\u001b[39m\n\u001b[31m+ Array []\u001b[39m\n\n  35 |       await audio.getSectionTextByAnchors(expectations.contactCta)\n  36 |     );\n> 37 |     expect(contactText).toEqual(expectations.contactCta);\n     |                         ^\n  38 |\n  39 |     const bottomCtaText = audio.normalizeTextLi",
+        "timestamp": "2026-01-30T07:30:12.484Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/audio-processing/cta.spec.js › Product - Audio Processing CTAs (Figma exact) › CTA hrefs",
         "status": "PASS",
-        "comment": "Action button enabled",
-        "timestamp": "2026-01-30T07:35:26.243Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:30:16.866Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Product",
-        "testPoint": "Speech Intelligence Action - Try Now",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/deployment/actions.spec.js › Product - Deployment actions (Figma exact) › Contact CTA visible",
         "status": "PASS",
-        "comment": "Link visible",
-        "timestamp": "2026-01-30T07:39:11.541Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:30:28.722Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Product",
-        "testPoint": "Voice Agents Action - Contact us",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/deployment/content.spec.js › Product - Deployment content (Figma exact) › Matches exact deployment copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -  1\u001b[39m\n\u001b[31m+ Received  + 14\u001b[39m\n\n\u001b[33m@@ -3,8 +3,21 @@\u001b[39m\n\u001b[2m    \"Fully managed infrastructure for rapid deployment and effortless scaling.\",\u001b[22m\n\u001b[2m    \"Capabilities\",\u001b[22m\n\u001b[2m    \"Zero infrastructure management\",\u001b[22m\n\u001b[2m    \"Instant auto-scaling\",\u001b[22m\n\u001b[2m    \"Global low-latency access\",\u001b[22m\n\u001b[32m-   \"Ideal for:\",\u001b[39m\n\u001b[31m+   \"Startups and fast-g",
+        "timestamp": "2026-01-30T07:30:43.501Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/deployment/cta.spec.js › Product - Deployment CTAs (Figma exact) › CTA hrefs",
         "status": "PASS",
-        "comment": "Link visible",
-        "timestamp": "2026-01-30T07:39:50.888Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:30:47.232Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Resources",
-        "testPoint": "Benchmarks Actions - Tabs",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/models/actions.spec.js › Product - Models actions › Actions",
         "status": "PASS",
-        "comment": "Tabs visible",
-        "timestamp": "2026-01-30T07:40:28.094Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:30:59.780Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Resources",
-        "testPoint": "Blogs Action - Search",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/models/content.spec.js › Product - Models content (Figma exact) › Matches exact models copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -1,11 +1,11 @@\u001b[39m\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    \"Language Models\",\u001b[22m\n\u001b[2m    \"Global coverage across 200+ languages with state-of-the-art Indic and code-switch capabilities for exceptional accuracy.\",\u001b[22m\n\u001b[2m    \"Zero STT Indic\",\u001b[22m\n\u001b[2m    \"Superior accuracy for deep Indic language support\",\u001b[22m\n\u001b[32m-   \"Learn mo",
+        "timestamp": "2026-01-30T07:31:25.111Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/models/cta.spec.js › Product - Models CTAs › CTAs",
         "status": "PASS",
-        "comment": "Search input visible",
-        "timestamp": "2026-01-30T07:41:06.666Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:31:30.363Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Resources",
-        "testPoint": "Blogs Action - Search",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/overview/actions.spec.js › Product - Overview actions › Actions",
         "status": "PASS",
-        "comment": "Search input visible",
-        "timestamp": "2026-01-30T07:41:14.669Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:35:11.144Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Resources",
-        "testPoint": "Blogs Action - Search",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/overview/content.spec.js › Product - Overview content (Figma exact) › Matches exact overview copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    \"Foundation Models Built for Every Need\",\u001b[22m\n\u001b[2m    \"Choose from our suite of specialized models designed for exceptional language support, tailored use cases, and flexible deployment.\",\u001b[22m\n\u001b[2m    \"Language Models\",\u001b[22m\n\u001b[2m    \"Comprehensive multilingual support for 200+ languages, including Ind",
+        "timestamp": "2026-01-30T07:35:36.328Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/overview/cta.spec.js › Product - Overview CTAs › CTAs",
         "status": "PASS",
-        "comment": "Search input visible",
-        "timestamp": "2026-01-30T07:41:22.170Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:35:40.947Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Resources",
-        "testPoint": "Patents Actions - Cards",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/speech-intelligence/actions.spec.js › Product - Speech Intelligence actions (Figma exact) › Try Now CTA visible",
         "status": "PASS",
-        "comment": "Patent cards visible",
-        "timestamp": "2026-01-30T07:42:15.469Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:39:05.104Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Solutions",
-        "testPoint": "Contact Centers Actions - Try Now",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/speech-intelligence/content.spec.js › Product - Speech Intelligence content (Figma exact) › Matches exact speech intelligence copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 6\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"The fastest way to add voice AI to your products\",\u001b[39m\n\u001b[32m-   \"One platform for speech in and speech out—secure by design, built to scale.\",\u001b[39m\n\u001b[32m-   \"Get Started\",\u001b[39m\n\u001b[32m-   \"Contact Sales\",\u001b[39m\n\u001b[32m- ]\u001b[39m\n\u001b[31m+ Array []\u001b[39m\n\n  48 |       expectations.bottomCta.includes(text)\n  49 ",
+        "timestamp": "2026-01-30T07:39:29.821Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/speech-intelligence/cta.spec.js › Product - Speech Intelligence CTAs (Figma exact) › CTA hrefs",
         "status": "PASS",
-        "comment": "3 enabled buttons",
-        "timestamp": "2026-01-30T07:42:47.110Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:39:33.164Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Solutions",
-        "testPoint": "Healthcare Actions - Try Now",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/voice-agents/actions.spec.js › Product - Voice Agents actions (Figma exact) › CTA button enabled states",
         "status": "PASS",
-        "comment": "3 enabled buttons",
-        "timestamp": "2026-01-30T07:43:24.552Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:39:48.007Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Solutions",
-        "testPoint": "Media Actions - Contact Sales",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/voice-agents/content.spec.js › Product - Voice Agents content (Figma exact) › Matches exact voice agents copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"Contact us\",\u001b[39m\n\u001b[32m- ]\u001b[39m\n\u001b[31m+ Array []\u001b[39m\n\n  33 |       await voiceAgents.getSectionTextByAnchors(expectations.contactCta)\n  34 |     );\n> 35 |     expect(contactText).toEqual(expectations.contactCta);\n     |                         ^\n  36 |\n  37 |     const solutionText = voiceAgents.norm",
+        "timestamp": "2026-01-30T07:40:06.008Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/voice-agents/cta.spec.js › Product - Voice Agents CTAs (Figma exact) › CTA hrefs",
         "status": "PASS",
-        "comment": "Link visible",
-        "timestamp": "2026-01-30T07:44:03.080Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:40:09.299Z",
         "attachments": []
       },
       {
-        "category": "Module Actions",
-        "moduleName": "Solutions",
-        "testPoint": "Use Cases Actions - Learn more",
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/resources/benchmarks/actions.spec.js › Resources - Benchmarks actions (Figma exact) › Tabs and chart controls visible",
         "status": "PASS",
-        "comment": "4 CTA links visible",
-        "timestamp": "2026-01-30T07:44:32.913Z",
+        "comment": "",
+        "timestamp": "2026-01-30T07:40:24.380Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/resources/benchmarks/content.spec.js › Resources - Benchmarks content (Figma exact) › Matches exact benchmarks copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"Book a Meeting\",\u001b[39m\n\u001b[32m- ]\u001b[39m\n\u001b[31m+ Array []\u001b[39m\n\n  25 |       await benchmarks.getSectionTextByAnchors(expectations.cta)\n  26 |     );\n> 27 |     expect(ctaText).toEqual(expectations.cta);\n     |                     ^\n  28 |\n  29 |     const highestText = benchmarks.normalizeTextList(\n  30 |",
+        "timestamp": "2026-01-30T07:40:42.193Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/resources/benchmarks/cta.spec.js › Resources - Benchmarks CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:40:49.002Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/resources/blogs/actions.spec.js › Resources - Blogs actions (Figma exact) › Search and pagination available",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m2\u001b[39m\nReceived:    \u001b[31m0\u001b[39m\n\n  20 |     const paginationButtons = page.locator('main').locator('button');\n  21 |     const count = await paginationButtons.count();\n> 22 |     expect(count).toBeGreaterThanOrEqual(2);\n     |                   ^\n  23 |     await writeResult('Blogs Action - Pagination', 'PASS', 'Pagination buttons present');\n  24 |   });\n  25 | });\n",
+        "timestamp": "2026-01-30T07:41:18.876Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/resources/blogs/content.spec.js › Resources - Blogs content (Figma exact) › Matches exact blogs copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 6\u001b[39m\n\u001b[31m+ Received  + 6\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    Object {\u001b[22m\n\u001b[32m-     \"category\": \"Product\",\u001b[39m\n\u001b[31m+     \"category\": \"\",\u001b[39m\n\u001b[2m      \"date\": \"03 Nov 2025\",\u001b[22m\n\u001b[2m      \"href\": \"/blog/why-multilingual-voice-ai-fails-on-real-world-audio-and-how-we-fixed-it\",\u001b[22m\n\u001b[2m      \"title\": \"Why Multilingual Voice AI Fails on Real-World Audio — and",
+        "timestamp": "2026-01-30T07:41:36.748Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/resources/blogs/cta.spec.js › Resources - Blogs CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:41:44.098Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/resources/patents/actions.spec.js › Resources - Patents actions (Figma exact) › Patent cards visible",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:42:11.668Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/resources/patents/content.spec.js › Resources - Patents content (Figma exact) › Matches exact patents copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"Discover our ever-growing collection of patents.\",\u001b[39m\n\u001b[32m- ]\u001b[39m\n\u001b[31m+ Array []\u001b[39m\n\n  20 |       await patents.getSectionTextByAnchors(expectations.hero)\n  21 |     );\n> 22 |     expect(heroText).toEqual(expectations.hero);\n     |                      ^\n  23 |\n  24 |     const patentsText = p",
+        "timestamp": "2026-01-30T07:42:28.066Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/resources/patents/cta.spec.js › Resources - Patents CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:42:32.582Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/contact-centers/actions.spec.js › Solutions - Contact Centers actions (Figma exact) › Try Now buttons enabled",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:42:43.618Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/contact-centers/content.spec.js › Solutions - Contact Centers content (Figma exact) › Matches exact contact centers copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    \"Intelligence That Listens. APIs That Power Contact Centers\",\u001b[22m\n\u001b[2m    \"Real-time transcription, analytics, and voice automation — plug-and-play intelligence for every conversation.\",\u001b[22m\n\u001b[2m    \"Live Demo\",\u001b[22m\n\u001b[31m+   \"Live Demo\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  20 |       await contactCenters.getSection",
+        "timestamp": "2026-01-30T07:43:00.949Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/contact-centers/cta.spec.js › Solutions - Contact Centers CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:43:06.203Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/healthcare/actions.spec.js › Solutions - Healthcare actions (Figma exact) › Try Now buttons enabled",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:43:20.780Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/healthcare/content.spec.js › Solutions - Healthcare content (Figma exact) › Matches exact healthcare copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    \"Intelligence That Cares. APIs That Power Clinical Systems.\",\u001b[22m\n\u001b[2m    \"Modular clinical AI — speech, reasoning, and documentation built for accuracy, privacy, and scale.\",\u001b[22m\n\u001b[2m    \"Live Demo\",\u001b[22m\n\u001b[31m+   \"Live Demo\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  20 |       await healthcare.getSectionTextByAnchors(e",
+        "timestamp": "2026-01-30T07:43:37.285Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/healthcare/cta.spec.js › Solutions - Healthcare CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:43:41.929Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/media-entertainment/actions.spec.js › Solutions - Media & Entertainment actions (Figma exact) › Contact Sales CTA visible",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:43:59.361Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/media-entertainment/content.spec.js › Solutions - Media & Entertainment content (Figma exact) › Matches exact media & entertainment copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -  0\u001b[39m\n\u001b[31m+ Received  + 54\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[31m+   \"Product\",\u001b[39m\n\u001b[31m+   \"Models\",\u001b[39m\n\u001b[31m+   \"Solutions\",\u001b[39m\n\u001b[31m+   \"Resources\",\u001b[39m\n\u001b[31m+   \"Documentation\",\u001b[39m\n\u001b[31m+   \"About Us\",\u001b[39m\n\u001b[31m+   \"Pricing\",\u001b[39m\n\u001b[31m+   \"Sign In\",\u001b[39m\n\u001b[31m+   \"Get Started\",\u001b[39m\n\u001b[31m+   \"Contact Sales\",\u001b[39m\n\u001b[2m    \"Voice Stack for Global Media to",
+        "timestamp": "2026-01-30T07:44:14.824Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/media-entertainment/cta.spec.js › Solutions - Media & Entertainment CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:44:20.510Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/use-cases/actions.spec.js › Solutions - Use Cases actions (Figma exact) › Learn more CTAs visible",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:44:29.130Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/use-cases/content.spec.js › Solutions - Use Cases content (Figma exact) › Matches exact use cases copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -  0\u001b[39m\n\u001b[31m+ Received  + 80\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[31m+   \"Product\",\u001b[39m\n\u001b[31m+   \"Models\",\u001b[39m\n\u001b[31m+   \"Solutions\",\u001b[39m\n\u001b[31m+   \"Resources\",\u001b[39m\n\u001b[31m+   \"Documentation\",\u001b[39m\n\u001b[31m+   \"About Us\",\u001b[39m\n\u001b[31m+   \"Pricing\",\u001b[39m\n\u001b[31m+   \"Sign In\",\u001b[39m\n\u001b[31m+   \"Get Started\",\u001b[39m\n\u001b[31m+   \"Contact Sales\",\u001b[39m\n\u001b[2m    \"Enterprise Use Cases\",\u001b[22m\n\u001b[2",
+        "timestamp": "2026-01-30T07:44:45.081Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/use-cases/cta.spec.js › Solutions - Use Cases CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:44:50.709Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Homepage - Homepage",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:45:14.155Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Product - Overview",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:45:18.397Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Product - Models",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:45:21.421Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Product - Voice Agents",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:45:25.644Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Product - Speech Intelligence",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:45:29.227Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Product - Audio Processing",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:45:32.460Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Product - Deployment",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:45:36.345Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Solutions - Use Cases",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:45:39.123Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Solutions - Contact Centers",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:45:42.951Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Solutions - Media & Entertainment",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:45:47.204Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Solutions - Healthcare",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:45:50.931Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Models - Language Models",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:45:55.964Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Models - Zero STT Indic",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:45:58.745Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Models - Zero STT Codeswitch",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:46:02.180Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Models - Zero STT Universal",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:46:05.954Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Models - Specialised Models",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:46:08.959Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Models - Zero STT Med",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:46:12.587Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Models - On Device Models",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:46:15.873Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Resources - Blogs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:46:19.565Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Resources - Benchmarks",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:46:23.296Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Resources - Patents",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:46:27.408Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Pricing - Pricing",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:46:30.859Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Contact - Contact Us",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:46:33.771Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Homepage - Homepage",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:46:36.692Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Product - Overview",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:46:43.199Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Product - Models",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:46:49.962Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Product - Voice Agents",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:46:55.063Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Product - Speech Intelligence",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:46:59.586Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Product - Audio Processing",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:47:04.421Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Product - Deployment",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:47:09.452Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Solutions - Use Cases",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:47:14.910Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Solutions - Contact Centers",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:47:20.063Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Solutions - Media & Entertainment",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:47:26.095Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Solutions - Healthcare",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:47:31.867Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Models - Language Models",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:47:37.469Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Models - Zero STT Indic",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:47:43.333Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Models - Zero STT Codeswitch",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Failed to take two consecutive stable screenshots.\n\n  Snapshot: models/models-zero-stt-codeswitch.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(models/models-zero-stt-codeswitch.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - generating new stable screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for f",
+        "timestamp": "2026-01-30T07:48:12.293Z",
+        "attachments": [
+          {
+            "name": "models/models-zero-stt-codeswitch-previous.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/models-zero-stt-codeswitch-previous.png"
+          },
+          {
+            "name": "models/models-zero-stt-codeswitch-actual.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/models-zero-stt-codeswitch-actual.png"
+          },
+          {
+            "name": "models/models-zero-stt-codeswitch-diff.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/models-zero-stt-codeswitch-diff.png"
+          },
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Models - Zero STT Universal",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:48:23.716Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Models - Specialised Models",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:48:30.744Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Models - Zero STT Med",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:48:36.364Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Models - On Device Models",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:48:41.499Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Resources - Blogs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:48:46.311Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Resources - Benchmarks",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:48:52.433Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Resources - Patents",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:49:01.297Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Pricing - Pricing",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:49:06.256Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Contact - Contact Us",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-01-30T07:49:12.227Z",
         "attachments": []
       }
     ]
