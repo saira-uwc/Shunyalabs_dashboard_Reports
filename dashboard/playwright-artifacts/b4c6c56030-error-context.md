@@ -1,0 +1,302 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - link "Shunya Labs Logo" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "Shunya Labs Logo" [ref=e7]
+        - generic [ref=e8]:
+          - button "Product" [ref=e10] [cursor=pointer]:
+            - text: Product
+            - img [ref=e11]
+          - button "Models" [ref=e14] [cursor=pointer]:
+            - text: Models
+            - img [ref=e15]
+          - button "Solutions" [ref=e18] [cursor=pointer]:
+            - text: Solutions
+            - img [ref=e19]
+          - button "Resources" [ref=e22] [cursor=pointer]:
+            - text: Resources
+            - img [ref=e23]
+          - link "Documentation" [ref=e25] [cursor=pointer]:
+            - /url: /documentation/batch-transcriptions/quickstart
+          - link "About Us" [ref=e26] [cursor=pointer]:
+            - /url: /about
+          - link "Pricing" [ref=e27] [cursor=pointer]:
+            - /url: /pricing
+        - generic [ref=e28]:
+          - link "Get Started" [ref=e29] [cursor=pointer]:
+            - /url: /pricing
+          - link "Contact Sales" [ref=e30] [cursor=pointer]:
+            - /url: /contact
+    - generic [ref=e32]:
+      - heading "The Complete Voice AI Stack for" [level=1] [ref=e33]
+      - heading "Developers and Enterprises" [level=1] [ref=e34]
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: BUILT FOR
+          - generic [ref=e38]: Developers
+        - generic [ref=e40]:
+          - generic [ref=e41]: READY FOR
+          - generic [ref=e42]: Enterprises
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - heading "Foundation Models Built for Every Need" [level=2] [ref=e46]:
+          - text: Foundation Models Built
+          - text: for Every Need
+        - paragraph [ref=e47]: Choose from our suite of specialized models designed for exceptional language support, tailored use cases, and flexible deployment.
+      - generic [ref=e49]:
+        - generic [ref=e50] [cursor=pointer]:
+          - heading "Language Models" [level=3] [ref=e52]
+          - paragraph [ref=e53]: Comprehensive multilingual support for 200+ languages, including Indic languages
+          - link "Learn more →" [ref=e54]:
+            - /url: /language-models
+            - text: Learn more
+            - generic [ref=e55]: →
+        - generic [ref=e56] [cursor=pointer]:
+          - heading "Specialized Models" [level=3] [ref=e58]
+          - paragraph [ref=e59]: Purpose-built for specific industries and use cases
+          - generic [ref=e60]:
+            - text: Learn more
+            - generic [ref=e61]: →
+        - generic [ref=e62] [cursor=pointer]:
+          - heading "On-Device Models" [level=3] [ref=e64]
+          - paragraph [ref=e65]: Lightweight models optimized for edge deployment
+          - generic [ref=e66]:
+            - text: Learn more
+            - generic [ref=e67]: →
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - heading "End-to-End Voice Agent Orchestration" [level=2] [ref=e70]
+        - paragraph [ref=e71]: Build complete voice agents with Shunya Labs' intelligence layer— a fully integrated platform from voice input to intelligent response.
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - img [ref=e75]
+          - generic [ref=e77]:
+            - heading "Simple Voice Agent Integration" [level=3] [ref=e78]
+            - paragraph [ref=e79]: Get a single API with speech-to-text, LLM orchestration, and text-to-speech in real time. No complex integrations—just seamless voice AI.
+        - generic [ref=e80]:
+          - img [ref=e82]
+          - generic [ref=e86]:
+            - heading "Optimized Full-Stack Performance" [level=3] [ref=e87]
+            - paragraph [ref=e88]: Our custom-built voice stack optimizes every layer—STT, TTS, and runtime orchestration—for minimal latency and synchronized speech-to-speech flow.
+        - generic [ref=e89]:
+          - img [ref=e91]
+          - generic [ref=e94]:
+            - heading "Flexible Deployment Options" [level=3] [ref=e95]
+            - paragraph [ref=e96]: Deploy fully managed or self-hosted. Full support for HIPAA and GDPR compliance.
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - heading "Intelligence Features That Give You Control" [level=2] [ref=e99]
+        - paragraph [ref=e100]: Unlock powerful AI capabilities with flexible transcription features designed for precision and insight.
+      - generic [ref=e101]:
+        - generic [ref=e102]:
+          - img [ref=e104]
+          - heading "Language Expertise" [level=3] [ref=e106]
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - img [ref=e111]
+            - heading "Language Identification" [level=4] [ref=e114]
+            - paragraph [ref=e115]: Automatically detect the language in your audio files.
+          - generic [ref=e117]:
+            - img [ref=e119]
+            - heading "Translation" [level=4] [ref=e121]
+            - paragraph [ref=e122]: Translate audio during or after transcription.
+          - generic [ref=e124]:
+            - img [ref=e126]
+            - heading "Transliteration" [level=4] [ref=e128]
+            - paragraph [ref=e129]: Convert output to your preferred script.
+      - generic [ref=e130]:
+        - generic [ref=e131]:
+          - img [ref=e133]
+          - heading "Conversational Insights" [level=3] [ref=e135]
+        - generic [ref=e137]:
+          - generic [ref=e138]:
+            - img [ref=e140]
+            - heading "Intent Detection" [level=4] [ref=e150]
+            - paragraph [ref=e151]: Understand the purpose behind every conversation
+          - generic [ref=e153]:
+            - img [ref=e155]
+            - heading "Sentiment Analysis" [level=4] [ref=e157]
+            - paragraph [ref=e158]: Track emotional tone across interactions.
+          - generic [ref=e160]:
+            - img [ref=e162]
+            - heading "Emotion Diarization" [level=4] [ref=e164]
+            - paragraph [ref=e165]: Get granular emotion tracking throughout conversations
+      - generic [ref=e166]:
+        - generic [ref=e167]:
+          - img [ref=e169]
+          - heading "Smart Formatting" [level=3] [ref=e171]
+        - generic [ref=e173]:
+          - generic [ref=e174]:
+            - img [ref=e176]
+            - heading "Timestamps" [level=4] [ref=e179]
+            - paragraph [ref=e180]: Sentence or word-level timing for precise navigation
+          - generic [ref=e182]:
+            - img [ref=e184]
+            - heading "Speaker Diarization" [level=4] [ref=e186]
+            - paragraph [ref=e187]: Separate transcripts by speaker automatically
+          - generic [ref=e189]:
+            - img [ref=e191]
+            - heading "Speaker Identification" [level=4] [ref=e193]
+            - paragraph [ref=e194]: Customize speaker labels for personalized transcripts
+      - link "See full list of features in documentation" [ref=e196] [cursor=pointer]:
+        - /url: /documentation/features/speaker-diarization
+        - text: See full list of features in documentation
+        - img [ref=e197]
+    - generic [ref=e200]:
+      - heading "Studio-Quality Audio Processing" [level=2] [ref=e201]
+      - paragraph [ref=e202]: Deliver crystal-clear voice experiences with our proprietary audio tools.
+      - generic [ref=e203]:
+        - generic [ref=e204]:
+          - img [ref=e206]
+          - heading "Denoiser" [level=3] [ref=e208]
+          - paragraph [ref=e209]: Remove background noise for pristine audio quality
+        - generic [ref=e210]:
+          - img [ref=e212]
+          - heading "Enhancement" [level=3] [ref=e215]
+          - paragraph [ref=e216]: Optimize audio clarity and intelligibility
+    - generic [ref=e218]:
+      - heading "Deploy Anywhere, Your Way" [level=2] [ref=e219]
+      - paragraph [ref=e220]: Maintain complete control over your data with flexible hosting options.
+      - generic [ref=e221]:
+        - generic [ref=e222]:
+          - img [ref=e224]
+          - heading "Cloud" [level=3] [ref=e226]
+          - paragraph [ref=e227]: Scalable infrastructure for rapid deployment
+        - generic [ref=e228]:
+          - img [ref=e230]
+          - heading "Edge" [level=3] [ref=e234]
+          - paragraph [ref=e235]: Low-latency processing at the network edge
+        - generic [ref=e236]:
+          - img [ref=e238]
+          - heading "On-Premises" [level=3] [ref=e242]
+          - paragraph [ref=e243]: Full data sovereignty and security control
+    - contentinfo [ref=e244]:
+      - generic [ref=e248]:
+        - paragraph [ref=e249]: The fastest way to add voice AI to your products
+        - paragraph [ref=e250]: One platform for speech in and speech out—secure by design, built to scale.
+        - generic [ref=e251]:
+          - link "Go to Pricing page" [ref=e252] [cursor=pointer]:
+            - /url: /pricing
+            - text: Get Started
+          - link "Contact Sales" [ref=e253] [cursor=pointer]:
+            - /url: /contact
+    - contentinfo [ref=e254]:
+      - generic [ref=e255]:
+        - generic [ref=e256]:
+          - img "Shunya Labs" [ref=e257]
+          - paragraph [ref=e258]: Shunya Labs, Inc.
+        - generic [ref=e259]:
+          - paragraph [ref=e260]: Product
+          - list [ref=e261]:
+            - listitem [ref=e262]:
+              - link "Overview" [ref=e263] [cursor=pointer]:
+                - /url: /overview
+            - listitem [ref=e264]:
+              - link "Models" [ref=e265] [cursor=pointer]:
+                - /url: /models-page
+            - listitem [ref=e266]:
+              - link "Voice Agents" [ref=e267] [cursor=pointer]:
+                - /url: /voice-agent
+            - listitem [ref=e268]:
+              - link "Speech Intelligence" [ref=e269] [cursor=pointer]:
+                - /url: /speech-intelligence-page
+            - listitem [ref=e270]:
+              - link "Audio Processing" [ref=e271] [cursor=pointer]:
+                - /url: /audio-processing
+            - listitem [ref=e272]:
+              - link "Deployment" [ref=e273] [cursor=pointer]:
+                - /url: /deployment
+        - generic [ref=e274]:
+          - paragraph [ref=e275]: Models
+          - list [ref=e276]:
+            - listitem [ref=e277]:
+              - link "Language Models" [ref=e278] [cursor=pointer]:
+                - /url: /language-models
+            - listitem [ref=e279]:
+              - link "Zero STT Indic" [ref=e280] [cursor=pointer]:
+                - /url: /zero-indic
+            - listitem [ref=e281]:
+              - link "Zero STT Codeswitch" [ref=e282] [cursor=pointer]:
+                - /url: /zero-code-switch
+            - listitem [ref=e283]:
+              - link "Zero STT Universal" [ref=e284] [cursor=pointer]:
+                - /url: /zero-stt
+            - listitem [ref=e285]:
+              - link "Specialised Models" [ref=e286] [cursor=pointer]:
+                - /url: /domain-specialisation
+            - listitem [ref=e287]:
+              - link "Zero STT Med" [ref=e288] [cursor=pointer]:
+                - /url: /zero-med
+            - listitem [ref=e289]:
+              - link "On Device Models" [ref=e290] [cursor=pointer]:
+                - /url: /on-device-models
+        - generic [ref=e291]:
+          - paragraph [ref=e292]: Solutions
+          - list [ref=e293]:
+            - listitem [ref=e294]:
+              - link "Contact Centers" [ref=e295] [cursor=pointer]:
+                - /url: /contact-centers
+            - listitem [ref=e296]:
+              - link "Media & Entertainment" [ref=e297] [cursor=pointer]:
+                - /url: /media-entertainment
+            - listitem [ref=e298]:
+              - link "Healthcare" [ref=e299] [cursor=pointer]:
+                - /url: /healthcare
+        - generic [ref=e300]:
+          - paragraph [ref=e301]: Resources
+          - list [ref=e302]:
+            - listitem [ref=e303]:
+              - link "Blogs" [ref=e304] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e305]:
+              - link "Benchmarks" [ref=e306] [cursor=pointer]:
+                - /url: /benchmarks
+            - listitem [ref=e307]:
+              - link "News & Media" [ref=e308] [cursor=pointer]:
+                - /url: /media
+        - paragraph [ref=e310]:
+          - link "Documentation" [ref=e311] [cursor=pointer]:
+            - /url: /documentation/batch-transcriptions/quickstart
+        - list [ref=e313]:
+          - listitem [ref=e314]:
+            - link "About us" [ref=e315] [cursor=pointer]:
+              - /url: /about
+        - list [ref=e317]:
+          - listitem [ref=e318]:
+            - link "Pricing" [ref=e319] [cursor=pointer]:
+              - /url: /pricing
+      - generic [ref=e320]:
+        - paragraph [ref=e321]: Follow us on
+        - generic [ref=e322]:
+          - link [ref=e323] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/shunya-labs-ai/
+            - img [ref=e324]
+          - link [ref=e326] [cursor=pointer]:
+            - /url: https://www.facebook.com/people/ShunyaLabsAI/61577801851308/
+            - img [ref=e327]
+          - link [ref=e329] [cursor=pointer]:
+            - /url: https://www.instagram.com/shunyalabsai/
+            - img [ref=e330]
+          - link [ref=e332] [cursor=pointer]:
+            - /url: https://x.com/ShunyaLabsAI
+            - img [ref=e333]
+      - generic [ref=e335]:
+        - paragraph [ref=e336]: © 2026 Shunya Labs Inc. All rights reserved.
+        - generic [ref=e337]:
+          - link "Privacy" [ref=e338] [cursor=pointer]:
+            - /url: /privacy-policy
+          - link "Terms" [ref=e339] [cursor=pointer]:
+            - /url: /terms-conditions
+          - link "Security" [ref=e340] [cursor=pointer]:
+            - /url: /security-policy
+          - link "General License" [ref=e341] [cursor=pointer]:
+            - /url: /general-rail-m-license
+          - link "Custom License" [ref=e342] [cursor=pointer]:
+            - /url: /shunya-labs-custom-model-rail-m-license
+  - alert [ref=e343]
+```

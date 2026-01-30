@@ -1,0 +1,235 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - link "Shunya Labs Logo" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "Shunya Labs Logo" [ref=e7]
+        - generic [ref=e8]:
+          - button "Product" [ref=e10] [cursor=pointer]:
+            - text: Product
+            - img [ref=e11]
+          - button "Models" [ref=e14] [cursor=pointer]:
+            - text: Models
+            - img [ref=e15]
+          - button "Solutions" [ref=e18] [cursor=pointer]:
+            - text: Solutions
+            - img [ref=e19]
+          - button "Resources" [ref=e22] [cursor=pointer]:
+            - text: Resources
+            - img [ref=e23]
+          - link "Documentation" [ref=e25] [cursor=pointer]:
+            - /url: /documentation/batch-transcriptions/quickstart
+          - link "About Us" [ref=e26] [cursor=pointer]:
+            - /url: /about
+          - link "Pricing" [ref=e27] [cursor=pointer]:
+            - /url: /pricing
+        - generic [ref=e28]:
+          - button "Sign In" [ref=e29] [cursor=pointer]
+          - link "Get Started" [ref=e30] [cursor=pointer]:
+            - /url: /pricing
+          - link "Contact Sales" [ref=e31] [cursor=pointer]:
+            - /url: /contact
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - link "Privacy Policy" [ref=e34] [cursor=pointer]:
+          - /url: /privacy-policy
+        - link "Terms & Conditions" [ref=e35] [cursor=pointer]:
+          - /url: /terms-conditions
+        - link "Security Policy" [ref=e36] [cursor=pointer]:
+          - /url: /security-policy
+        - link "General License" [ref=e37] [cursor=pointer]:
+          - /url: /general-rail-m-license
+        - link "Custom License" [ref=e38] [cursor=pointer]:
+          - /url: /shunya-labs-custom-model-rail-m-license
+      - generic [ref=e39]:
+        - heading "Privacy Policy" [level=1] [ref=e40]
+        - paragraph [ref=e41]: "Last updated: July 2025"
+        - paragraph [ref=e42]: Shunya Labs ("Shunya Labs," "we," "our," or "us") is committed to protecting your privacy, including your rights under the Health Insurance Portability and Accountability Act of 1996 (HIPAA), where applicable.
+        - generic [ref=e43]:
+          - paragraph [ref=e44]: Company Information
+          - paragraph [ref=e45]: "Company: Shunya Labs"
+          - paragraph [ref=e46]: "Address: 2810 N Church Street, Wilmington, Delaware 19802, USA"
+          - paragraph [ref=e47]:
+            - text: "Contact:"
+            - link "privacy@shunyalabs.com" [ref=e48] [cursor=pointer]:
+              - /url: mailto:privacy@shunyalabs.com
+        - heading "1. Information We Collect" [level=2] [ref=e49]
+        - heading "a. Information You Provide" [level=3] [ref=e50]
+        - list [ref=e51]:
+          - listitem [ref=e52]: Register for an account
+          - listitem [ref=e53]: Contact us or request information
+          - listitem [ref=e54]: Participate in surveys or research
+          - listitem [ref=e55]: Apply for employment
+          - listitem [ref=e56]: Sign up for newsletters or updates
+        - heading "b. Automatically Collected Information" [level=3] [ref=e57]
+        - list [ref=e58]:
+          - listitem [ref=e59]: Device information (IP address, browser type, operating system)
+          - listitem [ref=e60]: Usage data (pages visited, time spent, features used)
+          - listitem [ref=e61]: Cookies and similar tracking technologies
+          - listitem [ref=e62]: Log files and analytics data
+        - heading "2. How We Use Your Information" [level=2] [ref=e63]
+        - list [ref=e64]:
+          - listitem [ref=e65]: Provide, maintain, and improve our services
+          - listitem [ref=e66]: Process transactions and send related information
+          - listitem [ref=e67]: Send technical notices, updates, and support messages
+          - listitem [ref=e68]: Respond to your comments, questions, and requests
+          - listitem [ref=e69]: Monitor and analyze trends, usage, and activities
+          - listitem [ref=e70]: Personalize and improve your experience
+        - heading "3. Information Sharing and Disclosure" [level=2] [ref=e71]
+        - paragraph [ref=e72]: We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy.
+        - paragraph [ref=e73]: "We may share your information:"
+        - list [ref=e74]:
+          - listitem [ref=e75]: With service providers who assist us in operating our business
+          - listitem [ref=e76]: To comply with legal obligations or respond to lawful requests
+          - listitem [ref=e77]: To protect our rights, property, or safety, or that of others
+          - listitem [ref=e78]: In connection with a merger, acquisition, or sale of assets
+        - heading "4. Data Security" [level=2] [ref=e79]
+        - paragraph [ref=e80]: We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.
+        - heading "5. Your Rights" [level=2] [ref=e81]
+        - list [ref=e82]:
+          - listitem [ref=e83]: Access to your personal information
+          - listitem [ref=e84]: Correction of inaccurate information
+          - listitem [ref=e85]: Deletion of your personal information
+          - listitem [ref=e86]: Restriction of processing
+          - listitem [ref=e87]: Data portability
+          - listitem [ref=e88]: Objection to processing
+        - heading "6. Contact Us" [level=2] [ref=e89]
+        - paragraph [ref=e90]: "If you have any questions about this Privacy Policy, please contact us at:"
+        - generic [ref=e91]:
+          - paragraph [ref=e92]:
+            - text: "Email:"
+            - link "privacy@shunyalabs.com" [ref=e93] [cursor=pointer]:
+              - /url: mailto:privacy@shunyalabs.com
+          - paragraph [ref=e94]: "Address: 2810 N Church Street, Wilmington, Delaware 19802, USA"
+    - contentinfo [ref=e95]:
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - img "Shunya Labs" [ref=e98]
+          - paragraph [ref=e99]: Shunya Labs, Inc.
+        - generic [ref=e100]:
+          - paragraph [ref=e101]: Product
+          - list [ref=e102]:
+            - listitem [ref=e103]:
+              - link "Overview" [ref=e104] [cursor=pointer]:
+                - /url: /overview
+            - listitem [ref=e105]:
+              - link "Models" [ref=e106] [cursor=pointer]:
+                - /url: /models-page
+            - listitem [ref=e107]:
+              - link "Voice Agents" [ref=e108] [cursor=pointer]:
+                - /url: /voice-agent
+            - listitem [ref=e109]:
+              - link "Speech Intelligence" [ref=e110] [cursor=pointer]:
+                - /url: /speech-intelligence-page
+            - listitem [ref=e111]:
+              - link "Audio Processing" [ref=e112] [cursor=pointer]:
+                - /url: /audio-processing
+            - listitem [ref=e113]:
+              - link "Deployment" [ref=e114] [cursor=pointer]:
+                - /url: /deployment
+        - generic [ref=e115]:
+          - paragraph [ref=e116]: Models
+          - list [ref=e117]:
+            - listitem [ref=e118]:
+              - link "Language Models" [ref=e119] [cursor=pointer]:
+                - /url: /language-models
+            - listitem [ref=e120]:
+              - link "Zero STT Indic" [ref=e121] [cursor=pointer]:
+                - /url: /zero-indic
+            - listitem [ref=e122]:
+              - link "Zero STT Codeswitch" [ref=e123] [cursor=pointer]:
+                - /url: /zero-code-switch
+            - listitem [ref=e124]:
+              - link "Zero STT Universal" [ref=e125] [cursor=pointer]:
+                - /url: /zero-stt
+            - listitem [ref=e126]:
+              - link "Specialised Models" [ref=e127] [cursor=pointer]:
+                - /url: /domain-specialisation
+            - listitem [ref=e128]:
+              - link "Zero STT Med" [ref=e129] [cursor=pointer]:
+                - /url: /zero-med
+            - listitem [ref=e130]:
+              - link "On Device Models" [ref=e131] [cursor=pointer]:
+                - /url: /on-device-models
+        - generic [ref=e132]:
+          - paragraph [ref=e133]: Solutions
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - link "Contact Centers" [ref=e136] [cursor=pointer]:
+                - /url: /contact-centers
+            - listitem [ref=e137]:
+              - link "Media & Entertainment" [ref=e138] [cursor=pointer]:
+                - /url: /media-entertainment
+            - listitem [ref=e139]:
+              - link "Healthcare" [ref=e140] [cursor=pointer]:
+                - /url: /healthcare
+        - generic [ref=e141]:
+          - paragraph [ref=e142]: Resources
+          - list [ref=e143]:
+            - listitem [ref=e144]:
+              - link "Blogs" [ref=e145] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e146]:
+              - link "Benchmarks" [ref=e147] [cursor=pointer]:
+                - /url: /benchmarks
+            - listitem [ref=e148]:
+              - link "News & Media" [ref=e149] [cursor=pointer]:
+                - /url: /media
+        - paragraph [ref=e151]:
+          - link "Documentation" [ref=e152] [cursor=pointer]:
+            - /url: /documentation/batch-transcriptions/quickstart
+        - list [ref=e154]:
+          - listitem [ref=e155]:
+            - link "About us" [ref=e156] [cursor=pointer]:
+              - /url: /about
+        - list [ref=e158]:
+          - listitem [ref=e159]:
+            - link "Pricing" [ref=e160] [cursor=pointer]:
+              - /url: /pricing
+      - generic [ref=e161]:
+        - paragraph [ref=e162]: Follow us on
+        - generic [ref=e163]:
+          - link [ref=e164] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/shunya-labs-ai/
+            - img [ref=e165]
+          - link [ref=e167] [cursor=pointer]:
+            - /url: https://www.facebook.com/people/ShunyaLabsAI/61577801851308/
+            - img [ref=e168]
+          - link [ref=e170] [cursor=pointer]:
+            - /url: https://www.instagram.com/shunyalabsai/
+            - img [ref=e171]
+          - link [ref=e173] [cursor=pointer]:
+            - /url: https://x.com/ShunyaLabsAI
+            - img [ref=e174]
+      - generic [ref=e176]:
+        - paragraph [ref=e177]: © 2026 Shunya Labs Inc. All rights reserved.
+        - generic [ref=e178]:
+          - link "Privacy" [ref=e179] [cursor=pointer]:
+            - /url: /privacy-policy
+          - link "Terms" [ref=e180] [cursor=pointer]:
+            - /url: /terms-conditions
+          - link "Security" [ref=e181] [cursor=pointer]:
+            - /url: /security-policy
+          - link "General License" [ref=e182] [cursor=pointer]:
+            - /url: /general-rail-m-license
+          - link "Custom License" [ref=e183] [cursor=pointer]:
+            - /url: /shunya-labs-custom-model-rail-m-license
+  - alert [ref=e184]: Data Privacy & Protection Policy | Shunya Labscy Policy
+  - iframe [ref=e187]:
+    - generic [ref=f129e2]:
+      - generic [ref=f129e5]:
+        - link "Privacy" [ref=f129e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f129e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f129e8]:
+        - generic [ref=f129e9]:
+          - text: protected by
+          - strong [ref=f129e10]: reCAPTCHA
+        - generic [ref=f129e11]: "-"
+```
