@@ -25610,5 +25610,1629 @@
         "attachments": []
       }
     ]
+  },
+  {
+    "runId": "run_1770031789552_9fz58soel",
+    "runDate": "2026-02-02T10:21:28.400Z",
+    "passed": 61,
+    "failed": 55,
+    "total": 116,
+    "passRate": 53,
+    "tests": [
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/contact/contact/actions.spec.js › Contact - Contact Us actions (Figma exact) › Form fields and checkboxes visible",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByLabel('Name *')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByLabel('Name *')\u001b[22m\n\n\n  13 |     });\n  14 |\n> 15 |     await expect(page.getByLabel('Name *')).toBeVisible();\n     |                                             ^\n  16 |     await expect(page.getByLabel('Work Email *')).toBeVi",
+        "timestamp": "2026-02-02T08:10:01.107Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/e06793478b-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/contact/contact/content.spec.js › Contact - Contact Us content (Figma exact) › Matches exact contact copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 0\u001b[39m\n\n\u001b[33m@@ -1,11 +1,10 @@\u001b[39m\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    \"Our Offices\",\u001b[22m\n\u001b[2m    \"Los Angeles (HQ)\",\u001b[22m\n\u001b[2m    \"Unit 303, 10645 Wilshire Blvd, Los Angeles, 90024\",\u001b[22m\n\u001b[2m    \"Gurgaon, IN\",\u001b[22m\n\u001b[32m-   \"22nd Floor, Ireo Grand View Tower, Sector 58, Gurugram, Haryana, 122002\",\u001b[39m\n\u001b[2m    \"+91 99713 41448\",\u001b[22m\n\u001b[2m    ",
+        "timestamp": "2026-02-02T08:10:46.828Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/bd4cf40098-test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/9e52dde0ed-video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/b416eb2a62-error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/contact/contact/cta.spec.js › Contact - Contact Us CTAs (Figma exact) › CTA visibility",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:10:56.077Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/homepage/homepage/actions.spec.js › Homepage - actions (Figma exact) › Playground actions are enabled",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:11:11.482Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/homepage/homepage/content.spec.js › Homepage - content (Figma exact) › Matches exact homepage copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 2\u001b[39m\n\u001b[31m+ Received  + 0\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"Shunya Labs Logo\",\u001b[39m\n\u001b[2m    \"Product\",\u001b[22m\n\u001b[2m    \"Models\",\u001b[22m\n\u001b[2m    \"Solutions\",\u001b[22m\n\u001b[2m    \"Resources\",\u001b[22m\n\u001b[2m    \"Documentation\",\u001b[22m\n\u001b[2m    \"About Us\",\u001b[22m\n\u001b[2m    \"Pricing\",\u001b[22m\n\u001b[32m-   \"Sign In\",\u001b[39m\n\u001b[2m    \"Get Started\",\u001b[22m\n\u001b[2m    \"Contact Sales\",\u001b[22m\n\u001b[2m  ]\u001b[22m\n\n  2",
+        "timestamp": "2026-02-02T08:12:43.968Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/b4e15fd3c1-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/homepage/homepage/cta.spec.js › Homepage - CTAs (Figma exact) › CTA labels + destinations",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('The fastest way to add voice AI to your products').locator('..').getByRole('link', { name: 'Get Started' }).first()\nExpected: \u001b[32m\"/pricing\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('The fastest way to add voice AI to your products').locator('..').getByRole('",
+        "timestamp": "2026-02-02T08:15:35.185Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/98e03417c5-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/homepage/homepage/footer.spec.js › Homepage - footer menu (Figma exact) › Footer columns, follow us, copyright",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"Follow us on\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\n\n  24 |\n  25 |     const footerData = await homepage.getFooterMenuStructure();\n> 26 |     expect(footerData.followUs).toBe(footerExpectations.followUs);\n     |                                 ^\n  27 |     expect(footerData.copyright).toBe(footerExpectations.copyright);\n  28 |\n  29 |     const expectedColumns = footerExpect",
+        "timestamp": "2026-02-02T08:17:09.424Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/2613e543e0-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/homepage/homepage/nav.spec.js › Homepage - navigation (Figma exact) › Top nav dropdowns match labels, descriptions, and hrefs",
+        "status": "FAIL",
+        "comment": "TimeoutError: locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Models' }).first()\u001b[22m\n\u001b[2m    - locator resolved to <button class=\"flex items-center gap-1 hover:text-white transition\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <bu",
+        "timestamp": "2026-02-02T08:19:25.532Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/a7811d3af8-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/homepage/homepage/widget.spec.js › Homepage - widget (Figma exact) › Widget content and actions",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 17\u001b[39m\n\u001b[31m+ Received  +  1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"Speech To Text\",\u001b[39m\n\u001b[32m-   \"Medical Transcription\",\u001b[39m\n\u001b[32m-   \"Language\",\u001b[39m\n\u001b[32m-   \"🇺🇸English\",\u001b[39m\n\u001b[32m-   \"Input Audio\",\u001b[39m\n\u001b[32m-   \"Pre-recorded\",\u001b[39m\n\u001b[32m-   \"Customer Support Call\",\u001b[39m\n\u001b[32m-   \"Podcast\",\u001b[39m\n\u001b[32m-   \"Upload your file\",\u001b[39m\n\u001b[32m-   \"or\",\u001b[39m\n\u001b[32m-",
+        "timestamp": "2026-02-02T08:20:59.697Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/e12aa0cd91-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/language-models/actions.spec.js › Models - Language Models actions (Figma exact) › Try now links visible",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:21:09.826Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/language-models/content.spec.js › Models - Language Models content (Figma exact) › Matches exact language models copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    \"Zero STT Indic\",\u001b[22m\n\u001b[2m    \"Superior Indic models for industry best accuracy and speed in transcribing speech in Hindi, Bengali, Kannada and Telugu.\",\u001b[22m\n\u001b[2m    \"Learn more\",\u001b[22m\n\u001b[31m+   \"Learn more\",\u001b[39m\n\u001b[2m    \"Zero STT Code-switch\",\u001b[22m\n\u001b[2m    \"The only model in the world that processes ",
+        "timestamp": "2026-02-02T08:21:55.068Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/22ce523049-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/language-models/cta.spec.js › Models - Language Models CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:22:04.506Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/on-device-models/actions.spec.js › Models - On Device Models actions (Figma exact) › Contact Us visible",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:23:09.376Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/on-device-models/content.spec.js › Models - On Device Models content (Figma exact) › Matches exact on-device models copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"Contact Us\",\u001b[39m\n\u001b[32m- ]\u001b[39m\n\u001b[31m+ Array []\u001b[39m\n\n  36 |       await onDevice.getSectionTextByAnchors(expectations.contactCta)\n  37 |     );\n> 38 |     expect(contactText).toEqual(expectations.contactCta);\n     |                         ^\n  39 |\n  40 |     const bottomCtaText = onDevice.normalize",
+        "timestamp": "2026-02-02T08:24:00.672Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/dcf9ce8ec7-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/on-device-models/cta.spec.js › Models - On Device Models CTAs (Figma exact) › CTA hrefs",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('link', { name: 'Contact Us' }).first()\nExpected: \u001b[32m\"\u001b[7m/\u001b[27mcontact\"\u001b[39m\nReceived: \u001b[31m\"contact\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('link', { name: 'Contact Us' }).first()\u001b[22m\n\u001b[2m    5 × locator resolved to <a href=\"contact\" class=\"px-10 py-3 rounded-full text-white text",
+        "timestamp": "2026-02-02T08:25:09.699Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/0facdae99a-video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/b3cb539003-error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/specialised-models/actions.spec.js › Models - Specialised Models actions (Figma exact) › Try now / Learn now visible",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:25:34.566Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/specialised-models/content.spec.js › Models - Specialised Models content (Figma exact) › Matches exact specialised models copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    \"Zero STT Med\",\u001b[22m\n\u001b[2m    \"Medical transcription model trained on clinical audio, built to capture medical terminology and abbreviations.\",\u001b[22m\n\u001b[2m    \"Try now\",\u001b[22m\n\u001b[31m+   \"Try now\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  25 |       await specialised.getSectionTextByAnchors(expectations.zeroMed)\n  26 |     );\n> ",
+        "timestamp": "2026-02-02T08:26:12.029Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/6ab839e541-test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/f9243dce65-video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/5b0f55463e-error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/specialised-models/cta.spec.js › Models - Specialised Models CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:26:24.702Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-codeswitch/actions.spec.js › Models - Zero STT Codeswitch actions (Figma exact) › Widget buttons enabled",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:27:16.187Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-codeswitch/content.spec.js › Models - Zero STT Codeswitch content (Figma exact) › Matches exact codeswitch copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 13\u001b[39m\n\u001b[31m+ Received  +  1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"Input Audio\",\u001b[39m\n\u001b[32m-   \"Pre-recorded\",\u001b[39m\n\u001b[32m-   \"Customer Support Call\",\u001b[39m\n\u001b[32m-   \"Podcast\",\u001b[39m\n\u001b[32m-   \"Upload your file\",\u001b[39m\n\u001b[32m-   \"or\",\u001b[39m\n\u001b[32m-   \"Live recording\",\u001b[39m\n\u001b[32m-   \"Start Speaking\",\u001b[39m\n\u001b[32m-   \"Play audio\",\u001b[39m\n\u001b[32m-   \"No conversation to copy\",\u001b[39m",
+        "timestamp": "2026-02-02T08:27:52.584Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/6e9ef87c65-video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/ff4acd11b3-error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-codeswitch/cta.spec.js › Models - Zero STT Codeswitch CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:28:01.889Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-indic/actions.spec.js › Models - Zero STT Indic actions (Figma exact) › Try now link visible",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:28:32.821Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-indic/content.spec.js › Models - Zero STT Indic content (Figma exact) › Matches exact Zero STT Indic copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"Try now\",\u001b[39m\n\u001b[32m- ]\u001b[39m\n\u001b[31m+ Array []\u001b[39m\n\n  45 |       await zeroIndic.getSectionTextByAnchors(expectations.cta)\n  46 |     );\n> 47 |     expect(ctaText).toEqual(expectations.cta);\n     |                     ^\n  48 |\n  49 |     const bottomCtaText = zeroIndic.normalizeTextList(\n  50 |       ",
+        "timestamp": "2026-02-02T08:29:07.879Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/bb1514057c-test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/ff01897263-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-indic/cta.spec.js › Models - Zero STT Indic CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:29:20.048Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-med/actions.spec.js › Models - Zero STT Med actions › Actions",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:29:46.993Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-med/content.spec.js › Models - Zero STT Med content › Content snapshot",
+        "status": "FAIL",
+        "comment": "Error: headerNav mismatch at index 7: expected \"Sign In\" vs \"Get Started\" | mainText mismatch at index 4: expected \"Patient Notes\" vs \"Customer Support Call\"\n\n   at ../utils/snapshot-validator.js:55\n\n  53 |     const message = formatDiff(diff);\n  54 |     await writeResult(`${pageLabel} snapshot`, 'FAIL', message);\n> 55 |     throw new Error(message);\n     |           ^\n  56 |   }\n  57 |\n  58 |   await writeResult(`${pageLabel} snapshot`, 'PASS', `Snapshot matches (${csvFile})`);\n    at validate",
+        "timestamp": "2026-02-02T08:31:12.158Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/17d3bc795d-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-med/cta.spec.js › Models - Zero STT Med CTAs › CTAs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:31:33.513Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-universal/actions.spec.js › Models - Zero STT Universal actions (Figma exact) › Widget buttons enabled",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:31:49.027Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-universal/content.spec.js › Models - Zero STT Universal content (Figma exact) › Matches exact Zero STT Universal copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 15\u001b[39m\n\u001b[31m+ Received  +  1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"Language\",\u001b[39m\n\u001b[32m-   \"🇺🇸English\",\u001b[39m\n\u001b[32m-   \"Input Audio\",\u001b[39m\n\u001b[32m-   \"Pre-recorded\",\u001b[39m\n\u001b[32m-   \"Customer Support Call\",\u001b[39m\n\u001b[32m-   \"Podcast\",\u001b[39m\n\u001b[32m-   \"Upload your file\",\u001b[39m\n\u001b[32m-   \"or\",\u001b[39m\n\u001b[32m-   \"Live recording\",\u001b[39m\n\u001b[32m-   \"Start Speaking\",\u001b[39m\n\u001b[32m-   \"Pla",
+        "timestamp": "2026-02-02T08:32:59.762Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/9a6a8b36e5-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/models/zero-stt-universal/cta.spec.js › Models - Zero STT Universal CTAs (Figma exact) › CTA hrefs",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('link', { name: 'Try for Free' }).first()\nExpected: \u001b[32m\"/pricing\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('link', { name: 'Try for Free' }).first()\u001b[22m\n\n\n  18 |\n  19 |     const bottomTry = page.getByRole('link', { name: 'Try for Free' }).first();\n> 20 |   ",
+        "timestamp": "2026-02-02T08:34:21.906Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/3c9e2be461-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/pricing/pricing/actions.spec.js › Pricing - Pricing actions (Figma exact) › Tabs and slider visible",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:34:53.837Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/pricing/pricing/content.spec.js › Pricing - Pricing content (Figma exact) › Matches exact pricing copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 27\u001b[39m\n\u001b[31m+ Received  +  1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"Pay as you go\",\u001b[39m\n\u001b[32m-   \"Free\",\u001b[39m\n\u001b[32m-   \"$200\",\u001b[39m\n\u001b[32m-   \"of Credit\",\u001b[39m\n\u001b[32m-   \"Then pay-as-you-go. No minimums. No expiration. No credit card required.\",\u001b[39m\n\u001b[32m-   \"Industry leading speech to text foundation models\",\u001b[39m\n\u001b[32m-   \"Advanced intelligence features\",\u001b[39m\n\u001b[",
+        "timestamp": "2026-02-02T08:35:41.449Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/dcf481da7b-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/pricing/pricing/cta.spec.js › Pricing - Pricing CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:35:51.155Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/audio-processing/actions.spec.js › Product - Audio Processing actions (Figma exact) › Contact CTA visible",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:36:41.838Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/audio-processing/content.spec.js › Product - Audio Processing content (Figma exact) › Matches exact audio processing copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"Contact Us\",\u001b[39m\n\u001b[32m- ]\u001b[39m\n\u001b[31m+ Array []\u001b[39m\n\n  35 |       await audio.getSectionTextByAnchors(expectations.contactCta)\n  36 |     );\n> 37 |     expect(contactText).toEqual(expectations.contactCta);\n     |                         ^\n  38 |\n  39 |     const bottomCtaText = audio.normalizeTextLi",
+        "timestamp": "2026-02-02T08:37:21.651Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/618cb29442-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/audio-processing/cta.spec.js › Product - Audio Processing CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:37:30.943Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/deployment/actions.spec.js › Product - Deployment actions (Figma exact) › Contact CTA visible",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:38:01.992Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/deployment/content.spec.js › Product - Deployment content (Figma exact) › Matches exact deployment copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -  1\u001b[39m\n\u001b[31m+ Received  + 14\u001b[39m\n\n\u001b[33m@@ -3,8 +3,21 @@\u001b[39m\n\u001b[2m    \"Fully managed infrastructure for rapid deployment and effortless scaling.\",\u001b[22m\n\u001b[2m    \"Capabilities\",\u001b[22m\n\u001b[2m    \"Zero infrastructure management\",\u001b[22m\n\u001b[2m    \"Instant auto-scaling\",\u001b[22m\n\u001b[2m    \"Global low-latency access\",\u001b[22m\n\u001b[32m-   \"Ideal for:\",\u001b[39m\n\u001b[31m+   \"Startups and fast-g",
+        "timestamp": "2026-02-02T08:38:38.287Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/d74178010b-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/deployment/cta.spec.js › Product - Deployment CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:38:47.197Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/models/actions.spec.js › Product - Models actions › Actions",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:39:16.994Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/models/content.spec.js › Product - Models content (Figma exact) › Matches exact models copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -1,11 +1,11 @@\u001b[39m\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    \"Language Models\",\u001b[22m\n\u001b[2m    \"Global coverage across 200+ languages with state-of-the-art Indic and code-switch capabilities for exceptional accuracy.\",\u001b[22m\n\u001b[2m    \"Zero STT Indic\",\u001b[22m\n\u001b[2m    \"Superior accuracy for deep Indic language support\",\u001b[22m\n\u001b[32m-   \"Learn mo",
+        "timestamp": "2026-02-02T08:39:59.221Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/1d795ba1fa-test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/299ffbfc46-video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/4237527bb5-error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/models/cta.spec.js › Product - Models CTAs › CTAs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:40:07.488Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/overview/actions.spec.js › Product - Overview actions › Actions",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T08:44:44.110Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/overview/content.spec.js › Product - Overview content (Figma exact) › Matches exact overview copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    \"Foundation Models Built for Every Need\",\u001b[22m\n\u001b[2m    \"Choose from our suite of specialized models designed for exceptional language support, tailored use cases, and flexible deployment.\",\u001b[22m\n\u001b[2m    \"Language Models\",\u001b[22m\n\u001b[2m    \"Comprehensive multilingual support for 200+ languages, including Ind",
+        "timestamp": "2026-02-02T08:45:34.298Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/21a5b93173-test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/537d071214-video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/f6ba848696-error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/overview/cta.spec.js › Product - Overview CTAs › CTAs",
+        "status": "FAIL",
+        "comment": "\u001b[31mTest timeout of 300000ms exceeded.\u001b[39m",
+        "timestamp": "2026-02-02T09:42:31.974Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/07d580f532-test-failed-1.png"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/speech-intelligence/actions.spec.js › Product - Speech Intelligence actions (Figma exact) › Try Now CTA visible",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T09:47:38.131Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/speech-intelligence/content.spec.js › Product - Speech Intelligence content (Figma exact) › Matches exact speech intelligence copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 6\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"The fastest way to add voice AI to your products\",\u001b[39m\n\u001b[32m-   \"One platform for speech in and speech out—secure by design, built to scale.\",\u001b[39m\n\u001b[32m-   \"Get Started\",\u001b[39m\n\u001b[32m-   \"Contact Sales\",\u001b[39m\n\u001b[32m- ]\u001b[39m\n\u001b[31m+ Array []\u001b[39m\n\n  48 |       expectations.bottomCta.includes(text)\n  49 ",
+        "timestamp": "2026-02-02T09:49:49.035Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/b53c57ec77-test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/379337e9bd-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/speech-intelligence/cta.spec.js › Product - Speech Intelligence CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T09:50:09.343Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/voice-agents/actions.spec.js › Product - Voice Agents actions (Figma exact) › CTA button enabled states",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T09:50:47.379Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/voice-agents/content.spec.js › Product - Voice Agents content (Figma exact) › Matches exact voice agents copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"Contact us\",\u001b[39m\n\u001b[32m- ]\u001b[39m\n\u001b[31m+ Array []\u001b[39m\n\n  33 |       await voiceAgents.getSectionTextByAnchors(expectations.contactCta)\n  34 |     );\n> 35 |     expect(contactText).toEqual(expectations.contactCta);\n     |                         ^\n  36 |\n  37 |     const solutionText = voiceAgents.norm",
+        "timestamp": "2026-02-02T09:52:20.373Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/45a4c8d9ce-test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/bf2b8926c5-video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/936ad17f1d-error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/product/voice-agents/cta.spec.js › Product - Voice Agents CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T09:52:32.785Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/resources/benchmarks/actions.spec.js › Resources - Benchmarks actions (Figma exact) › Tabs and chart controls visible",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T09:53:07.908Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/resources/benchmarks/content.spec.js › Resources - Benchmarks content (Figma exact) › Matches exact benchmarks copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"Book a Meeting\",\u001b[39m\n\u001b[32m- ]\u001b[39m\n\u001b[31m+ Array []\u001b[39m\n\n  25 |       await benchmarks.getSectionTextByAnchors(expectations.cta)\n  26 |     );\n> 27 |     expect(ctaText).toEqual(expectations.cta);\n     |                     ^\n  28 |\n  29 |     const highestText = benchmarks.normalizeTextList(\n  30 |",
+        "timestamp": "2026-02-02T09:54:14.834Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/ae70b472c4-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/resources/benchmarks/cta.spec.js › Resources - Benchmarks CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T09:59:15.786Z",
+        "attachments": [
+          {
+            "name": "trace",
+            "contentType": "application/zip",
+            "url": "playwright-artifacts/ae1dbfd1ba-trace.zip"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/resources/blogs/actions.spec.js › Resources - Blogs actions (Figma exact) › Search and pagination available",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('textbox', { name: 'Search' }).first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Search' }).first()\u001b[22m\n\n\n  14 |\n  15 |     const searchInput = page.getByRole('textbox', { name: 'Search' }).first();\n> 16 |     await expect(searchInput).toBeVisible();\n   ",
+        "timestamp": "2026-02-02T10:02:06.256Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/11f4c28c25-video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/9c30fc14fb-error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/resources/blogs/content.spec.js › Resources - Blogs content (Figma exact) › Matches exact blogs copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 8\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"All\",\u001b[39m\n\u001b[32m-   \"Engineering & Research\",\u001b[39m\n\u001b[32m-   \"AI Trends\",\u001b[39m\n\u001b[32m-   \"Product\",\u001b[39m\n\u001b[32m-   \"Build & Learn\",\u001b[39m\n\u001b[32m-   \"Use Cases\",\u001b[39m\n\u001b[32m- ]\u001b[39m\n\u001b[31m+ Array []\u001b[39m\n\n  24 |\n  25 |     const topics = await blogs.getTopicButtons();\n> 26 |     expect(blogs.normalizeTextLis",
+        "timestamp": "2026-02-02T10:04:08.614Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/73c80bac9d-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/resources/blogs/cta.spec.js › Resources - Blogs CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:05:10.440Z",
+        "attachments": [
+          {
+            "name": "trace",
+            "contentType": "application/zip",
+            "url": "playwright-artifacts/bc3f0b721e-trace.zip"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/resources/patents/actions.spec.js › Resources - Patents actions (Figma exact) › Patent cards visible",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:06:58.681Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/resources/patents/content.spec.js › Resources - Patents content (Figma exact) › Matches exact patents copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[32m- Array [\u001b[39m\n\u001b[32m-   \"Discover our ever-growing collection of patents.\",\u001b[39m\n\u001b[32m- ]\u001b[39m\n\u001b[31m+ Array []\u001b[39m\n\n  20 |       await patents.getSectionTextByAnchors(expectations.hero)\n  21 |     );\n> 22 |     expect(heroText).toEqual(expectations.hero);\n     |                      ^\n  23 |\n  24 |     const patentsText = p",
+        "timestamp": "2026-02-02T10:09:00.383Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/54ac65dbc7-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/resources/patents/cta.spec.js › Resources - Patents CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:09:22.764Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/contact-centers/actions.spec.js › Solutions - Contact Centers actions (Figma exact) › Try Now buttons enabled",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:09:55.493Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/contact-centers/content.spec.js › Solutions - Contact Centers content (Figma exact) › Matches exact contact centers copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    \"Intelligence That Listens. APIs That Power Contact Centers\",\u001b[22m\n\u001b[2m    \"Real-time transcription, analytics, and voice automation — plug-and-play intelligence for every conversation.\",\u001b[22m\n\u001b[2m    \"Live Demo\",\u001b[22m\n\u001b[31m+   \"Live Demo\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  20 |       await contactCenters.getSection",
+        "timestamp": "2026-02-02T10:11:33.937Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/7d116556a9-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/contact-centers/cta.spec.js › Solutions - Contact Centers CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:12:01.997Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/healthcare/actions.spec.js › Solutions - Healthcare actions (Figma exact) › Try Now buttons enabled",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:12:43.990Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/healthcare/content.spec.js › Solutions - Healthcare content (Figma exact) › Matches exact healthcare copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    \"Intelligence That Cares. APIs That Power Clinical Systems.\",\u001b[22m\n\u001b[2m    \"Modular clinical AI — speech, reasoning, and documentation built for accuracy, privacy, and scale.\",\u001b[22m\n\u001b[2m    \"Live Demo\",\u001b[22m\n\u001b[31m+   \"Live Demo\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  20 |       await healthcare.getSectionTextByAnchors(e",
+        "timestamp": "2026-02-02T10:14:17.512Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/b8d979a0a8-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/healthcare/cta.spec.js › Solutions - Healthcare CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:14:42.000Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/media-entertainment/actions.spec.js › Solutions - Media & Entertainment actions (Figma exact) › Contact Sales CTA visible",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:15:34.206Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/media-entertainment/content.spec.js › Solutions - Media & Entertainment content (Figma exact) › Matches exact media & entertainment copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -  0\u001b[39m\n\u001b[31m+ Received  + 53\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[31m+   \"Product\",\u001b[39m\n\u001b[31m+   \"Models\",\u001b[39m\n\u001b[31m+   \"Solutions\",\u001b[39m\n\u001b[31m+   \"Resources\",\u001b[39m\n\u001b[31m+   \"Documentation\",\u001b[39m\n\u001b[31m+   \"About Us\",\u001b[39m\n\u001b[31m+   \"Pricing\",\u001b[39m\n\u001b[31m+   \"Get Started\",\u001b[39m\n\u001b[31m+   \"Contact Sales\",\u001b[39m\n\u001b[2m    \"Voice Stack for Global Media to Localise at Scale\",\u001b[22m",
+        "timestamp": "2026-02-02T10:16:59.485Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/9ccd5f0e2f-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/media-entertainment/cta.spec.js › Solutions - Media & Entertainment CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:17:24.151Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/use-cases/actions.spec.js › Solutions - Use Cases actions (Figma exact) › Learn more CTAs visible",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:17:50.537Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/use-cases/content.spec.js › Solutions - Use Cases content (Figma exact) › Matches exact use cases copy and ordering",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -  0\u001b[39m\n\u001b[31m+ Received  + 79\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[31m+   \"Product\",\u001b[39m\n\u001b[31m+   \"Models\",\u001b[39m\n\u001b[31m+   \"Solutions\",\u001b[39m\n\u001b[31m+   \"Resources\",\u001b[39m\n\u001b[31m+   \"Documentation\",\u001b[39m\n\u001b[31m+   \"About Us\",\u001b[39m\n\u001b[31m+   \"Pricing\",\u001b[39m\n\u001b[31m+   \"Get Started\",\u001b[39m\n\u001b[31m+   \"Contact Sales\",\u001b[39m\n\u001b[2m    \"Enterprise Use Cases\",\u001b[22m\n\u001b[2m    \"Custom applications",
+        "timestamp": "2026-02-02T10:19:01.244Z",
+        "attachments": [
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/29cd87c4b1-test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/4143cef020-video.webm"
+          },
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "url": "playwright-artifacts/9471800997-error-context.md"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "modules/solutions/use-cases/cta.spec.js › Solutions - Use Cases CTAs (Figma exact) › CTA hrefs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:19:15.625Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Homepage - Homepage",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:20:14.935Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Product - Overview",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:20:36.008Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Product - Models",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:20:45.572Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Product - Voice Agents",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:20:55.753Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Product - Speech Intelligence",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:21:14.395Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Product - Audio Processing",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:21:25.273Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Product - Deployment",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:21:37.145Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Solutions - Use Cases",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:21:45.641Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Solutions - Contact Centers",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:21:55.495Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Solutions - Media & Entertainment",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:22:14.414Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Solutions - Healthcare",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:22:23.365Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Models - Language Models",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:22:35.233Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Models - Zero STT Indic",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:22:49.586Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Models - Zero STT Codeswitch",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:22:59.180Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Models - Zero STT Universal",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:23:15.650Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Models - Specialised Models",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:23:39.595Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Models - Zero STT Med",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:23:49.106Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Models - On Device Models",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:24:11.008Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Resources - Blogs",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:24:19.328Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Resources - Benchmarks",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:24:31.133Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Resources - Patents",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:24:51.082Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Pricing - Pricing",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:25:03.220Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "snapshots/generate-page-snapshots.spec.js › Generate page content snapshots › snapshot Contact - Contact Us",
+        "status": "PASS",
+        "comment": "",
+        "timestamp": "2026-02-02T10:25:12.563Z",
+        "attachments": []
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Homepage - Homepage",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: homepage/homepage-homepage.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(homepage/homepage-homepage.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - Timeout 5000ms ex",
+        "timestamp": "2026-02-02T10:28:12.453Z",
+        "attachments": [
+          {
+            "name": "homepage/homepage-homepage-expected.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/b694f1474c-homepage-homepage-darwin.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/c17e0001cd-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Product - Overview",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: product/product-overview.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(product/product-overview.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - Timeout 5000ms exceeded.\u001b[22m\n\n\n  43 |\n  44 |       const scree",
+        "timestamp": "2026-02-02T10:30:55.472Z",
+        "attachments": [
+          {
+            "name": "product/product-overview-expected.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/04e9fbed46-product-overview-darwin.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/8038884f8d-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Product - Models",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: product/product-models.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(product/product-models.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  -",
+        "timestamp": "2026-02-02T10:34:15.787Z",
+        "attachments": [
+          {
+            "name": "product/product-models-expected.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/96861c80e9-product-models-darwin.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/2de783e66c-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Product - Voice Agents",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: product/product-voice-agents.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(product/product-voice-agents.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - Timeout 5000m",
+        "timestamp": "2026-02-02T10:37:25.870Z",
+        "attachments": [
+          {
+            "name": "product/product-voice-agents-expected.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/bd19bac5c7-product-voice-agents-darwin.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/c46aa8b165-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Product - Speech Intelligence",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: product/product-speech-intelligence.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(product/product-speech-intelligence.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  -",
+        "timestamp": "2026-02-02T10:40:10.660Z",
+        "attachments": [
+          {
+            "name": "product/product-speech-intelligence-expected.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/1e8bd4c635-product-speech-intelligence-darwin.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/f0f85230fd-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Product - Audio Processing",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: product/product-audio-processing.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(product/product-audio-processing.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts",
+        "timestamp": "2026-02-02T10:42:44.381Z",
+        "attachments": [
+          {
+            "name": "product/product-audio-processing-expected.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/d32bc3f4a8-product-audio-processing-darwin.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/73b2b3511a-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Product - Deployment",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: product/product-deployment.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(product/product-deployment.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - Timeout 5000ms ex",
+        "timestamp": "2026-02-02T10:45:57.014Z",
+        "attachments": [
+          {
+            "name": "product/product-deployment-expected.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/aa7eb3aed3-product-deployment-darwin.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/e36169e398-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Solutions - Use Cases",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: solutions/solutions-use-cases.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(solutions/solutions-use-cases.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - Timeout 5000ms exceeded.\u001b[22m\n\n\n  43 |\n  44 |       c",
+        "timestamp": "2026-02-02T10:48:47.206Z",
+        "attachments": [
+          {
+            "name": "solutions/solutions-use-cases-expected.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/1a39bafa65-solutions-use-cases-darwin.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/8716c79759-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Solutions - Contact Centers",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: solutions/solutions-contact-centers.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(solutions/solutions-contact-centers.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  -",
+        "timestamp": "2026-02-02T10:51:43.387Z",
+        "attachments": [
+          {
+            "name": "solutions/solutions-contact-centers-expected.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/bb933ed58f-solutions-contact-centers-darwin.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/241f3a04c6-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Solutions - Media & Entertainment",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: solutions/solutions-media-entertainment.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(solutions/solutions-media-entertainment.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m",
+        "timestamp": "2026-02-02T10:54:45.693Z",
+        "attachments": [
+          {
+            "name": "solutions/solutions-media-entertainment-expected.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/2876e4e93e-solutions-media-entertainment-darwin.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/99bbc5496e-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Solutions - Healthcare",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: solutions/solutions-healthcare.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(solutions/solutions-healthcare.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - Timeout 5000ms exceeded.\u001b[22m\n\n\n  43 |\n  44 |      ",
+        "timestamp": "2026-02-02T10:58:01.087Z",
+        "attachments": [
+          {
+            "name": "solutions/solutions-healthcare-expected.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/87fb9c83ec-solutions-healthcare-darwin.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/c4298868de-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Models - Language Models",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: models/models-language-models.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(models/models-language-models.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - Timeout 500",
+        "timestamp": "2026-02-02T11:00:30.717Z",
+        "attachments": [
+          {
+            "name": "models/models-language-models-expected.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/ac55dbdb5a-models-language-models-darwin.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/9e1ae19c80-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Models - Zero STT Indic",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: models/models-zero-stt-indic.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(models/models-zero-stt-indic.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - Timeout 5000ms exceeded.\u001b[22m\n\n\n  43 |\n  44 |       con",
+        "timestamp": "2026-02-02T11:02:52.872Z",
+        "attachments": [
+          {
+            "name": "models/models-zero-stt-indic-expected.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/5599cda33c-models-zero-stt-indic-darwin.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/36196c5b31-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Models - Zero STT Codeswitch",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: models/models-zero-stt-codeswitch.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(models/models-zero-stt-codeswitch.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - generating new stable screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m ",
+        "timestamp": "2026-02-02T11:06:00.744Z",
+        "attachments": [
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/433272669d-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Models - Zero STT Universal",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: models/models-zero-stt-universal.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(models/models-zero-stt-universal.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - Timeout 5000ms exceeded.\u001b[22m\n\n\n  43 |\n  44 |  ",
+        "timestamp": "2026-02-02T11:10:30.752Z",
+        "attachments": [
+          {
+            "name": "models/models-zero-stt-universal-expected.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/157ccc9653-models-zero-stt-universal-darwin.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/497cfdfd0e-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Models - Specialised Models",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: models/models-specialised-models.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(models/models-specialised-models.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts",
+        "timestamp": "2026-02-02T11:13:08.079Z",
+        "attachments": [
+          {
+            "name": "models/models-specialised-models-expected.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/c8cec545b6-models-specialised-models-darwin.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/7fc37571d5-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Models - Zero STT Med",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: models/models-zero-stt-med.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(models/models-zero-stt-med.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - Timeout 5000ms ex",
+        "timestamp": "2026-02-02T11:15:27.576Z",
+        "attachments": [
+          {
+            "name": "models/models-zero-stt-med-expected.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/fb1d629e7b-models-zero-stt-med-darwin.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/df7a314f6a-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Models - On Device Models",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: models/models-on-device-models.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(models/models-on-device-models.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loa",
+        "timestamp": "2026-02-02T11:17:28.318Z",
+        "attachments": [
+          {
+            "name": "models/models-on-device-models-expected.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/89f8013bee-models-on-device-models-darwin.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/17284be610-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Resources - Blogs",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: resources/resources-blogs.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(resources/resources-blogs.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - Timeout 5000ms exceeded.\u001b[22m\n\n\n  43 |\n  44 |       const scr",
+        "timestamp": "2026-02-02T11:19:31.948Z",
+        "attachments": [
+          {
+            "name": "resources/resources-blogs-expected.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/ad8e9fcf99-resources-blogs-darwin.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/39bf158d73-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Resources - Benchmarks",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: resources/resources-benchmarks.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(resources/resources-benchmarks.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loa",
+        "timestamp": "2026-02-02T11:23:11.580Z",
+        "attachments": [
+          {
+            "name": "resources/resources-benchmarks-expected.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/cebb933f14-resources-benchmarks-darwin.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/d888ab58bc-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Resources - Patents",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: resources/resources-patents.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(resources/resources-patents.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[2",
+        "timestamp": "2026-02-02T11:24:53.303Z",
+        "attachments": [
+          {
+            "name": "resources/resources-patents-expected.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/62b0832879-resources-patents-darwin.png"
+          },
+          {
+            "name": "resources/resources-patents-actual.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/92bdc38d52-resources-patents-actual.png"
+          },
+          {
+            "name": "resources/resources-patents-diff.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/46b65858dc-resources-patents-diff.png"
+          },
+          {
+            "name": "screenshot",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/4d33929d49-test-failed-1.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/5ebccc9cb8-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Pricing - Pricing",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: pricing/pricing-pricing.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(pricing/pricing-pricing.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m ",
+        "timestamp": "2026-02-02T11:27:08.123Z",
+        "attachments": [
+          {
+            "name": "pricing/pricing-pricing-expected.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/6e09b84d43-pricing-pricing-darwin.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/d46a63182d-video.webm"
+          }
+        ]
+      },
+      {
+        "category": "Playwright",
+        "moduleName": "Playwright",
+        "testPoint": "visual/figma-visual.spec.js › Figma visual regression › visual Contact - Contact Us",
+        "status": "FAIL",
+        "comment": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: contact/contact-contact.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(contact/contact-contact.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m ",
+        "timestamp": "2026-02-02T11:29:13.374Z",
+        "attachments": [
+          {
+            "name": "contact/contact-contact-expected.png",
+            "contentType": "image/png",
+            "url": "playwright-artifacts/e647831be4-contact-contact-darwin.png"
+          },
+          {
+            "name": "video",
+            "contentType": "video/webm",
+            "url": "playwright-artifacts/ed3cfcdec9-video.webm"
+          }
+        ]
+      }
+    ]
   }
 ]
