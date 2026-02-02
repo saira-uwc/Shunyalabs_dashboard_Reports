@@ -1,0 +1,42 @@
+{
+  "columns": {
+    "Product": [
+      "Overview",
+      "Models",
+      "Voice Agents",
+      "Speech Intelligence",
+      "Audio Processing",
+      "Deployment"
+    ],
+    "Models": [
+      "Language Models",
+      "Zero STT Indic",
+      "Zero STT Codeswitch",
+      "Zero STT Universal",
+      "Specialised Models",
+      "Zero STT Med",
+      "On Device Models"
+    ],
+    "Solutions": [
+      "Contact Centers",
+      "Media & Entertainment",
+      "Healthcare"
+    ],
+    "Resources": [
+      "Blogs",
+      "Benchmarks",
+      "News & Media"
+    ],
+    "Documentation": [
+      "Documentation"
+    ],
+    "About us": [
+      "About us"
+    ],
+    "Pricing": [
+      "Pricing"
+    ]
+  },
+  "followUs": "Follow us on",
+  "copyright": "© 2025 Shunya Labs Inc. All rights reserved."
+}

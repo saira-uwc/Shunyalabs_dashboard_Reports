@@ -1,0 +1,43 @@
+{
+  "hero": [
+    "Intelligence That Listens. APIs That Power Contact Centers",
+    "Real-time transcription, analytics, and voice automation — plug-and-play intelligence for every conversation.",
+    "Live Demo"
+  ],
+  "supportInfra": [
+    "End-to-end support infra—secure, compliant, structured",
+    "Get structured data",
+    "Convert messages & attachments to structured fields with smart OCR + LLM reasoning. Pull out intent, product, issue type, account data, and promised actions—export as CRM/ITSM-ready JSON.",
+    "QA & compliance",
+    "Auto-check script adherence and policies, redact card details and personal data, and keep full trails with audit-friendly logs.",
+    "Secure by design",
+    "Deploy in your private cloud or on-premises. CPU-efficient, cost-controlled, and built for strict privacy and uptime.",
+    "Try Now"
+  ],
+  "csat": [
+    "Equip agents to win and lift your CSAT",
+    "Cue agents in real-time",
+    "Live captions, knowledge-base lookups, and “next best response” with steady sub-second speed. Embed in any agent desktop or cloud contact-center platform.",
+    "Automate procedures",
+    "Detect intent and complete common requests end-to-end. Smart routing sends complex cases to the right expert—no dropped balls.",
+    "Understand every customer",
+    "Transcripts in 120+ languages—accent-aware, and code-switching smart—built for real-world noise.",
+    "Try Now"
+  ],
+  "postCall": [
+    "Get post-call intelligence to see the bigger picture",
+    "Analytics",
+    "Auto-generate call summaries, sentiment, topics, and trends with searchable transcripts—export to QA tools and your data lake.",
+    "Insights-driven coaching",
+    "Get sentiment analysis and trends from every transcript and turn knowledge from every conversation into agent coaching that lifts performance in real time.",
+    "Be future ready with features",
+    "Partner with an R&D leader—continuous model upgrades and new features without re-platforming.",
+    "Try Now"
+  ],
+  "bottomCta": [
+    "Get Started",
+    "Make your call center smart and future ready today.",
+    "Try for Free",
+    "Contact Sales"
+  ]
+}

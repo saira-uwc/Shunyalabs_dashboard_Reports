@@ -1,0 +1,43 @@
+{
+  "hero": [
+    "Foundation Models Built to Power Voice Agents",
+    "Trained on proprietary methods and data, delivering industry-leading results across languages, specializations, and deployment environments.",
+    "Try Now"
+  ],
+  "languageModels": [
+    "Language Models",
+    "Global coverage across 200+ languages with state-of-the-art Indic and code-switch capabilities for exceptional accuracy.",
+    "Zero STT Indic",
+    "Superior accuracy for deep Indic language support",
+    "Learn more",
+    "→",
+    "Zero STT Codeswitch",
+    "One-of-a-kind model for Hinglish speech",
+    "Learn more →",
+    "Zero STT",
+    "Industry-leading accuracy across all languages and accents",
+    "Learn more →"
+  ],
+  "specializedModels": [
+    "Specialized Models",
+    "Domain-specific models that understand your use case, from specialised terminology to proper nouns and numerical entities.",
+    "Zero STT Med",
+    "Clinical-grade accuracy for medical transcription and healthcare terminology",
+    "Learn more",
+    "→"
+  ],
+  "onDeviceModels": [
+    "On-Device Models",
+    "Lightweight, high-performance models that run locally without compromising accuracy.",
+    "Zero Tinny ONNX",
+    "Compact ONNX format for accurate on-device transcription",
+    "Learn more",
+    "→"
+  ],
+  "bottomCta": [
+    "The fastest way to add voice AI to your products",
+    "One platform for speech in and speech out—secure by design, built to scale.",
+    "Get Started",
+    "Contact Sales"
+  ]
+}

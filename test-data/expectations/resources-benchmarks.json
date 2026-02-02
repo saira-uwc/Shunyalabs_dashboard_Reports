@@ -1,0 +1,38 @@
+{
+  "hero": [
+    "Proven performance, backed by data",
+    "Shunyalabs’ transcription leads the way — producing 48% fewer errors than the next best model."
+  ],
+  "cta": [
+    "Book a Meeting"
+  ],
+  "highest": [
+    "Highest Word Accuracy Rate"
+  ],
+  "highestTabs": [
+    "Tedlium Ted Talks",
+    "LibriSpeech Clean Audiobooks, Clear speech",
+    "LibriSpeech Other Audiobooks, noisy audio",
+    "SPGISpeech Financial earnings calls"
+  ],
+  "lowest": [
+    "Lowest Total Word Error Rate"
+  ],
+  "milestones": [
+    "Milestones",
+    "0ms",
+    "round-trip latency in production",
+    "0",
+    "languages & dialects",
+    "0%",
+    "GPU cost saved for a Fortune 100 logistics client",
+    "0.00%",
+    "Word error rate"
+  ],
+  "bottomCta": [
+    "The fastest way to add voice AI to your products",
+    "One platform for speech in and speech out—secure by design, built to scale.",
+    "Get Started",
+    "Contact Sales"
+  ]
+}

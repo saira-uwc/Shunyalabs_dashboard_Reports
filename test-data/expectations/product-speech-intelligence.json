@@ -1,0 +1,51 @@
+{
+  "hero": [
+    "Understand Every Conversation with Intelligence Features",
+    "Full flexibility and control across multilingual support, smart formatting, conversational analytics, and advanced AI capabilities.",
+    "Try Now"
+  ],
+  "languageExpertise": [
+    "Language Expertise",
+    "Language Identification",
+    "Automatically detect the language in your audio files",
+    "Translation",
+    "Translate audio during or after transcription",
+    "Transliteration",
+    "Convert output to your preferred script"
+  ],
+  "smartFormatting": [
+    "Smart Formatting",
+    "Speaker Diarization",
+    "Separate transcripts by speaker automatically",
+    "Speaker Identification",
+    "Customize speaker labels for personalized transcripts",
+    "Word Timestamps",
+    "Word-level timing for precise navigation",
+    "Profanity and Keyword Hashing",
+    "Filter and mask profanity or custom keywords"
+  ],
+  "conversationalInsights": [
+    "Conversational Insights",
+    "Intent Detection",
+    "Understand the purpose behind every conversation",
+    "Sentiment Analysis",
+    "Track emotional tone across interactions",
+    "Emotion Diarization",
+    "Get clearer emotion tracking throughout conversations",
+    "Summarisation",
+    "Generate concise summaries from audio or text"
+  ],
+  "advancedFeatures": [
+    "Advanced Features",
+    "Keyword Normalisation",
+    "Standardize brand names, acronyms, and custom terminology",
+    "Medical Keyterm Correction",
+    "Ensure accurate transcription of medical terminology"
+  ],
+  "bottomCta": [
+    "The fastest way to add voice AI to your products",
+    "One platform for speech in and speech out—secure by design, built to scale.",
+    "Get Started",
+    "Contact Sales"
+  ]
+}

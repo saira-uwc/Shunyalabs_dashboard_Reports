@@ -1,0 +1,27 @@
+{
+  "hero": [
+    "Connect with us",
+    "Speak with an expert"
+  ],
+  "offices": [
+    "Our Offices",
+    "Los Angeles (HQ)",
+    "Unit 303, 10645 Wilshire Blvd, Los Angeles, 90024",
+    "Gurgaon, IN",
+    "22nd Floor, Ireo Grand View Tower, Sector 58, Gurugram, Haryana, 122002",
+    "+91 99713 41448",
+    "Singapore",
+    "133 Cecil street #14-01 keck Seng Tower, Singapore - 069535",
+    "USA",
+    "2810 N Church Street, Wilmington, Delaware 19802, USA"
+  ],
+  "form": [
+    "Name *",
+    "Work Email *",
+    "Phone Number *",
+    "Message *",
+    "I agree to receive marketing communications from Shunya Labs.",
+    "I agree to the Privacy Policy and Terms & Conditions. *",
+    "Submit"
+  ]
+}

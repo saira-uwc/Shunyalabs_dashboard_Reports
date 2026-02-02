@@ -1,0 +1,44 @@
+{
+  "hero": [
+    "The world’s most accurate speech-to-text model supporting 200+ languages",
+    "Zero Universal is 48% more accurate than the next best speech-to-text model, designed to support conversational speech in 200+ languages in noisy real world scenarios with speaker overlap."
+  ],
+  "widget": [
+    "Language",
+    "🇺🇸English",
+    "Input Audio",
+    "Pre-recorded",
+    "Customer Support Call",
+    "Podcast",
+    "Upload your file",
+    "or",
+    "Live recording",
+    "Start Speaking",
+    "Play audio",
+    "No conversation to copy",
+    "Select your input language, then pick a sample, upload a file, or start speaking to capture live audio."
+  ],
+  "cta": [
+    "Get Zero STT API now"
+  ],
+  "scale": [
+    "Speech recognition built for scale",
+    "Deploy once, transcribe everywhere—with the accuracy and speed your users demand.",
+    "Superior Accuracy",
+    "Industry-leading 3.10% WER delivers accurate transcriptions, built for production workloads where precision matters.",
+    "Broad Language Support",
+    "Understand the world with 200+ languages and robust accent support. One model that works everywhere, for everyone.",
+    "Subsecond Latency",
+    "Lightning-fast processing keeps conversations flowing naturally. Real-time transcription that feels instant, every time."
+  ],
+  "languageRegionsHeader": [
+    "Language Regions",
+    "Explore our comprehensive language coverage across the globe"
+  ],
+  "bottomCta": [
+    "The fastest way to add voice AI to your products",
+    "One platform for speech in and speech out—secure by design, built to scale.",
+    "Try for Free",
+    "Contact Sales"
+  ]
+}

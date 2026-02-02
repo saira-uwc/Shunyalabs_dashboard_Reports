@@ -1,0 +1,38 @@
+{
+  "hero": [
+    "One API for 200+ languages and multilingual transcriptions",
+    "Reach the largest possible audience in real time—without juggling multiple language APIs or wrestling with complex setup."
+  ],
+  "cards": [
+    "Zero STT Indic",
+    "Superior Indic models for industry best accuracy and speed in transcribing speech in Hindi, Bengali, Kannada and Telugu.",
+    "Learn more",
+    "Zero STT Code-switch",
+    "The only model in the world that processes and returns output in mixed langauge tokens. Now available for Hinglish.",
+    "Learn more",
+    "Zero STT",
+    "Universal language model that supports everyday conversational speech transcription in 200+ languages.",
+    "Learn more"
+  ],
+  "codeSwitch": [
+    "Experience the magic of Shunya Labs’ code-switching transcription",
+    "Shunya Labs’ code-switching ASR is the only in the world that returns native Hinglish transcripts in real time. Keep the natural flow of conversation and still get fast, accurate, mixed-language transcription.",
+    "Try now"
+  ],
+  "indic": [
+    "Transcribe Indian languages like never before",
+    "Zero Indic is purpose-built for Indian speech, delivering up to 200% better accuracy than the next-best model. Unlock world-class support for your users with reliable, real-time transcripts that keep pace with the natural rhythm of conversation.",
+    "Try now"
+  ],
+  "globalCoverage": [
+    "One API for 200+ languages, covering 97% of the global population",
+    "Zero STT is the world's most accurate speech-to-text model designed to support conversational speech in 200+ languages in noisy real world scenarios with speaker overlap. Transcribe audio in sub second latency for captions that feels natural.",
+    "See the full list of languages supported by Shunya Labs"
+  ],
+  "bottomCta": [
+    "The fastest way to add voice AI to your products",
+    "One platform for speech in and speech out—secure by design, built to scale.",
+    "Get Started",
+    "Contact Sales"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "hero": [
+    "Enterprise Use Cases",
+    "Custom applications tailored to your specific context and workflows."
+  ],
+  "capabilities": [
+    "Custom vocabularies",
+    "Add custom vocabularies and pronunciations to specialized models",
+    "Business logic integration",
+    "Embed your rules, workflows, and context",
+    "Flexible deployment",
+    "Cloud, edge, or on-premises based on your needs",
+    "Speaker identification",
+    "Register workplace voices for personalized speaker tags",
+    "Structured outputs",
+    "Format data for seamless system integration"
+  ],
+  "voiceAgents": [
+    "Voice Agents & Assistants",
+    "Conversational automation with intelligent action execution.",
+    "200+ language",
+    "Wide coverage with multilingual support",
+    "Context-aware",
+    "Understands your business workflows",
+    "One integration",
+    "Single API for workflows & automation",
+    "Custom entities",
+    "Recognizes your business terminology",
+    "Learn more →"
+  ],
+  "medicalDocumentation": [
+    "Medical Documentation",
+    "Clinical-grade speech recognition with structured EHR integration.",
+    "Medical specialized",
+    "Trained on medications, procedures, and diagnoses",
+    "Noise-optimized",
+    "Performs in clinical environments with equipment noise",
+    "Structured outputs",
+    "Direct FHIR, HL7, and EHR format compatibility",
+    "HIPAA-compliant",
+    "On-premises or dedicated tenant deployment",
+    "Learn more →"
+  ],
+  "contactCenter": [
+    "Contact Center Intelligence",
+    "Real-time analytics and agent assistance with conversational insights.",
+    "Live transcription",
+    "Streaming ASR with <100ms latency for continuous support",
+    "Emotion tracking",
+    "Speaker-level sentiment throughout conversations",
+    "Agent assist",
+    "Real-time guidance for upsell opportunities",
+    "Automated ticketing",
+    "Structured extraction with CRM integration",
+    "Learn more →"
+  ],
+  "meetingTranscription": [
+    "Meeting Transcription",
+    "High-fidelity capture with speaker attribution and structured output.",
+    "Speaker diarization",
+    "Identifies who said what, even with crosstalk",
+    "Numerical extraction",
+    "Captures amounts, dates, and percentages accurately",
+    "Word timestamps",
+    "Precise alignment for video synchronization",
+    "Custom vocabulary",
+    "Recognizes brand names and proper nouns",
+    "Learn more →"
+  ],
+  "bottomCta": [
+    "The fastest way to add voice AI to your products",
+    "One platform for speech in and speech out—secure by design, built to scale.",
+    "Get Started",
+    "Contact Sales"
+  ]
+}

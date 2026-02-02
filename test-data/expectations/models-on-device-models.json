@@ -1,0 +1,35 @@
+{
+  "hero": [
+    "On device speech-to-text for real-time transcription",
+    "Run fast, accurate speech-to-text directly on your devices with Shunya Labs’ ONNX-based English ASR model"
+  ],
+  "features": [
+    "Offline-ready",
+    "Operates without network connectivity or in low-bandwidth environments",
+    "Lightweight models",
+    "Optimized edge architectures for resource-constrained devices",
+    "ONNX format",
+    "Portable models deploy seamlessly across iOS, Android, Linux, and embedded systems",
+    "Low latency",
+    "Fast local processing without round-trip delays",
+    "Ideal for healthcare, automotive, mobile apps, and privacy-critical use cases."
+  ],
+  "performance": [
+    "Tiny ONNX model, big performance",
+    "Small enough to fit on edge devices and existing servers without a hardware refresh",
+    "Lightweight",
+    "Fast",
+    "Transcribes as people speak, with sub-100 ms latency for partials",
+    "Trained on high entropy data to achieve industry best 3.10% WER",
+    "Accurate"
+  ],
+  "contactCta": [
+    "Contact Us"
+  ],
+  "bottomCta": [
+    "The fastest way to add voice AI to your products",
+    "One platform for speech in and speech out—secure by design, built to scale.",
+    "Get Started",
+    "Contact Sales"
+  ]
+}

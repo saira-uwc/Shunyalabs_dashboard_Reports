@@ -1,0 +1,48 @@
+{
+  "path": "/blog",
+  "title": "AI, Speech Recognition & Tech Insights | Shunya Labs Blog",
+  "headerNav": [
+    "Product",
+    "Models",
+    "Solutions",
+    "Resources",
+    "Documentation",
+    "About Us",
+    "Pricing",
+    "Sign In",
+    "Get Started",
+    "Contact Sales"
+  ],
+  "mainText": [
+    "Product Why Multilingual Voice AI Fails on Real-World Audio — and How We Fixed It 03 Nov 2025",
+    "Product",
+    "Why Multilingual Voice AI Fails on Real-World Audio — and How We Fixed It",
+    "03 Nov 2025",
+    "Build & Learn Getting Started with ASR APIs: Python Quickstart 23 Oct 2025",
+    "Build & Learn",
+    "Getting Started with ASR APIs: Python Quickstart",
+    "23 Oct 2025",
+    "Build & Learn Getting Started with ASR APIs: Node.js Quickstart 23 Oct 2025",
+    "Build & Learn",
+    "Getting Started with ASR APIs: Node.js Quickstart",
+    "23 Oct 2025",
+    "AI Trends Benchmarking Top Open-Source Speech Recognition Models 10 Oct 2025",
+    "AI Trends",
+    "Benchmarking Top Open-Source Speech Recognition Models",
+    "10 Oct 2025",
+    "AI Trends Top 10 AI Transcription Tools: A Simple Comparison 10 Oct 2025",
+    "AI Trends",
+    "Top 10 AI Transcription Tools: A Simple Comparison",
+    "10 Oct 2025",
+    "Use cases Speech-to-Text AI in Action: Top 10 Use Cases Across Industries 10 Oct 2025",
+    "Use cases",
+    "Speech-to-Text AI in Action: Top 10 Use Cases Across Industries",
+    "10 Oct 2025"
+  ],
+  "footerNav": [
+    "The fastest way to add voice AI to your products",
+    "One platform for speech in and speech out—secure by design, built to scale.",
+    "Get Started",
+    "Contact Sales"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "hero": [
+    "The Complete Voice AI Stack for",
+    "Developers and Enterprises",
+    "BUILT FOR",
+    "Developers",
+    "READY FOR",
+    "Enterprises"
+  ],
+  "foundationModels": [
+    "Foundation Models Built for Every Need",
+    "Choose from our suite of specialized models designed for exceptional language support, tailored use cases, and flexible deployment.",
+    "Language Models",
+    "Comprehensive multilingual support for 200+ languages, including Indic languages",
+    "Learn more",
+    "→",
+    "Specialized Models",
+    "Purpose-built for specific industries and use cases",
+    "Learn more",
+    "→",
+    "On-Device Models",
+    "Lightweight models optimized for edge deployment",
+    "Learn more",
+    "→"
+  ],
+  "voiceAgent": [
+    "End-to-End Voice Agent Orchestration",
+    "Build complete voice agents with Shunya Labs' intelligence layer— a fully integrated platform from voice input to intelligent response.",
+    "Simple Voice Agent Integration",
+    "Get a single API with speech-to-text, LLM orchestration, and text-to-speech in real time. No complex integrations—just seamless voice AI.",
+    "Optimized Full-Stack Performance",
+    "Our custom-built voice stack optimizes every layer—STT, TTS, and runtime orchestration—for minimal latency and synchronized speech-to-speech flow.",
+    "Flexible Deployment Options",
+    "Deploy fully managed or self-hosted. Full support for HIPAA and GDPR compliance."
+  ],
+  "intelligenceFeatures": [
+    "Intelligence Features That Give You Control",
+    "Unlock powerful AI capabilities with flexible transcription features designed for precision and insight.",
+    "Language Expertise",
+    "Language Identification",
+    "Automatically detect the language in your audio files.",
+    "Translation",
+    "Translate audio during or after transcription.",
+    "Transliteration",
+    "Convert output to your preferred script.",
+    "Conversational Insights",
+    "Intent Detection",
+    "Understand the purpose behind every conversation",
+    "Sentiment Analysis",
+    "Track emotional tone across interactions.",
+    "Emotion Diarization",
+    "Get granular emotion tracking throughout conversations",
+    "Smart Formatting",
+    "Timestamps",
+    "Sentence or word-level timing for precise navigation",
+    "Speaker Diarization",
+    "Separate transcripts by speaker automatically",
+    "Speaker Identification",
+    "Customize speaker labels for personalized transcripts",
+    "See full list of features in documentation"
+  ],
+  "audioProcessing": [
+    "Studio-Quality Audio Processing",
+    "Deliver crystal-clear voice experiences with our proprietary audio tools.",
+    "Denoiser",
+    "Remove background noise for pristine audio quality",
+    "Enhancement",
+    "Optimize audio clarity and intelligibility"
+  ],
+  "deployment": [
+    "Deploy Anywhere, Your Way",
+    "Maintain complete control over your data with flexible hosting options.",
+    "Cloud",
+    "Scalable infrastructure for rapid deployment",
+    "Edge",
+    "Low-latency processing at the network edge",
+    "On-Premises",
+    "Full data sovereignty and security control"
+  ],
+  "bottomCta": [
+    "The fastest way to add voice AI to your products",
+    "One platform for speech in and speech out—secure by design, built to scale.",
+    "Get Started",
+    "Contact Sales"
+  ]
+}

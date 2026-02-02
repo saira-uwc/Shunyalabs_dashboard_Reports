@@ -6,14 +6,34 @@
 
 import fs from 'fs';
 import path from 'path';
+import crypto from 'crypto';
 
 const RESULTS_DIR = path.join(process.cwd(), 'test-results');
 const HISTORY_DIR = path.join(process.cwd(), 'dashboard', 'history');
 const DASHBOARD_FILE = path.join(process.cwd(), 'dashboard', 'index.html');
+const PLAYWRIGHT_REPORT_FILE = path.join(process.cwd(), 'reports', 'json-report.json');
+const PLAYWRIGHT_ARTIFACTS_DIR = path.join(process.cwd(), 'dashboard', 'playwright-artifacts');
 
 // Ensure directories exist
 if (!fs.existsSync(HISTORY_DIR)) {
   fs.mkdirSync(HISTORY_DIR, { recursive: true });
+}
+
+function toTitleCase(value) {
+  return (value || '')
+    .replace(/[-_]/g, ' ')
+    .replace(/\b\w/g, l => l.toUpperCase())
+    .trim();
+}
+
+function deriveModuleName(filePath) {
+  if (!filePath) return 'Playwright';
+  const marker = `${path.sep}tests${path.sep}modules${path.sep}`;
+  const index = filePath.indexOf(marker);
+  if (index === -1) return 'Playwright';
+  const rest = filePath.slice(index + marker.length);
+  const moduleKey = rest.split(path.sep)[0];
+  return toTitleCase(moduleKey || 'Playwright');
 }
 
 /**
@@ -65,7 +85,14 @@ function parseCSV(content) {
  */
 function readAllResults() {
   const allResults = [];
-  const csvFiles = ['content-validation-report.csv', 'cta-redirections-report.csv', 'actions-report.csv'];
+  const csvFiles = [
+    'content-validation-report.csv',
+    'cta-redirections-report.csv',
+    'actions-report.csv',
+    'module-pages-report.csv',
+    'module-cta-report.csv',
+    'module-actions-report.csv',
+  ];
   
   for (const file of csvFiles) {
     const filePath = path.join(RESULTS_DIR, file);
@@ -83,6 +110,109 @@ function readAllResults() {
   }
   
   return allResults;
+}
+
+/**
+ * Read Playwright JSON report and normalize failures + attachments
+ */
+function readPlaywrightReport() {
+  if (!fs.existsSync(PLAYWRIGHT_REPORT_FILE)) return null;
+
+  let report = null;
+  try {
+    report = JSON.parse(fs.readFileSync(PLAYWRIGHT_REPORT_FILE, 'utf8'));
+  } catch (error) {
+    return null;
+  }
+
+  if (!report || !Array.isArray(report.suites)) return null;
+
+  if (!fs.existsSync(PLAYWRIGHT_ARTIFACTS_DIR)) {
+    fs.mkdirSync(PLAYWRIGHT_ARTIFACTS_DIR, { recursive: true });
+  }
+
+  const normalizeStatus = (status) => {
+    if (status === 'passed') return 'PASS';
+    if (status === 'failed' || status === 'timedOut') return 'FAIL';
+    return null;
+  };
+
+  const mapAttachment = (attachment) => {
+    if (!attachment || !attachment.path) return null;
+    if (!fs.existsSync(attachment.path)) return null;
+    const originalName = path.basename(attachment.path);
+    const ext = path.extname(originalName);
+    const hash = crypto.createHash('sha1').update(attachment.path).digest('hex').slice(0, 10);
+    const fileName = `${hash}-${originalName}`;
+    const destPath = path.join(PLAYWRIGHT_ARTIFACTS_DIR, fileName);
+    if (!fs.existsSync(destPath)) {
+      fs.copyFileSync(attachment.path, destPath);
+    }
+    return {
+      name: attachment.name || originalName,
+      contentType: attachment.contentType || '',
+      url: `playwright-artifacts/${fileName}`,
+    };
+  };
+
+  const tests = [];
+
+  const buildTestPoint = (suiteTitles, specTitle, testTitle) => {
+    return [...suiteTitles, specTitle, testTitle].filter(Boolean).join(' › ');
+  };
+
+  const extractErrorMessage = (result) => {
+    if (!result) return '';
+    if (result.errors && result.errors.length) {
+      return result.errors[0].message || result.errors[0].value || '';
+    }
+    if (result.error && result.error.message) {
+      return result.error.message;
+    }
+    return '';
+  };
+
+  const walkSuite = (suite, titlePath = []) => {
+    const suiteTitles = suite.title ? [...titlePath, suite.title] : titlePath;
+
+    (suite.specs || []).forEach(spec => {
+      (spec.tests || []).forEach(test => {
+        const result = test.results && test.results.length ? test.results[test.results.length - 1] : null;
+        const status = normalizeStatus(result?.status || test.outcome || test.expectedStatus);
+        if (!status) return;
+
+        const testPoint = buildTestPoint(suiteTitles, spec.title, test.title || '');
+        const errorMessage = extractErrorMessage(result);
+        const attachments = (result?.attachments || [])
+          .map(mapAttachment)
+          .filter(Boolean);
+
+        tests.push({
+          category: 'Playwright',
+          moduleName: deriveModuleName(suite.file || test.location?.file || ''),
+          testPoint,
+          status,
+          comment: errorMessage,
+          timestamp: result?.startTime || report.startTime || new Date().toISOString(),
+          attachments,
+        });
+      });
+    });
+
+    (suite.suites || []).forEach(child => walkSuite(child, suiteTitles));
+  };
+
+  report.suites.forEach(suite => walkSuite(suite, []));
+
+  const stats = report.stats || {};
+  const passed = Number(stats.expected || stats.passed || 0);
+  const failed = Number(stats.unexpected || stats.failed || 0);
+  const total = passed + failed;
+
+  return {
+    summary: { total, passed, failed, passRate: total > 0 ? Math.round((passed / total) * 100) : 0 },
+    tests,
+  };
 }
 
 /**
@@ -104,7 +234,7 @@ function loadHistory() {
 /**
  * Save current run to history with FULL details
  */
-function saveToHistory(results) {
+function saveToHistory(results, playwrightRun) {
   const history = loadHistory();
   
   // Get run date from first result
@@ -112,11 +242,14 @@ function saveToHistory(results) {
   const runId = `run_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
   
   // Filter out INFO/SUMMARY rows
-  const testResults = results.filter(r => r.status === 'PASS' || r.status === 'FAIL');
-  
-  const passed = testResults.filter(r => r.status === 'PASS').length;
-  const failed = testResults.filter(r => r.status === 'FAIL').length;
-  const total = passed + failed;
+  const csvResults = results.filter(r => r.status === 'PASS' || r.status === 'FAIL');
+  const hasPlaywrightTests = !!(playwrightRun && playwrightRun.tests && playwrightRun.tests.length);
+  const testResults = hasPlaywrightTests ? playwrightRun.tests : csvResults;
+
+  const summary = hasPlaywrightTests ? playwrightRun.summary : null;
+  const passed = summary?.passed ?? testResults.filter(r => r.status === 'PASS').length;
+  const failed = summary?.failed ?? testResults.filter(r => r.status === 'FAIL').length;
+  const total = summary?.total ?? (passed + failed);
   
   const runSummary = {
     runId,
@@ -132,7 +265,8 @@ function saveToHistory(results) {
       testPoint: r.testPoint,
       status: r.status,
       comment: r.comment.substring(0, 500), // Limit comment size
-      timestamp: r.dateTime
+      timestamp: r.dateTime || r.timestamp,
+      attachments: r.attachments || []
     }))
   };
   
@@ -168,16 +302,26 @@ function saveToHistory(results) {
 /**
  * Generate the HTML dashboard with calendar and full history
  */
-function generateDashboard(currentResults, history) {
+function generateDashboard(currentResults, history, playwrightRun) {
   const testResults = currentResults.filter(r => r.status === 'PASS' || r.status === 'FAIL');
-  const passed = testResults.filter(r => r.status === 'PASS').length;
-  const failed = testResults.filter(r => r.status === 'FAIL').length;
-  const total = passed + failed;
+  const hasPlaywrightTests = !!(playwrightRun && playwrightRun.tests && playwrightRun.tests.length);
+  const currentTestResults = hasPlaywrightTests ? playwrightRun.tests : testResults;
+
+  const csvPassed = testResults.filter(r => r.status === 'PASS').length;
+  const csvFailed = testResults.filter(r => r.status === 'FAIL').length;
+  const csvTotal = csvPassed + csvFailed;
+
+  const summary = hasPlaywrightTests ? playwrightRun.summary : null;
+  const passed = summary?.passed ?? csvPassed;
+  const failed = summary?.failed ?? csvFailed;
+  const total = summary?.total ?? csvTotal;
   const passRate = total > 0 ? Math.round((passed / total) * 100) : 0;
+
+  const failureTests = currentTestResults.filter(t => t.status === 'FAIL');
   
   // Group current results by category
   const byCategory = {};
-  testResults.forEach(r => {
+  currentTestResults.forEach(r => {
     if (!byCategory[r.category]) {
       byCategory[r.category] = { passed: 0, failed: 0, tests: [] };
     }
@@ -185,6 +329,20 @@ function generateDashboard(currentResults, history) {
     if (r.status === 'FAIL') byCategory[r.category].failed++;
     byCategory[r.category].tests.push(r);
   });
+
+  // Group current results by module (preferred dashboard view)
+  const byModule = {};
+  currentTestResults.forEach(r => {
+    const moduleKey = (r.moduleName || 'General').trim() || 'General';
+    if (!byModule[moduleKey]) {
+      byModule[moduleKey] = { passed: 0, failed: 0, tests: [] };
+    }
+    if (r.status === 'PASS') byModule[moduleKey].passed++;
+    if (r.status === 'FAIL') byModule[moduleKey].failed++;
+    byModule[moduleKey].tests.push(r);
+  });
+
+  const displayFailures = failureTests.length ? failureTests : currentTestResults.filter(r => r.status === 'FAIL');
   
   // Group history by date for calendar
   const historyByDate = {};
@@ -775,6 +933,50 @@ function generateDashboard(currentResults, history) {
       font-family: 'JetBrains Mono', monospace;
       word-break: break-word;
     }
+    .modal-test-comment.full {
+      display: none;
+      margin-top: 8px;
+    }
+    .modal-test-actions {
+      margin-top: 6px;
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .view-more-btn {
+      background: transparent;
+      color: var(--accent-secondary);
+      border: none;
+      cursor: pointer;
+      font-size: 12px;
+      padding: 0;
+    }
+    .view-more-btn:hover {
+      text-decoration: underline;
+    }
+    .modal-test-attachments {
+      margin-top: 8px;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .attachment-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: var(--accent-secondary);
+      background: rgba(255, 255, 255, 0.04);
+      padding: 4px 8px;
+      border-radius: 999px;
+      text-decoration: none;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .attachment-link:hover {
+      color: white;
+      border-color: var(--accent-secondary);
+    }
 
     /* Filter Bar */
     .filter-bar {
@@ -1068,22 +1270,7 @@ function generateDashboard(currentResults, history) {
         <h2>🎉 All Tests Passed!</h2>
         <p>Great job! All ${total} tests are passing successfully.</p>
       </div>
-      ` : `
-      <div class="failed-card">
-        <div class="failed-header">
-          <h3>⚠️ Failing Tests</h3>
-          <span class="failed-count">${failed}</span>
-        </div>
-        <div class="failed-list">
-          ${testResults.filter(r => r.status === 'FAIL').map(r => `
-          <div class="failed-item">
-            <div class="failed-test-name">${r.testPoint}</div>
-            <div class="failed-error">${r.comment.substring(0, 300)}${r.comment.length > 300 ? '...' : ''}</div>
-          </div>
-          `).join('')}
-        </div>
-      </div>
-      `}
+      ` : ``}
 
       <!-- Charts -->
       <div class="charts-section">
@@ -1101,13 +1288,13 @@ function generateDashboard(currentResults, history) {
         </div>
       </div>
 
-      <!-- Category Breakdown -->
-      <h2 class="section-title">Test Results by Category</h2>
+      <!-- Module Breakdown -->
+      <h2 class="section-title">Test Results by Module</h2>
       <div class="category-grid">
-        ${Object.entries(byCategory).map(([category, data]) => `
+        ${Object.entries(byModule).map(([moduleName, data]) => `
         <div class="category-card">
           <div class="category-header">
-            <div class="category-name">${category}</div>
+            <div class="category-name">${moduleName}</div>
             <div class="category-stats">
               <span class="stat-badge pass">${data.passed} Pass</span>
               ${data.failed > 0 ? `<span class="stat-badge fail">${data.failed} Fail</span>` : ''}
@@ -1117,7 +1304,7 @@ function generateDashboard(currentResults, history) {
             ${data.tests.map(t => `
             <div class="test-item">
               <div class="test-status ${t.status.toLowerCase()}">${t.status === 'PASS' ? '✓' : '✗'}</div>
-              <div class="test-name">${t.testPoint}</div>
+              <div class="test-name">${t.testPoint} <span style="color: var(--text-muted); font-size: 12px;">• ${t.category || 'Test'}</span></div>
             </div>
             `).join('')}
           </div>
@@ -1215,6 +1402,15 @@ function generateDashboard(currentResults, history) {
     let currentMonth = new Date().getMonth();
     let currentYear = new Date().getFullYear();
     let selectedRunId = null;
+
+    function escapeHtml(value) {
+      return (value || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
 
     // Tab switching
     function showTab(tabId, btn) {
@@ -1340,6 +1536,7 @@ function generateDashboard(currentResults, history) {
       document.getElementById('modalTitle').textContent = 'Test Run - ' + runDate.toLocaleString();
       
       const testData = run.tests || run.results || [];
+      const totalCount = run.total || testData.length;
       const filteredTests = filter === 'all' ? testData : testData.filter(t => t.status === filter.toUpperCase());
       
       let html = \`
@@ -1366,7 +1563,7 @@ function generateDashboard(currentResults, history) {
       <div class="filter-bar">
         <span style="color: var(--text-muted); font-size: 13px; margin-right: 12px;">Filter:</span>
         <button class="filter-btn \${filter === 'all' ? 'active' : ''}" onclick="filterTests('all')">
-          All (\${testData.length})
+          All (\${totalCount})
         </button>
         <button class="filter-btn pass \${filter === 'pass' ? 'active' : ''}" onclick="filterTests('pass')">
           ✓ Passed (\${run.passed})
@@ -1379,14 +1576,43 @@ function generateDashboard(currentResults, history) {
       <div class="modal-tests-list" id="testsListContainer">\`;
       
       if (filteredTests.length > 0) {
-        filteredTests.forEach(test => {
+        const attachmentLabel = (attachment) => {
+          const type = (attachment.contentType || '').toLowerCase();
+          if (type.includes('image')) return '📸 Screenshot';
+          if (type.includes('video')) return '🎥 Video';
+          if (type.includes('zip')) return '🧵 Trace';
+          return '📎 Attachment';
+        };
+
+        filteredTests.forEach((test, index) => {
+          const attachmentsHtml = test.attachments && test.attachments.length
+            ? '<div class="modal-test-attachments">' +
+              test.attachments.map(att =>
+                '<a class="attachment-link" href="' + att.url + '" target="_blank" rel="noreferrer">' +
+                attachmentLabel(att) +
+                '</a>'
+              ).join('') +
+              '</div>'
+            : '';
+
+          const fullComment = test.comment || '';
+          const shortComment = fullComment.length > 300 ? fullComment.substring(0, 300) + '...' : fullComment;
+          const commentHtml = test.status === 'FAIL' && fullComment
+            ? '<div class="modal-test-comment" id="shortComment-' + index + '">' + escapeHtml(shortComment) + '</div>' +
+              '<pre class="modal-test-comment full" id="fullComment-' + index + '">' + escapeHtml(fullComment) + '</pre>' +
+              (fullComment.length > 300
+                ? '<div class="modal-test-actions"><button class="view-more-btn" id="toggleCommentBtn-' + index + '" onclick="toggleFullComment(' + index + ')">View more</button></div>'
+                : '')
+            : '';
+
           html += \`
           <div class="modal-test-item" data-status="\${test.status}">
             <div class="modal-test-status \${test.status.toLowerCase()}">\${test.status === 'PASS' ? '✓' : '✗'}</div>
             <div class="modal-test-info">
               <div class="modal-test-name">\${test.testPoint}</div>
               <div class="modal-test-category">\${test.category || 'Test'} • \${test.moduleName || 'Module'}</div>
-              \${test.status === 'FAIL' && test.comment ? '<div class="modal-test-comment">' + test.comment.substring(0, 300) + '</div>' : ''}
+              \${commentHtml}
+              \${attachmentsHtml}
             </div>
           </div>\`;
         });
@@ -1412,6 +1638,17 @@ function generateDashboard(currentResults, history) {
       }
     }
 
+    function toggleFullComment(index) {
+      const fullEl = document.getElementById('fullComment-' + index);
+      const shortEl = document.getElementById('shortComment-' + index);
+      const btnEl = document.getElementById('toggleCommentBtn-' + index);
+      if (!fullEl || !shortEl) return;
+      const isVisible = fullEl.style.display === 'block';
+      fullEl.style.display = isVisible ? 'none' : 'block';
+      shortEl.style.display = isVisible ? 'block' : 'none';
+      if (btnEl) btnEl.textContent = isVisible ? 'View more' : 'View less';
+    }
+
     function closeModal() {
       document.getElementById('runModal').classList.remove('active');
       selectedRunId = null;
@@ -1426,10 +1663,11 @@ function generateDashboard(currentResults, history) {
       const testData = run.tests || run.results || [];
       const filteredTests = currentFilter === 'all' ? testData : testData.filter(t => t.status === currentFilter.toUpperCase());
       
-      let csv = 'Date/Time,Module Name,Test Point,Status,Category,Comment\\n';
+      let csv = 'Date/Time,Module Name,Test Point,Status,Category,Comment,Attachments\\n';
       filteredTests.forEach(test => {
         const comment = (test.comment || '').replace(/"/g, "'").replace(/\\n/g, ' ');
-        csv += \`"\${test.timestamp || run.runDate}","\${test.moduleName}","\${test.testPoint}","\${test.status}","\${test.category}","\${comment}"\\n\`;
+        const attachments = (test.attachments || []).map(a => a.url).join(' | ');
+        csv += \`"\${test.timestamp || run.runDate}","\${test.moduleName}","\${test.testPoint}","\${test.status}","\${test.category}","\${comment}","\${attachments}"\\n\`;
       });
       
       downloadFile(csv, \`test-run-\${new Date(run.runDate).toISOString().split('T')[0]}-\${currentFilter}.csv\`, 'text/csv');
@@ -1643,28 +1881,30 @@ function generateDashboard(currentResults, history) {
 console.log('📊 Generating Test Report Dashboard...\n');
 
 const results = readAllResults();
+const playwrightRun = readPlaywrightReport();
 
-if (results.length === 0) {
+if (results.length === 0 && !playwrightRun) {
   console.log('❌ No test results found in test-results folder.');
   console.log('   Run tests first: npm test');
   process.exit(1);
 }
 
-const history = saveToHistory(results);
-const html = generateDashboard(results, history);
+const history = saveToHistory(results, playwrightRun);
+const html = generateDashboard(results, history, playwrightRun);
 
 fs.writeFileSync(DASHBOARD_FILE, html);
 
 const testResults = results.filter(r => r.status === 'PASS' || r.status === 'FAIL');
-const passed = testResults.filter(r => r.status === 'PASS').length;
-const failed = testResults.filter(r => r.status === 'FAIL').length;
+const passed = playwrightRun?.summary?.passed ?? testResults.filter(r => r.status === 'PASS').length;
+const failed = playwrightRun?.summary?.failed ?? testResults.filter(r => r.status === 'FAIL').length;
+const total = playwrightRun?.summary?.total ?? (passed + failed);
 
 console.log('✅ Dashboard generated successfully!\n');
 console.log(`📈 Current Run Summary:`);
-console.log(`   Total Tests: ${passed + failed}`);
+console.log(`   Total Tests: ${total}`);
 console.log(`   Passed: ${passed}`);
 console.log(`   Failed: ${failed}`);
-console.log(`   Pass Rate: ${Math.round((passed / (passed + failed)) * 100)}%\n`);
+console.log(`   Pass Rate: ${total > 0 ? Math.round((passed / total) * 100) : 0}%\n`);
 console.log(`📁 Dashboard: ${DASHBOARD_FILE}`);
 console.log(`📁 History: ${path.join(HISTORY_DIR, 'runs.json')} (${history.length} runs stored)`);
 console.log(`\n🌐 Open dashboard: npm run dashboard:open`);

@@ -1,0 +1,45 @@
+{
+  "hero": [
+    "Deploy Anywhere, Your Way",
+    "Flexible deployment options for your security, performance, and compliance needs."
+  ],
+  "cloud": [
+    "Cloud",
+    "Fully managed infrastructure for rapid deployment and effortless scaling.",
+    "Capabilities",
+    "Zero infrastructure management",
+    "Instant auto-scaling",
+    "Global low-latency access",
+    "Ideal for:",
+    "Startups and fast-growing companies prioritizing speed to market."
+  ],
+  "edge": [
+    "Edge",
+    "Ultra-low latency processing at the network edge.",
+    "Capabilities",
+    "Regional data residency",
+    "Reduced bandwidth costs",
+    "Continues during network disruptions",
+    "Ideal for:",
+    "Real-time applications, IoT, telecom, and multi-region deployments."
+  ],
+  "onPremises": [
+    "On-Premises",
+    "Complete control within your infrastructure.",
+    "Capabilities",
+    "Full data sovereignty",
+    "Air-gapped deployment option",
+    "Custom security integration",
+    "Ideal for:",
+    "Startups and fast-growing companies prioritizing speed to market."
+  ],
+  "contactCta": [
+    "Contact Us"
+  ],
+  "bottomCta": [
+    "The fastest way to add voice AI to your products",
+    "One platform for speech in and speech out—secure by design, built to scale.",
+    "Get Started",
+    "Contact Sales"
+  ]
+}

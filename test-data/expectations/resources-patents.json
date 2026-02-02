@@ -1,0 +1,40 @@
+{
+  "hero": [
+    "Discover our ever-growing collection of patents."
+  ],
+  "patents": [
+    "PATENT",
+    "Translation with Clinical Precision",
+    "PATENT",
+    "Text to emotion vector generation",
+    "PATENT",
+    "LLM Hallucination Mitigation",
+    "PATENT",
+    "Fake information classification",
+    "PATENT",
+    "Clinician like Discharge Summary generation",
+    "PATENT",
+    "Causality driven Graph Neural Network for Mental Health Prognosis",
+    "PATENT",
+    "Stochastic Actor Oriented Model driven Clinician Suggestion",
+    "PATENT",
+    "Clinical Case History Generation",
+    "PATENT",
+    "Deltawave guided wearable EEG happiness Monitors",
+    "PATENT",
+    "Interoperable EHR Taxonomy and Data Mapper",
+    "PATENT",
+    "Stella for Clinician",
+    "PATENT",
+    "Phoneme Viseme"
+  ],
+  "cta": [
+    "Contact Us"
+  ],
+  "bottomCta": [
+    "The fastest way to add voice AI to your products",
+    "One platform for speech in and speech out—secure by design, built to scale.",
+    "Get Started",
+    "Contact Sales"
+  ]
+}

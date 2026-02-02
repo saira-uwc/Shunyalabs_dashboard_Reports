@@ -1,0 +1,35 @@
+{
+  "hero": [
+    "Indic language transcription backed by data",
+    "Get world-class speed and accuracy for major Indian languages, so your users experience natural, reliable transcription in the languages they actually speak."
+  ],
+  "hindi": [
+    "Hindi",
+    "Hindi ASR built for 350M+ native speakers",
+    "Trained on 430.6 hours of real-world audio from OpenSLR, Gramvaani, Shrutilipi, Kathbath, Vaani, and proprietary data in just 35.9 hours on dual A100 GPUs."
+  ],
+  "telugu": [
+    "Telugu",
+    "Telugu ASR built for 80M+ native speakers",
+    "Trained on 110.6 hours of real-world audio from Kathbath and Google Fleurs in just 13.43 hours on dual A100 GPUs."
+  ],
+  "kannada": [
+    "Kannada",
+    "Kannada ASR built for 40M+ native speakers",
+    "Trained on 90.6 hours of real-world audio from OpenSLR, Kathbath, and Vaani in just 9.9 hours on dual A100 GPUs."
+  ],
+  "bengali": [
+    "Bengali",
+    "Bengali ASR built for 230M+ native speakers",
+    "Trained on 110.6 hours of real-world audio from OpenSLR, Kathbath, Vaani, and Shrutilipi in just 12.9 hours on dual A100 GPUs."
+  ],
+  "cta": [
+    "Try now"
+  ],
+  "bottomCta": [
+    "The fastest way to add voice AI to your products",
+    "One platform for speech in and speech out—secure by design, built to scale.",
+    "Try for Free",
+    "Contact Sales"
+  ]
+}

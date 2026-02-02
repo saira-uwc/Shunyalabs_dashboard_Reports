@@ -1,0 +1,42 @@
+{
+  "hero": [
+    "Studio-Quality Audio Processing",
+    "Proprietary tools that transform raw audio into crystal-clear voice for superior transcription and AI performance."
+  ],
+  "denoiser": [
+    "Denoiser",
+    "Eliminate background noise while preserving natural speech.",
+    "Capabilities",
+    "Real-time adaptive noise reduction",
+    "Multi-source interference suppression",
+    "Speech characteristic preservation",
+    "Use Cases",
+    "Call centers",
+    "Remote recordings",
+    "mobile apps",
+    "noisy environments",
+    "conference calls"
+  ],
+  "enhancement": [
+    "Enhancement",
+    "Optimize clarity and intelligibility for maximum accuracy.",
+    "Capabilities",
+    "Automatic volume normalization",
+    "Frequency optimization for speech",
+    "Artifact and distortion removal",
+    "Use Cases",
+    "Phone recordings",
+    "low-quality audio",
+    "variable conditions",
+    "legacy recordings"
+  ],
+  "contactCta": [
+    "Contact Us"
+  ],
+  "bottomCta": [
+    "The fastest way to add voice AI to your products",
+    "One platform for speech in and speech out—secure by design, built to scale.",
+    "Get Started",
+    "Contact Sales"
+  ]
+}

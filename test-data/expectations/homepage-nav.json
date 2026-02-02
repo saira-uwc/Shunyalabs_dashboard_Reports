@@ -1,0 +1,112 @@
+{
+  "dropdowns": {
+    "Product": [
+      {
+        "label": "Overview",
+        "description": "High-level view of the Shunya Labs AI ecosystem",
+        "href": "/overview"
+      },
+      {
+        "label": "Models",
+        "description": "Explore detailed specifications of our AI models",
+        "href": "/models-page"
+      },
+      {
+        "label": "Voice Agent",
+        "description": "Build intelligent conversational voice assistant workflows",
+        "href": "/voice-agent"
+      },
+      {
+        "label": "Speech Intelligence",
+        "description": "Tools for speech analytics, insights, and automation",
+        "href": "/speech-intelligence-page"
+      },
+      {
+        "label": "Audio Processing",
+        "description": "Enhancements, denoising, segmentation & signal processing",
+        "href": "/audio-processing"
+      },
+      {
+        "label": "Deployment",
+        "description": "Deploy models on cloud, on-prem, or edge infrastructure",
+        "href": "/deployment"
+      }
+    ],
+    "Models": [
+      {
+        "label": "Language Models",
+        "description": "Indic, Hinglish and multilingual STT",
+        "href": "/language-models"
+      },
+      {
+        "label": "Specialised Models",
+        "description": "Medical & domain-optimised STT",
+        "href": "/domain-specialisation"
+      },
+      {
+        "label": "On Device Models",
+        "description": "Offline, low-latency STT models",
+        "href": "/on-device-models"
+      },
+      {
+        "label": "Zero STT Indic",
+        "description": "Fast, accurate Indic languages",
+        "href": "/zero-indic"
+      },
+      {
+        "label": "Zero STT Codeswitch",
+        "description": "Hinglish & mixed token ASR",
+        "href": "/zero-code-switch"
+      },
+      {
+        "label": "Zero STT Universal",
+        "description": "200+ languages, universal STT",
+        "href": "/zero-stt"
+      }
+    ],
+    "Solutions": [
+      {
+        "label": "Use Cases",
+        "description": "Explore real-world speech AI applications",
+        "href": "/use-cases"
+      },
+      {
+        "label": "Contact Centers",
+        "description": "Real-time intelligence for support & operations",
+        "href": "/contact-centers"
+      },
+      {
+        "label": "Media & Entertainment",
+        "description": "Automation for production & post-processing",
+        "href": "/media-entertainment"
+      },
+      {
+        "label": "Healthcare",
+        "description": "Medical speech AI for clinical workflows",
+        "href": "/healthcare"
+      }
+    ],
+    "Resources": [
+      {
+        "label": "Blog",
+        "description": "Insights, product updates & engineering articles",
+        "href": "/blog"
+      },
+      {
+        "label": "Benchmarks",
+        "description": "Compare accuracy across datasets and models",
+        "href": "/benchmarks"
+      },
+      {
+        "label": "News & Media",
+        "description": "Press coverage, announcements & interviews",
+        "href": "/media"
+      },
+      {
+        "label": "Patents",
+        "description": "Explore our patented research & innovations",
+        "href": "/patents"
+      }
+    ]
+  }
+}

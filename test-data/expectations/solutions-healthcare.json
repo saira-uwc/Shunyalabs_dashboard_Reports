@@ -1,0 +1,43 @@
+{
+  "hero": [
+    "Intelligence That Cares. APIs That Power Clinical Systems.",
+    "Modular clinical AI — speech, reasoning, and documentation built for accuracy, privacy, and scale.",
+    "Live Demo"
+  ],
+  "capture": [
+    "Capture clinical encounters—accurate, structured, compliant",
+    "Real-time clinical transcription",
+    "<3% WER, noise-resilient, tuned for medical vocab with clean labels for Doctor/Patient/Nurse.",
+    "Speaker-aware notes",
+    "Automatic diarization for clear who-said-what and action items.",
+    "Secure by design",
+    "HIPAA-ready APIs & SDKs; deploy in your private cloud or on-prem.",
+    "Try Now"
+  ],
+  "emr": [
+    "Turn paperwork into EMR-ready data",
+    "Advanced healthcare OCR",
+    "Handwritten prescriptions, scans, lab forms, and tabular reports—no sweat.",
+    "Reasoning engine",
+    "LLM-powered understanding to normalize and disambiguate clinical meaning.",
+    "Structured outputs",
+    "Diagnoses, labs, vitals, prescriptions—exported as EMR-ready JSON.",
+    "Try Now"
+  ],
+  "virtualCare": [
+    "Safer prescribing and stigma-free virtual care",
+    "Prescription validation",
+    "Real-time alerts for drug–drug and drug–disease risks, backed by a clinical knowledge graph.",
+    "Healthcare AI SDK",
+    "CBT, mindfulness, and coaching with clinical guardrails; detects risk and escalates safely.",
+    "Easy to integrate",
+    "Plug into EMRs and telehealth in minutes; clinician dashboard, multi-language support.",
+    "Try Now"
+  ],
+  "bottomCta": [
+    "Get Started",
+    "Provide safe, customised and instant care to your patients .",
+    "Try for Free",
+    "Contact Sales"
+  ]
+}

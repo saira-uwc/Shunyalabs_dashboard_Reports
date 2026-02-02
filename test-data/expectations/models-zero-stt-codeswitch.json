@@ -1,0 +1,47 @@
+{
+  "hero": [
+    "Capture code-switching in conversations like never before",
+    "The only ASR to transcribe Hinglish like its actually spoken, our breakthrough code-switching STT generates mixed Hinglish outputs."
+  ],
+  "widget": [
+    "Input Audio",
+    "Pre-recorded",
+    "Customer Support Call",
+    "Podcast",
+    "Upload your file",
+    "or",
+    "Live recording",
+    "Start Speaking",
+    "Play audio",
+    "No conversation to copy",
+    "Select your input language, then pick a sample, upload a file, or start speaking to capture live audio."
+  ],
+  "cta": [
+    "Get Hinglish API now"
+  ],
+  "hinglishModel": [
+    "A first of its kind Hinglish model",
+    "Zero Hinglish is a true Hinglish model, generating tokens directly in mixed Hindi–English instead of forcing everything into a single language.",
+    "Hinglish output",
+    "Sentence-level context",
+    "Trained on genuine Hinglish, the model understands the entire sentence, delivering far more accurate transcripts in real time.",
+    "A novel architecture keeps layers minimal while handling code-switched speech, so you get low-latency, production-ready Hinglish transcription.",
+    "Faster than ever"
+  ],
+  "asr": [
+    "ASR that transcribes like India speaks",
+    "Our breakthrough innovation means Zero Hinglish stays as fast and fluid as the code switch in the conversation itself.",
+    "Podcasts",
+    "Capture every nuance in conversations held in the comfort of Hinglish.",
+    "Interviews",
+    "Livestream or post-process episodes with native Hinglish transcripts.",
+    "News & talk shows",
+    "Real-time, mixed-language captions for broadcast and digital."
+  ],
+  "bottomCta": [
+    "The fastest way to add voice AI to your products",
+    "One platform for speech in and speech out—secure by design, built to scale.",
+    "Try for Free",
+    "Contact Sales"
+  ]
+}

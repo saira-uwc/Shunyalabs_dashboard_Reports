@@ -1,0 +1,63 @@
+{
+  "hero": "Our Blogs",
+  "featured": {
+    "date": "18 Nov 2025",
+    "title": "Introducing Zero STT Med: Shunya Labs’ Purpose-Built Medical Speech-to-Text Transcription for Healthcare",
+    "excerpt": "Actual hospitals are inundated with alarms, cross-talk, muffled conversations through surgical masks and contextual shorthands that can generally be understood only by highly specialized participants.",
+    "tag": "Product",
+    "author": "Abeer Sehrawat",
+    "href": "/blog/introducing-zero-stt-med-medical-speech-to-text-for-healthcare"
+  },
+  "topics": [
+    "All",
+    "Engineering & Research",
+    "AI Trends",
+    "Product",
+    "Build & Learn",
+    "Use Cases"
+  ],
+  "posts": [
+    {
+      "category": "Product",
+      "title": "Why Multilingual Voice AI Fails on Real-World Audio — and How We Fixed It",
+      "date": "03 Nov 2025",
+      "href": "/blog/why-multilingual-voice-ai-fails-on-real-world-audio-and-how-we-fixed-it"
+    },
+    {
+      "category": "Build & Learn",
+      "title": "Getting Started with ASR APIs: Python Quickstart",
+      "date": "23 Oct 2025",
+      "href": "/blog/getting-started-with-asr-apis-python-quickstart"
+    },
+    {
+      "category": "Build & Learn",
+      "title": "Getting Started with ASR APIs: Node.js Quickstart",
+      "date": "23 Oct 2025",
+      "href": "/blog/getting-started-with-asr-apis-node-js-quickstart"
+    },
+    {
+      "category": "AI Trends",
+      "title": "Benchmarking Top Open-Source Speech Recognition Models",
+      "date": "10 Oct 2025",
+      "href": "/blog/benchmarking-top-open-source-speech-recognition-models"
+    },
+    {
+      "category": "AI Trends",
+      "title": "Top 10 AI Transcription Tools: A Simple Comparison",
+      "date": "10 Oct 2025",
+      "href": "/blog/top-10-ai-transcription-tools-a-simple-comparison"
+    },
+    {
+      "category": "Use cases",
+      "title": "Speech-to-Text AI in Action: Top 10 Use Cases Across Industries",
+      "date": "10 Oct 2025",
+      "href": "/blog/speech-to-text-ai-in-action-top-10-use-cases-across-industries"
+    }
+  ],
+  "bottomCta": [
+    "The fastest way to add voice AI to your products",
+    "One platform for speech in and speech out—secure by design, built to scale.",
+    "Get Started",
+    "Contact Sales"
+  ]
+}

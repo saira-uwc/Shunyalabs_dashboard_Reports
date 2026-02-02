@@ -1,0 +1,31 @@
+{
+  "hero": [
+    "Domain specialised models for accurate transcription",
+    "ASR trained on your domain’s language, accents, and jargon—so transcripts are not just accurate, but actually usable."
+  ],
+  "zeroMed": [
+    "Zero STT Med",
+    "Medical transcription model trained on clinical audio, built to capture medical terminology and abbreviations.",
+    "Try now"
+  ],
+  "domain": [
+    "Built for your domain, not just your language",
+    "Trained on field-specific language—medical terms, support scripts, policy/legal phrasing—so it actually understands how your domain speaks",
+    "Domain-tuned understanding",
+    "Keyword-level accuracy",
+    "Fewer critical errors on key entities (symptoms, dosages, order IDs, intents) compared to generic ASR models",
+    "Transcripts optimized for downstream tasks—notes, summaries, QA flags, CRM fields—so less post-processing and faster automation.",
+    "Formatted outputs"
+  ],
+  "medicalAsr": [
+    "Medical ASR that understands clinical reality",
+    "Zero STT Med reaches 11.1% WER and 5.1% CER on noisy, multi-speaker medical audio, outperforming Whisper, ElevenLabs Scribe, and AWS Transcribe.",
+    "Learn now"
+  ],
+  "bottomCta": [
+    "The fastest way to add voice AI to your products",
+    "One platform for speech in and speech out—secure by design, built to scale.",
+    "Get Started",
+    "Contact Sales"
+  ]
+}

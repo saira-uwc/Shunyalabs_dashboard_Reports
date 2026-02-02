@@ -18,6 +18,9 @@ REMOTE_URL="$(git remote get-url origin)"
 echo "Publishing to: ${REMOTE_URL}"
 
 git add dashboard/index.html dashboard/history/runs.json
+if [[ -d "dashboard/playwright-artifacts" ]]; then
+  git add dashboard/playwright-artifacts
+fi
 
 if git diff --cached --quiet; then
   echo "No dashboard changes to publish."
