@@ -1,0 +1,168 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - link "Shunya Labs Logo" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "Shunya Labs Logo" [ref=e7]
+        - generic [ref=e8]:
+          - button "Product" [ref=e10] [cursor=pointer]:
+            - text: Product
+            - img [ref=e11]
+          - button "Models" [ref=e14] [cursor=pointer]:
+            - text: Models
+            - img [ref=e15]
+          - button "Solutions" [ref=e18] [cursor=pointer]:
+            - text: Solutions
+            - img [ref=e19]
+          - button "Resources" [ref=e22] [cursor=pointer]:
+            - text: Resources
+            - img [ref=e23]
+          - link "Documentation" [ref=e25] [cursor=pointer]:
+            - /url: /documentation/batch-transcriptions/quickstart
+          - link "About Us" [ref=e26] [cursor=pointer]:
+            - /url: /about
+          - link "Pricing" [ref=e27] [cursor=pointer]:
+            - /url: /pricing
+        - generic [ref=e28]:
+          - link "Get Started" [ref=e29] [cursor=pointer]:
+            - /url: /pricing
+          - link "Contact Sales" [ref=e30] [cursor=pointer]:
+            - /url: /contact
+    - heading "Our Blogs" [level=1] [ref=e33]
+    - 'link "Blog Banner 18 Nov 2025 Introducing Zero STT Med: Shunya Labs’ Purpose-Built Medical Speech-to-Text Transcription for Healthcare Actual hospitals are inundated with alarms, cross-talk, muffled conversations through surgical masks and contextual shorthands that can generally be understood only by highly specialized participants. Product Abeer Sehrawat" [ref=e35] [cursor=pointer]':
+      - /url: /blog/introducing-zero-stt-med-medical-speech-to-text-for-healthcare
+      - img "Blog Banner" [ref=e37]
+      - generic [ref=e39]: 18 Nov 2025
+      - 'heading "Introducing Zero STT Med: Shunya Labs’ Purpose-Built Medical Speech-to-Text Transcription for Healthcare" [level=2] [ref=e40]'
+      - paragraph [ref=e41]: Actual hospitals are inundated with alarms, cross-talk, muffled conversations through surgical masks and contextual shorthands that can generally be understood only by highly specialized participants.
+      - generic [ref=e43]: Product
+      - paragraph [ref=e44]: Abeer Sehrawat
+    - generic [ref=e46]: Loading blog list...
+  - contentinfo [ref=e47]:
+    - generic [ref=e51]:
+      - paragraph [ref=e52]: The fastest way to add voice AI to your products
+      - paragraph [ref=e53]: One platform for speech in and speech out—secure by design, built to scale.
+      - generic [ref=e54]:
+        - link "Go to Pricing page" [ref=e55] [cursor=pointer]:
+          - /url: /pricing
+          - text: Get Started
+        - link "Contact Sales" [ref=e56] [cursor=pointer]:
+          - /url: /contact
+  - contentinfo [ref=e57]:
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - img "Shunya Labs" [ref=e60]
+        - paragraph [ref=e61]: Shunya Labs, Inc.
+      - generic [ref=e62]:
+        - paragraph [ref=e63]: Product
+        - list [ref=e64]:
+          - listitem [ref=e65]:
+            - link "Overview" [ref=e66] [cursor=pointer]:
+              - /url: /overview
+          - listitem [ref=e67]:
+            - link "Models" [ref=e68] [cursor=pointer]:
+              - /url: /models-page
+          - listitem [ref=e69]:
+            - link "Voice Agents" [ref=e70] [cursor=pointer]:
+              - /url: /voice-agent
+          - listitem [ref=e71]:
+            - link "Speech Intelligence" [ref=e72] [cursor=pointer]:
+              - /url: /speech-intelligence-page
+          - listitem [ref=e73]:
+            - link "Audio Processing" [ref=e74] [cursor=pointer]:
+              - /url: /audio-processing
+          - listitem [ref=e75]:
+            - link "Deployment" [ref=e76] [cursor=pointer]:
+              - /url: /deployment
+      - generic [ref=e77]:
+        - paragraph [ref=e78]: Models
+        - list [ref=e79]:
+          - listitem [ref=e80]:
+            - link "Language Models" [ref=e81] [cursor=pointer]:
+              - /url: /language-models
+          - listitem [ref=e82]:
+            - link "Zero STT Indic" [ref=e83] [cursor=pointer]:
+              - /url: /zero-indic
+          - listitem [ref=e84]:
+            - link "Zero STT Codeswitch" [ref=e85] [cursor=pointer]:
+              - /url: /zero-code-switch
+          - listitem [ref=e86]:
+            - link "Zero STT Universal" [ref=e87] [cursor=pointer]:
+              - /url: /zero-stt
+          - listitem [ref=e88]:
+            - link "Specialised Models" [ref=e89] [cursor=pointer]:
+              - /url: /domain-specialisation
+          - listitem [ref=e90]:
+            - link "Zero STT Med" [ref=e91] [cursor=pointer]:
+              - /url: /zero-med
+          - listitem [ref=e92]:
+            - link "On Device Models" [ref=e93] [cursor=pointer]:
+              - /url: /on-device-models
+      - generic [ref=e94]:
+        - paragraph [ref=e95]: Solutions
+        - list [ref=e96]:
+          - listitem [ref=e97]:
+            - link "Contact Centers" [ref=e98] [cursor=pointer]:
+              - /url: /contact-centers
+          - listitem [ref=e99]:
+            - link "Media & Entertainment" [ref=e100] [cursor=pointer]:
+              - /url: /media-entertainment
+          - listitem [ref=e101]:
+            - link "Healthcare" [ref=e102] [cursor=pointer]:
+              - /url: /healthcare
+      - generic [ref=e103]:
+        - paragraph [ref=e104]: Resources
+        - list [ref=e105]:
+          - listitem [ref=e106]:
+            - link "Blogs" [ref=e107] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e108]:
+            - link "Benchmarks" [ref=e109] [cursor=pointer]:
+              - /url: /benchmarks
+          - listitem [ref=e110]:
+            - link "News & Media" [ref=e111] [cursor=pointer]:
+              - /url: /media
+      - paragraph [ref=e113]:
+        - link "Documentation" [ref=e114] [cursor=pointer]:
+          - /url: /documentation/batch-transcriptions/quickstart
+      - list [ref=e116]:
+        - listitem [ref=e117]:
+          - link "About us" [ref=e118] [cursor=pointer]:
+            - /url: /about
+      - list [ref=e120]:
+        - listitem [ref=e121]:
+          - link "Pricing" [ref=e122] [cursor=pointer]:
+            - /url: /pricing
+    - generic [ref=e123]:
+      - paragraph [ref=e124]: Follow us on
+      - generic [ref=e125]:
+        - link [ref=e126] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/shunya-labs-ai/
+          - img [ref=e127]
+        - link [ref=e129] [cursor=pointer]:
+          - /url: https://www.facebook.com/people/ShunyaLabsAI/61577801851308/
+          - img [ref=e130]
+        - link [ref=e132] [cursor=pointer]:
+          - /url: https://www.instagram.com/shunyalabsai/
+          - img [ref=e133]
+        - link [ref=e135] [cursor=pointer]:
+          - /url: https://x.com/ShunyaLabsAI
+          - img [ref=e136]
+    - generic [ref=e138]:
+      - paragraph [ref=e139]: © 2026 Shunya Labs Inc. All rights reserved.
+      - generic [ref=e140]:
+        - link "Privacy" [ref=e141] [cursor=pointer]:
+          - /url: /privacy-policy
+        - link "Terms" [ref=e142] [cursor=pointer]:
+          - /url: /terms-conditions
+        - link "Security" [ref=e143] [cursor=pointer]:
+          - /url: /security-policy
+        - link "General License" [ref=e144] [cursor=pointer]:
+          - /url: /general-rail-m-license
+        - link "Custom License" [ref=e145] [cursor=pointer]:
+          - /url: /shunya-labs-custom-model-rail-m-license
+```
